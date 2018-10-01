@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-<title>MOVIESTAR</title>
+<title>[COLOR red]MOVIESTAR[/COLOR]</title>
 <thumbnail>http://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png</thumbnail>
 <fanart>https://image.ibb.co/fFx5eK/TEVISON.png</fanart>
 <link>http://ignoreme</link>
@@ -9,7 +9,7 @@
 </item>
  
 <item>
-<title>TDT</title>
+<title>[COLOR red]TDTR[/COLOR]</title>
 <thumbnail>http://canaletestereo.com/wp-content/uploads/2018/01/tdt-en-colombia.jpg</thumbnail>
 <fanart>https://image.ibb.co/fFx5eK/TEVISON.png</fanart>
 <link>http://ignoreme</link>
@@ -17,7 +17,7 @@
 </item>
  
 <item>
-<title>DEPORTE</title>
+<title>[COLOR yellow]DEPORTE[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart>https://image.ibb.co/fFx5eK/TEVISON.png</fanart>
 <link>http://ignoreme</link>
@@ -25,7 +25,7 @@
 </item>
  
 <item>
-<title>PELICULA</title>
+<title>[COLOR yellow]PELICULA[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart>https://image.ibb.co/fFx5eK/TEVISON.png</fanart>
 <link>http://ignoreme</link>
@@ -33,7 +33,7 @@
 </item>
 
 <item>
-<title>SERIES</title>
+<title>[COLOR red]SERIES[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart>https://image.ibb.co/fFx5eK/TEVISON.png</fanart>
 <link>http://ignoreme</link>
