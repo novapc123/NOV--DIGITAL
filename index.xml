@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-<title>[COLOR red]MOVIESTAR[/COLOR]</title>
+<title>[COLOR red]MOVIESTAR LISTA 1 ESTABLE[/COLOR]</title>
+<thumbnail>http://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png</thumbnail>
+<fanart>https://image.ibb.co/fFx5eK/TEVISON.png</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/bRknJtqk</externallink>
+ </item>
+
+<item>
+<title>[COLOR red]MOVIESTAR LISTA 2 [/COLOR]</title>
 <thumbnail>http://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png</thumbnail>
 <fanart>https://image.ibb.co/fFx5eK/TEVISON.png</fanart>
 <link>http://ignoreme</link>
 <externallink>https://pastebin.com/raw/bRknJtqk</externallink>
 </item>
+ 
  
 <item>
 <title>[COLOR red]TDT Y AUTONOMICAS[/COLOR]</title>
