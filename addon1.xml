@@ -30,7 +30,7 @@
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por NOV@DIGITAL</summary>
-    <description>ESTE ADDON SE CONSIDERA UN SITIO DONDE SE DAÑA A DERECHO DE AUTOR, ESTE ADDON COPIAS ENLACES DE WEB DONDE ESTA EN INTERNET, SE PIDE DONACIONES A SER GRATIS.</description>
+    <description>ESTE ADDON NO DAÑA A DERECHOS AUTOR PORQUE ESTE ADDON COPIAS ENLACES DE WEB DONDE ESTA EN INTERNET, NO SE PIDE DONACIONES A SER GRATIS.A DISFRUTAR DEL ADDON</description>
     <platform>all</platform>
   </extension>
 </addon>
