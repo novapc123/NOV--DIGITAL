@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.NOV@DIGITAL"
        name="[COLOR gold]NOV@DIGITAL[/COLOR][COLOR yellow]0[/COLOR].[COLOR red]2[/COLOR]"
-       version="5.4.0"
-       provider-name="Catoal">
+       version="0.2"
+       provider-name="NOV@DIGITAL">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
