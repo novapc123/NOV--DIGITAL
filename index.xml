@@ -130,3 +130,11 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/javilucy609/RetroTv/master/cocina/cocina.xml</externallink>
 </item>
+ 
+ <item>
+<title>[COLOR blue]• [/COLOR][COLOR yellow] Palantir [/COLOR][COLOR red]Addon Palantir Necesario[/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.palantir/</jsonrpc>
+<thumbnail>http://mundokodi.com/wp-content/uploads/2017/07/palantir.png?x86522</thumbnail>
+<fanart>https://i.ytimg.com/vi/-sEMxukeC3M/maxresdefault.jpg</fanart>
+</item>
