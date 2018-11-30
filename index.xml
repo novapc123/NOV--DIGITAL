@@ -41,13 +41,7 @@
  
  
 
-<item>
-<title>[COLOR yellow]Todos los Canales[/COLOR] [COLOR lime][I]VerCanalesTV.com[/I][/COLOR]</title>
-<link>http://ignora.me</link>
-<jsonrpc>plugin://plugin.video.SportsDevil/?item=title%3dVerCanalesTV.com%2b%2528Spanish%2bTV%2529%26url%3dcustoms%252Fvercanalestv.cfg%26definedIn%3dcustoms.cfg%26director%3dvercanalestv.com%26genre%3dLive%2bTV%26type%3drss%26icon%3d&amp;mode=1</jsonrpc>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+
 
  
 <item>
