@@ -60,7 +60,7 @@
  <title>[COLOR lightskyblue][CAPITALIZE][makelist2.param1][/CAPITALIZE][/COLOR]</title>
  <link>https:$doregex[get-id]|User-Agent=iPad</link>
  <thumbnail>[makelist2.param2]</thumbnail>
- <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+ <fanart></fanart>
  ]]></listrepeat>
  <expres><![CDATA[(?s)"name": "(.*?)".*?"image": "(.*?)".*?"url": "(.*?)".*?]]></expres>
  <page>https://raw.githubusercontent.com/gaetanotv/gaetantv/master/lista%20opcional</page>
@@ -77,8 +77,8 @@
  <referer>https://verliga1.net/</referer>
  <agent>iPad</agent>
  </regex>
- <thumbnail>https://i.imgur.com/yGTsSPk.jpg</thumbnail>  
- <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+ <thumbnail></thumbnail>  
+ <fanart></fanart>
 <info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES E
 </item>
 
