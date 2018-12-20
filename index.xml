@@ -10,14 +10,6 @@
 <info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
 </item>
 
-<item>
-<title>[COLOR yellow]LISTA DEL MUNDO SERVIDOR[/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>http://163.172.251.211:8000/get.php?username=electrosat-dev-tech&password=3268745214kjhgf&type=m3u</externallink>
-<thumbnail>https://http2.mlstatic.com/lista-iptv-pago-30-dias-D_NQ_NP_701195-MLB27612726390_062018-F.jpg</thumbnail>
-<fanart>https://image.ibb.co/mQJDPU/icon.png</fanart>
-<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
- </item>
 
 
 
@@ -26,14 +18,6 @@
 
 
 
-<item>
-<title>[COLOR yellow]FIGHT SPORT[/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>https://pastebin.com/raw/QJ30wTJ8</externallink>
-<thumbnail>http://3.bp.blogspot.com/-Q4AnfaJen8w/U_-D6FzgQNI/AAAAAAAAG_U/L57VbDB6fiw/s1600/fight-sports-ono.jpg</thumbnail>
-<fanart>https://image.ibb.co/mQJDPU/icon.png</fanart>
-<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
- </item>
 
 
 
@@ -49,38 +33,6 @@
  </item>
 
 
-	
-
-<item>
- <title>[COLOR yellow] MOVIESTAR LISTA OPCION 2 [/COLOR]</title>
- <link>$doregex[makelist2]</link>
- <regex> 
- <name>makelist2</name>
- <listrepeat><![CDATA[
- <title>[COLOR lightskyblue][CAPITALIZE][makelist2.param1][/CAPITALIZE][/COLOR]</title>
- <link>https:$doregex[get-id]|User-Agent=iPad</link>
- <thumbnail>[makelist2.param2]</thumbnail>
- <fanart></fanart>
- ]]></listrepeat>
- <expres><![CDATA[(?s)"name": "(.*?)".*?"image": "(.*?)".*?"url": "(.*?)".*?]]></expres>
- <page>https://raw.githubusercontent.com/gaetanotv/gaetantv/master/lista%20opcional</page>
- </regex>
- <regex>
- <name>get-id</name>
- <expres>[",\'](//.*m3u8.*?)[",']</expres>
- <rawpost>password=12345</rawpost>
- <connection>keep-alive</connection>
- <accept>*/*</accept>
- <X-Req>XMLHttpRequest</X-Req>
- <cookieJar></cookieJar>
- <page>[makelist2.param3]</page>
- <referer>https://verliga1.net/</referer>
- <agent>iPad</agent>
- </regex>
- <thumbnail></thumbnail>  
- <fanart></fanart>
-<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES E
-</item>
 
 
  
@@ -114,7 +66,7 @@
 
  
  <item>
-<title>[COLOR yellow]CANALES ACESTREAM[/COLOR]</title>
+<title>[COLOR yellow]CANALES DEPORTES MOVIESTAR[/COLOR]</title>
 <thumbnail>https://www.testdevelocidad.es/app/uploads/2016/08/Ace-Stream-Logo.png</thumbnail>
 <fanart>https://image.ibb.co/mQJDPU/icon.png</fanart>
 <info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
