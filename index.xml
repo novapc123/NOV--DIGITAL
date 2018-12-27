@@ -76,6 +76,25 @@
 </item>
  
 <item>
+ <title>[B][COLOR yellow]Canales Dazplayer con canales de españa incluidos """"APORTE DE AMIGO IBERIKA"""[/COLOR][/B]</title>
+ <link>$doregex[cristalazul]</link>
+ <regex>
+ <name>cristalazul</name>
+ <listrepeat><![CDATA[
+<title>[COLOR white][cristalazul.param3][/COLOR]</title>
+<link>[cristalazul.param2]|Referer=http://dazplayer.com/chh/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<thumbnail>[cristalazul.param1]</thumbnail>
+<fanart>[cristalazul.param1]</fanart>
+]]></listrepeat>
+ <expres><![CDATA[(?s)src='(.*?)'.*?<a href='(.*?)'.*?playlist__track__title'>(.*?)<.*?]]></expres>
+ <page>http://dazplayer.com/chh/</page>
+ </regex>
+</item>
+
+
+
+
+<item>
 <title>[COLOR yellow]TDT Y AUTONOMICAS MANTENIMIENTO[/COLOR]</title>
 <thumbnail>http://canaletestereo.com/wp-content/uploads/2018/01/tdt-en-colombia.jpg</thumbnail>
 <fanart>https://image.ibb.co/mQJDPU/icon.png</fanart>
