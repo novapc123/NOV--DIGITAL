@@ -23,7 +23,7 @@
 
 
 <item>
-<title>[B][COLOR white]GUIA TV ESPAÑA[/COLOR][/B]</title>
+<title>[B][COLOR yellow]GUIA TV ESPAÑA[/COLOR][/B]</title>
  <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
