@@ -36,8 +36,8 @@
 <expres><![CDATA[title=.*?n\s(.*?)"|"(ahor.*?)">\n\s\s\s(.*?)\n|date">(.*?)</span>\n\s\s\s(.*)\n]]></expres>
 <page>http://www.formulatv.com/programacion/</page>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://www.formulatv.com/images/noticias/9600/9674/1.jpg</thumbnail>
+<fanart>http://www.movistar.es/estaticos/welcomepack/img/guia/guia.jpg</fanart>
  </item>
 
 
