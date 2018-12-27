@@ -22,7 +22,23 @@
 </item>
 
 
-
+<item>
+<title>[B][COLOR white]GUIA TV ESPAÑA[/COLOR][/B]</title>
+ <link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][B][makelist.param1][/B][/COLOR][COLOR yellow][B][makelist.param2] [makelist.param3][/B][/COLOR][COLOR yellow][makelist.param4] [makelist.param5][/COLOR]</title>
+<link>$doregex[ip]|User-Agent=iPad</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[title=.*?n\s(.*?)"|"(ahor.*?)">\n\s\s\s(.*?)\n|date">(.*?)</span>\n\s\s\s(.*)\n]]></expres>
+<page>http://www.formulatv.com/programacion/</page>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+ </item>
 
 
 
