@@ -47,3 +47,15 @@
     <platform>all</platform>
   </extension>
 </addon>
+
+     <assets>
+        <icon>icon.gif</icon>
+		<screenshot>resources/screenshots/screenshot1.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot2.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot3.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot4.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot5.jpg</screenshot>
+        <fanart>fanart.gif</fanart>
+    </assets>
+  </extension>
+</addon>
