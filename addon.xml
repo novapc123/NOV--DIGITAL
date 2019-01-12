@@ -45,10 +45,7 @@
     <summary>Creado por NOV@DIGITIAL</summary>
     <description>ESTE ADDON ES TOTALMENTE GRATIS. NO DAÑA DERECHOS DE AUTOR PORQUE TODOS LOS ENLACES ESTAN EN INTERNET. GRACIAS A CATOAL POR AYUDAR A CREAR ESTE ADDON</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-     <assets>
+      <assets>
         <icon>icon.gif</icon>
 		<screenshot>resources/screenshots/screenshot1.jpg</screenshot>
 		<screenshot>resources/screenshots/screenshot2.jpg</screenshot>
