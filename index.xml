@@ -76,25 +76,16 @@
 
 
  
+<item>
+<title>[COLOR yellow] CANAL FERIA DEL TORO[/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://pastebin.com/raw/F7vNtjhe</externallink>
+<thumbnail>https://cdn.sincroguia.tv/uploads/images/t/o/r/xtorostv.jpg.pagespeed.ic.30ETJNgOCW.jpg</thumbnail>
+<fanart>https://cdn.sincroguia.tv/uploads/images/t/o/r/xtorostv.jpg.pagespeed.ic.30ETJNgOCW.jpg</fanart>
+<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
+ </item>
 
  
-<item>
- <title>[B][COLOR yellow]Canales Dazplayer con canales de españa incluidos """"APORTE DE AMIGO IBERIKA"""[/COLOR][/B]</title>
- <link>$doregex[cristalazul]</link>
- <regex>
- <name>cristalazul</name>
- <listrepeat><![CDATA[
-<title>[COLOR white][cristalazul.param3][/COLOR]</title>
-<link>[cristalazul.param2]|Referer=http://dazplayer.com/chh/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
-<thumbnail>[cristalazul.param1]</thumbnail>
-<fanart>[cristalazul.param1]</fanart>
-]]></listrepeat>
- <expres><![CDATA[(?s)src='(.*?)'.*?<a href='(.*?)'.*?playlist__track__title'>(.*?)<.*?]]></expres>
- <page>http://dazplayer.com/chh/</page>
- </regex>
-</item>
-
-
 
 
 
