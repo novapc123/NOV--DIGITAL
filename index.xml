@@ -57,16 +57,27 @@
 
 
 
-
 <item>
-<title>[COLOR yellow]IPTV ESPAÑA F4MTESTER TEMPORAL[/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>https://pastebin.com/raw/Bb3wuMKG</externallink>
-<thumbnail>https://1.bp.blogspot.com/-FtBhLnbbAWo/XEXEJm4DBEI/AAAAAAAABfU/G6zZ-rw4BeQRbjrRBQNbjZwcCp93fl2bACK4BGAYYCw/s400/spain.png</thumbnail>
-<fanart>https://1.bp.blogspot.com/-FtBhLnbbAWo/XEXEJm4DBEI/AAAAAAAABfU/G6zZ-rw4BeQRbjrRBQNbjZwcCp93fl2bACK4BGAYYCw/s400/spain.png</fanart>
-<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
- </item>
+<title>[B][COLOR yellow]MULTILISTA F4MTESTER[/COLOR] [/B]</title>
 
+<link>NA</link>
+<externallink>$doregex[select]</externallink>
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Seleciona una Lista ', ['LISTA 1', 'LISTA 2', 'LISTA 3', 'TecnoTV', 'G67', 'Sr.RegioTV', 'PremierTV', 'GSat Latino', 'ChileIPTV'])
+   lists = ['https://3e2a69cf-a-62cb3a1a-s-sites.googlegroups.com/site/gharayeb1/29-01-19/spain1.m3u', 'https://pastebin.com/raw/cyH7vTu8', 'http://exabytetv.info/lista.m3u', 'http://tecnotv.xyz/lista.m3u', 'https://raw.githubusercontent.com/G67/G/master/G67C.m3u', 'http://srregio.net/regiotv.m3u', 'http://www.premieriptv.cl/freeiptv.m3u', 'http://www.geantsat.com/freeiptv/s9.m3u', 'http://chileiptv.cl/cl.m3u']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>/thumbnail>
+<fanart></fanart>
+<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES P
+</item>
 
 
 <item>
