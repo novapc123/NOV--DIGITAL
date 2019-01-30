@@ -18,10 +18,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.NOV@DIGITIAL"
-       name="NOV@DIGITIAL TV EN FAMILIA "
-       version="0.0.2"
-       provider-name="NOV@DIGITIAL">
+<addon id="plugin.video.NOVADIGITIAL"
+       name="NOVADIGITIAL TV "
+       version="0.0.3"
+       provider-name="NOVADIGITIAL">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -42,7 +42,7 @@
   </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por NOV@DIGITIAL</summary>
+    <summary>Creado por NOVADIGITIAL</summary>
     <description>ESTE ADDON ES TOTALMENTE GRATIS. NO DAÑA DERECHOS DE AUTOR PORQUE TODOS LOS ENLACES ESTAN EN INTERNET. GRACIAS A CATOAL POR AYUDAR A CREAR ESTE ADDON</description>
     <platform>all</platform>
       <assets>
