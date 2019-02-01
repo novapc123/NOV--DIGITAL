@@ -68,8 +68,9 @@
 def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
-   ret = dialog.select('Seleciona una Lista ', ['LISTA 1', 'LISTA 2', 'LISTA 3', 'TecnoTV', 'G67', 'Sr.RegioTV', 'PremierTV', 'GSat Latino', 'ChileIPTV'])
-   lists = ['https://3e2a69cf-a-62cb3a1a-s-sites.googlegroups.com/site/gharayeb1/29-01-19/spain1.m3u', 'https://pastebin.com/raw/cyH7vTu8', 'http://exabytetv.info/lista.m3u', 'http://tecnotv.xyz/lista.m3u', 'https://raw.githubusercontent.com/G67/G/master/G67C.m3u', 'http://srregio.net/regiotv.m3u', 'http://www.premieriptv.cl/freeiptv.m3u', 'http://www.geantsat.com/freeiptv/s9.m3u', 'http://chileiptv.cl/cl.m3u']
+   ret = dialog.select('Seleciona una Lista ', ['LISTA 1', 'LISTA 2', 'ADULTO', '', '', '', '', '', ''])
+   lists = ['https://3e2a69cf-a-62cb3a1a-s-sites.googlegroups.com/site/gharayeb1/30-01-19/spain2.m3u?attachauth=ANoY7cpCYWmwDZ41qKzIE7yoGBarjjLmrkJAJsgo7R8gKePpsmUQ7s6zJSU0mThc4JfNa4ymkuTN73DUBRh-I9oNxbRUuxI3D2BsXHgwfNiaRyPtL5QlbBNDNaZ1HHnhEp-Yr1Djm0diII9aONCRJgipNdEw3A_BaRUSy0HVopwUEDJlMOEBnLc6PVMKQeyN8e_0ttrop4WtRfLs-YYhI5CRj8TyqwE0EQ%3D%3D&attredirects=1&d=1', 'https://6adcb338-a-62cb3a1a-s-sites.googlegroups.com/site/iptv7878/31-01-2019-2/spain3.m3u?attachauth=ANoY7cqv9Uczs0EWthLdehverhRxo6PrW27UaAiuQjl_vZSPqlzJCyQxwLEHRfNnXMUyTGM2SXcInwNR6jH4xbBxuvgKY1Yy-pGwd-EI56w4xGSPHuvQ_kofns6OozrPoXmAH7-VYrfa_HWw7YnzzRydNZKaZJdAN04ORnmJAj4rkXLYYIApZj7uOAOLg-BExHjhWvme6w4UETwxzmQL4x9fbIP2N9zn0gjeeF48AJMuvdSQHjT9gqg%3D&attredirects=0&d=1',  '', 'https://pastebin.com/raw/2SgSMy9P
+'', '', '']
    return lists[ret]
 ]]></expres>
 <page></page>
