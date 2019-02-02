@@ -1,5 +1,5 @@
 <item>
-<title>[B]BEIN SPORT LIGA HD[/B]</title>
+<title>[B] LA VOZ[/B]</title>
 <link>$doregex[getMu8]</link>
 <regex><name>getMu8</name>
 <expres>source: '([^']+)</expres>
