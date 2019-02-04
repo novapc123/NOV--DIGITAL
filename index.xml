@@ -59,14 +59,28 @@
 
 
 <item>
-<title>[COLOR yellow]ESTABLE CANALES MOVIESTAR[/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>https://pastebin.com/raw/F7vNtjhe</externallink>
-<thumbnail>http://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png</thumbnail>
-<fanart>http://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png</fanart>
-<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
- </item>
-
+<title>[COLOR lightskyblue]Estables [COLOR white]MOVIESTAR[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightskyblue][makelist2.param2] [/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<thumbnail>http://piratalocotv.xyz/[makelist2.param4]</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)title=""><a href="(.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
+<page>http://piratalocotv.xyz/MOVISTAR/</page>
+</regex>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/[makelist2.param1]</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>https://i.imgur.com/yGTsSPk.jpg</thumbnail>  
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+</item>
 
 
 
@@ -96,14 +110,7 @@
  </item>
  
 	
-<item>
-<title>[COLOR yellow]CANALES DE SERIES Y PELICULAS[/COLOR]</title>
-<thumbnail>http://alfaenlinea.com/wp-content/themes/alfa/images/ct/plus-cine.jpg</thumbnail>
-<fanart>https://image.ibb.co/mQJDPU/icon.png</fanart>
-<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
- <link>http://ignorame</link>
-<externallink>https://tumarcador.xyz/</externallink>
-</item>
+
 
  
  <item>
