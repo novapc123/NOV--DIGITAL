@@ -44,45 +44,6 @@
  </item>
 
 
-<item>
-<title>DEPORTE </title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[COLOR gold][makelist.param1][/COLOR] ([makelist.param2])</title>
-  <link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  list=re.findall('class="table">(?s)(.*?)<script',requests.get('https://tumarcador.xyz/').content.decode('ascii','ignore'))[0]
-  title=re.findall('"Evento".+\n.*?(\w.*)\n',list);date=re.findall('"Hora".+\n.+?(\d.*)',list);links=re.findall('"Enlace">(?s)(.*?)</div',list)
-  return zip(title,date,links)
-]]></expres>
-<page>https://tumarcador.xyz/</page>
-</regex>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-  <title>[COLOR gold][makelist2.param2][/COLOR]</title>
-  <link>$doregex[getUrl]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">([^<]+)]]></expres>
-<page>[makelist.param3]</page>
-<referer>https://tumarcador.xyz</referer>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  return re.findall('Clappr.Player[\w\W]*?[\'"]([^\'"]+)',page_data)[0]+'|user-agent=ipad&referer=http://tumarcador.xyz/[makelist2.param1]'
-]]></expres>
-<page>http://tumarcador.xyz/[makelist2.param1]</page>
-<referer>https://tumarcador.xyz</referer>
-</regex>
-</item>
 
 
 <item>
@@ -95,29 +56,6 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
  </item>
 
 
-
-<item>
-<title>[B][COLOR yellow]MULTILISTA F4MTESTER[/COLOR] [/B]</title>
-
-<link>NA</link>
-<externallink>$doregex[select]</externallink>
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import xbmcgui
-   dialog = xbmcgui.Dialog()
-   ret = dialog.select('Seleciona una Lista ', ['LISTA 1', 'LISTA 2', 'ADULTO', '', '', '', '', '', ''])
-   lists = ['https://3e2a69cf-a-62cb3a1a-s-sites.googlegroups.com/site/gharayeb1/30-01-19/spain2.m3u?attachauth=ANoY7cpCYWmwDZ41qKzIE7yoGBarjjLmrkJAJsgo7R8gKePpsmUQ7s6zJSU0mThc4JfNa4ymkuTN73DUBRh-I9oNxbRUuxI3D2BsXHgwfNiaRyPtL5QlbBNDNaZ1HHnhEp-Yr1Djm0diII9aONCRJgipNdEw3A_BaRUSy0HVopwUEDJlMOEBnLc6PVMKQeyN8e_0ttrop4WtRfLs-YYhI5CRj8TyqwE0EQ%3D%3D&attredirects=1&d=1', 'https://6adcb338-a-62cb3a1a-s-sites.googlegroups.com/site/iptv7878/31-01-2019-2/spain3.m3u?attachauth=ANoY7cqv9Uczs0EWthLdehverhRxo6PrW27UaAiuQjl_vZSPqlzJCyQxwLEHRfNnXMUyTGM2SXcInwNR6jH4xbBxuvgKY1Yy-pGwd-EI56w4xGSPHuvQ_kofns6OozrPoXmAH7-VYrfa_HWw7YnzzRydNZKaZJdAN04ORnmJAj4rkXLYYIApZj7uOAOLg-BExHjhWvme6w4UETwxzmQL4x9fbIP2N9zn0gjeeF48AJMuvdSQHjT9gqg%3D&attredirects=0&d=1',  '', 'https://pastebin.com/raw/2SgSMy9P
-'', '', '']
-   return lists[ret]
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>/thumbnail>
-<fanart></fanart>
-<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES P
-</item>
 
 
 <item>
@@ -158,7 +96,47 @@ def GetLSProData(page_data,Cookie_Jar,m):
  </item>
  
 
-
+<item>
+<title>FUTBOL DIRECTO</title>
+<fanart>https://bit.ly/2zJ5OFS</fanart>  
+<thumbnail>https://bit.ly/2zJ5OFS</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold][makelist.param1][/COLOR] ([makelist.param2])</title>
+  <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  list=re.findall('class="table">(?s)(.*?)<script',requests.get('https://tumarcador.xyz/').content.decode('ascii','ignore'))[0]
+  title=re.findall('"Evento".+\n.*?(\w.*)\n',list);date=re.findall('"Hora".+\n.+?(\d.*)',list);links=re.findall('"Enlace">(?s)(.*?)</div',list)
+  return zip(title,date,links)
+]]></expres>
+<page>https://tumarcador.xyz/</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+  <title>[COLOR black][makelist2.param2][/COLOR]</title>
+  <link>$doregex[getUrl]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">([^<]+)]]></expres>
+<page>[makelist.param3]</page>
+<referer>https://tumarcador.xyz</referer>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  return re.findall('Clappr.Player[\w\W]*?[\'"]([^\'"]+)',page_data)[0]+'|user-agent=ipad&referer=http://tumarcador.xyz/[makelist2.param1]'
+]]></expres>
+<page>http://tumarcador.xyz/[makelist2.param1]</page>
+<referer>https://tumarcador.xyz</referer>
+</regex>
+</item>
  
  <item>
 <title>[COLOR yellow]CANALES DEPORTES MOVIESTAR[/COLOR]</title>
