@@ -69,7 +69,7 @@
 <thumbnail>http://piratalocotv.xyz/[makelist2.param4]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)title=""><a href="(.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
+<expres><![CDATA[(?s) (.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
 <page>http://piratalocotv.xyz/MOVISTAR/</page>
 </regex>
 <regex><name>getMu8</name>
