@@ -66,7 +66,7 @@
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][makelist2.param2] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<thumbnail>[makelist2.param4]</thumbnail>
+<thumbnail>http://piratalocotv.xyz/[makelist2.param4]</thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[(?s)""><a href= (.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
