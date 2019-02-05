@@ -59,15 +59,15 @@
 
 
 <item>
-<title>[COLOR lightskyblue]Estables [COLOR white]MOVIESTAR[/COLOR]</title>
+<title>[COLOR ]Estables [COLOR white]MOVIESTAR[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][makelist2.param2] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<thumbnail>http://piratalocotv.xyz/[makelist2.param4]</thumbnail>
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<thumbnail>[makelist2.param4]</thumbnail>
+<fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[(?s)""><a href= (.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
 <page>http://piratalocotv.xyz/MOVISTAR/</page>
@@ -78,8 +78,8 @@
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex>
-<thumbnail>https://i.imgur.com/yGTsSPk.jpg</thumbnail>  
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<thumbnail></thumbnail>  
+<fanart></fanart>
 </item>
 
 
