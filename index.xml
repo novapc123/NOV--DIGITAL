@@ -62,7 +62,7 @@
 <title>[COLOR lightskyblue]Estables [COLOR white]Deportes[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
-<name>Nova</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][makelist.param2] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
