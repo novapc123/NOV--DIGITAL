@@ -22,51 +22,6 @@
 </item>
 
 
-<DOCTYPE html>
-<html lang="es-ES">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-82378379-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-82378379-1');
-  </script>
-</head>
-<body>
-
-  DAY 4 : <br /> <br />
-
-  Rayo Vallecano vs Leganés <br /> <br />
-
-  <a href="https://tumarcador.xyz/ac1.php" target="_blank">https://tumarcador.xyz/ac1.php</a> (Bein HD - Spanish)  <br /> <br />
-
-  West Ham United vs Liverpool <br /> <br />
-
-  <a href="https://tumarcador.xyz/ac3.php" target="_blank">https://tumarcador.xyz/ac3.php</a> (Movistar HD - Spanish)  <br /> <br />
-
-  <a href="https://tumarcador.xyz/ac4.php" target="_blank">https://tumarcador.xyz/ac4.php</a> (Sky HD - English)  <br /> <br />
-
-  DAY 6 : <br /> <br />
-
-  Barcelona vs Real Madrid <br /> <br />
-
-  <a href="https://tumarcador.xyz/ac1.php" target="_blank">https://tumarcador.xyz/ac1.php</a> (GOL HD - Spanish)  <br /> <br />
-
-  <a href="https://tumarcador.xyz/ac2.php" target="_blank">https://tumarcador.xyz/ac2.php</a> (Bein HD - English)  <br /> <br />
-
-  Everton vs Manchester City <br /> <br />
-
-  <a href="https://tumarcador.xyz/ac3.php" target="_blank">https://tumarcador.xyz/ac3.php</a> (Movistar HD - Spanish)  <br /> <br />
-
-  <a href="https://tumarcador.xyz/ac4.php" target="_blank">https://tumarcador.xyz/ac4.php</a> (Sky HD - English)  <br /> <br />
-
-</body>
-</html>
 
 
 <item>
@@ -100,18 +55,21 @@
  </item>
 
 
+
+
+
 <item>
-<title>[COLOR yellow]Estables [COLOR yellow]AUTONOMICA/COLOR]</title>
+<title>[COLOR lightskyblue]Estables [COLOR white]Deportes[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
-<name>makelist2</name>
+<name>Nova</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][makelist2.param2] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <thumbnail>http://piratalocotv.xyz/[makelist2.param4]</thumbnail>
-<fanart></fanart>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)""><a href= (.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
+<expres><![CDATA[(?s)title=""><a href="(.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
 <page>http://piratalocotv.xyz/AUTONOMICAS/</page>
 </regex>
 <regex><name>getMu8</name>
@@ -120,34 +78,8 @@
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex>
-<thumbnail>http://elblogderamon.com/wp-content/uploads/2014/08/televisiones-auton%C3%B3micas.jpg</thumbnail>  
-<fanart>http://elblogderamon.com/wp-content/uploads/2014/08/televisiones-auton%C3%B3micas.jpg</fanart>
-</item>
-
-
-
-<item>
-<title>[COLOR ]Estables [COLOR white]MOVIESTAR[/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[COLOR lightskyblue][makelist2.param2] [/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<thumbnail>http://piratalocotv.xyz/[makelist2.param4]</thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres><![CDATA[(?s)""><a href= (.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
-<page>http://piratalocotv.xyz/MOVISTAR/</page>
-</regex>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/[makelist2.param1]</page>
-<referer>http://piratalocotv.xyz</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex>
-<thumbnail></thumbnail>  
-<fanart></fanart>
+<thumbnail>https://i.imgur.com/yGTsSPk.jpg</thumbnail>  
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 </item>
 
 
