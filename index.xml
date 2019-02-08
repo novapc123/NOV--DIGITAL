@@ -88,7 +88,28 @@
 <info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
  </item>
  
-	
+<item>
+<title>TEST</title>
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>LIVE</title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://tumarcador.xyz/[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/deportes.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[li><a href="../(c.*?)">(.*?)<]]></expres>
+<page>http://tumarcador.xyz/</page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+</regex>
+</item>
+
 
 
  
