@@ -90,10 +90,7 @@
  
 
 	
-<externallink>https://pastebin.com/raw/eb3zrNEx</externallink>
-</item>
-
- 
+<item> <title>[COLOR gold] Eventos Deportivos [Tu Marcador][/COLOR] </title> <link>$doregex[makelist2]</link> <regex> <name>makelist2</name> <listrepeat><![CDATA[ <title>[COLOR lightgreen]Tu Marcador - Eventos[COLOR yellow] [makelist2.param2][/COLOR][/COLOR]</title> <link>$doregex[getUrl]</link> <thumbnail></thumbnail> ]]></listrepeat> <expres><![CDATA[li><a href="(.*?)">(.*?)<]]></expres> <page>http://tumarcador.xyz/</page> <cookieJar></cookieJar> </regex> <regex> <name>getUrl</name> <expres><![CDATA[#$pyFunction def GetLSProData(page_data,Cookie_Jar,m): import requests, re rtmpUrl = re.search(r'function.*\n.*return\(\["(.*?)"\].+\s(.*?)\.join.+?getElementById\("(.*?)"', page_data) tok2 = re.findall('id=' + rtmpUrl.group(3) + '>(.*?)<', page_data)[0] rtmp = rtmpUrl.group(1).replace('","', '').replace('\/', '/') tok1 = re.findall('var ' + rtmpUrl.group(2) + '.*?\["(.*?)"\]', page_data)[0].replace('","', '') return rtmp + tok1 + tok2 ]]></expres> <page>http://tumarcador.xyz/[makelist2.param1]</page> <referer>http://tumarcador.xyz/</referer> <agent>Mozilla/5.0</agent> <cookieJar></cookieJar> </regex> </item>
  <item>
 <title>[COLOR yellow]CANALES DEPORTES MOVIESTAR[/COLOR]</title>
 <thumbnail>http://www.smartblog.es/wp-content/uploads/2012/01/Cabecera-Deportes-Vodafone.png</thumbnail>
