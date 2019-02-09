@@ -88,44 +88,8 @@
 <info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
  </item>
  
-<item>
-<title>[COLOR gold] Eventos [/COLOR] </title>
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[COLOR lightgreen]Tu Marcador - Eventos[COLOR yellow] [makelist2.param2][/COLOR][/COLOR]</title>
-<link>$doregex[getUrl]</link>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[li><a href=".+\/(.*?)">(.*?)<]]></expres>
-<page>http://tumarcador.xyz/</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- import requests, re
- rtmpUrl = re.search(r'function.*\n.*return\(\["(.*?)"\].+\s(.*?)\.join.+?getElementById\("(.*?)"', page_data)
- tok2 = re.findall('id=' + rtmpUrl.group(3) + '>(.*?)<', page_data)[0]
- rtmp = rtmpUrl.group(1).replace('","', '').replace('\/', '/')
- tok1 = re.findall('var ' + rtmpUrl.group(2) + '.*?\["(.*?)"\]', page_data)[0].replace('","', '')
- return rtmp + tok1 + tok2
-]]></expres>
-<page>http://tumarcador.xyz/[makelist2.param1]</page>
-<referer>http://tumarcador.xyz/</referer>
-<agent>Mozilla/5.0</agent>
-<cookieJar></cookieJar>
-</regex>
-</item>
-	<item>
-<title>[COLOR yellow]ESPECIAL DERBI Atlético Madrid vs Real Madrid	 [/COLOR]</title>
-<thumbnail>https://okdiario.com/img/2019/02/08/0-1-655x368.jpg</thumbnail>
-<fanart>https://okdiario.com/img/2019/02/08/0-1-655x368.jpg</fanart>
-<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
-<link>http://ignoreme</link>
+
+	
 <externallink>https://pastebin.com/raw/eb3zrNEx</externallink>
 </item>
 
