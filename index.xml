@@ -124,7 +124,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
   return re.findall('Clappr.Player[\w\W]*?[\'"]([^\'"]+)',page_data)[0]+'|user-agent=ipad&referer=http://tumarcador.xyz/[makelist2.param1]'
 ]]></expres>
 <page>http://tumarcador.xyz/[makelist2.param1]</page>
-<referer>https://tumarcador.xyz</referer>
+<referer>https://tumarcador.xyz/</referer>
 </regex>
 </item>
 
