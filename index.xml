@@ -97,7 +97,7 @@
   <title>[COLOR gold][makelist.param1][/COLOR] ([makelist.param2])</title>
   <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres><![CDATA[#$pyFunction
+<expres><![CDATA[#$pyFunction]
 import re,requests
 def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
   list=re.findall('class="table">(?s)(.*?)<script',requests.get('https://tumarcador.xyz/').content.decode('ascii','ignore'))[0]
