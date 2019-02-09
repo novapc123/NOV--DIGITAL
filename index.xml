@@ -89,9 +89,7 @@
  </item>
  
 <item>
-<title>test</title>
-<fanart>https://bit.ly/2zJ5OFS</fanart>  
-<thumbnail>https://bit.ly/2zJ5OFS</thumbnail>
+<title>TUMARCADOR.XYZ</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -111,7 +109,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-  <title>[COLOR black][makelist2.param2][/COLOR]</title>
+  <title>[COLOR gold][makelist2.param2][/COLOR]</title>
   <link>$doregex[getUrl]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">([^<]+)]]></expres>
@@ -129,7 +127,6 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <referer>https://tumarcador.xyz</referer>
 </regex>
 </item>
-<item>
 
  <item>
 <title>[COLOR yellow]ESPECIAL DERBI Atlético Madrid vs Real Madrid	 [/COLOR]</title>
