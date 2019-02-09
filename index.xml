@@ -22,7 +22,17 @@
 </item>
 
 
-
+#EXTM3U
+EXTINF: -1, Atlético Madrid vs Real Madrid(BeIN HD - Spanish) 	 
+https://tumarcador.xyz/ac1.php
+EXTINF: -1, Atlético Madrid vs Real Madrid(BeIN HD - INGLES ) 	 
+https://tumarcador.xyz/ac2.php
+EXTINF: -1, Canal 3
+https://tumarcador.xyz/ac3.php
+EXTINF: -1, Canal 4
+https://tumarcador.xyz/ac4.php
+EXTINF: -1, Canal 5
+https://tumarcador.xyz/ac5.php
 
 <item>
 <title>[B][COLOR yellow]GUIA TV ESPAÑA[/COLOR][/B]</title>
