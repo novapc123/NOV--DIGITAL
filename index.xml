@@ -90,25 +90,7 @@
  
 
 	
-<item>
-<title>test</title>
-<link>$doregex[get-m3u8]</link>
-<regex>
-<name>get-m3u8</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-import requests
-import re
-headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0', 'Referer': ''}
-source = requests.get('http://tumarcador.xyz/canalx.php', headers=headers)
-streamfn = re.findall('source: (.*?)\(', source.text)[0]
-formula1 = re.search(r'function ' + streamfn + '.*\n.*\[(.*?)\].join.*?\+ (.*?).join.*?ById\("(.*?)"', source.text)
-par1 = formula1.group(1).replace('"', '').replace(',', '').replace('\\/', '/')
-prepar2 = re.findall('var ' + formula1.group(2) + '.*?\[(".*?)\]', source.text)[0]
-par2 = prepar2.replace('"', '').replace(',', '').replace('\\/', '/') par3 = re.findall('id=' + formula1.group(3) + '>(.*?)<', source.text)[0]finalm3u8= par1 + par2 + par3 return finalm3u8]]></expres>
-<page></page>
-</regex>
-</item>
+
 
 	
 	
