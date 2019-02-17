@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-                                <title>[B]         TDT[/B]</title>
+                                <title>[B][COLOR yellow]         TDT    [/COLOR][/B]</title>
 <link>http://ignorame<link>
 <thumbnail>http://haciendozapping.com/wp-content/uploads/sites/21/2015/10/TDT-Espa%C3%B1a.jpg</thumbnail>
 <fanart></fanart>
@@ -73,31 +73,7 @@
  
  
  
-<item>
-<title>antena 3 prueba</title>
-<thumbnail>https://cadenaser00.epimg.net/ser/imagenes/2018/06/29/television/1530282364_172929_1530282507_noticia_normal.jpg</thumbnail>
-<link>$doregex[get-m3u8]</link>
-<regex>
-<name>get-m3u8</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-  import jscrypto, re
-  vars = re.findall(r'var stream = JSON.parse.Cr.*?\((.*?),\s?(.*?),',page_data)[1]
-  ct = re.findall(r'var %s.*?ct":"(.*?)"'%vars[0],page_data)[0]
-  salt = re.findall(r'var %s.*?s":"(.*?)"'%vars[0],page_data)[0]
-  passphrase = re.findall(r"var %s.*?'(.*?)'"%vars[1],page_data)[0]
-  url= (jscrypto.decode(ct,passphrase,salt.decode('hex'))).replace('\\/','/').replace('"','')
-  return url
-]]></expres>
-<page>https://ssl.ustreamix.com/<page>
-<referer>https://ssl.ustreamix.com/embed.php?id=antena-3</referer>
-</regex>
-</item>
- 
- 
- 
- 
- 
+
  
  
  
@@ -367,7 +343,7 @@ fanart>https://www.gruposecuoya.es/wp-content/uploads/2016/03/TEN_p.jpg</fanart>
  
  
 <item>
-                                <title>[B]          AUTONOMICAS Y LOCALES[/B]</title>
+                                <title>[B][COLOR yellow]          AUTONOMICAS Y LOCALES  [/COLOR][/B]</title>
 <link>http://ignorame<link>
 <thumbnail>https://confilegal.com/wp-content/uploads/2018/02/Captura-de-pantalla-2018-02-01-a-las-19.00.06.png</thumbnail>
 <fanart></fanart>
