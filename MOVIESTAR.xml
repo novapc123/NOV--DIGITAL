@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
+
+<item>
+                                <title>[B][COLOR yellow]       CANALES MOVIESTAR   [/COLOR][/B]</title>
+<link>http://ignorame<link>
+<thumbnail>https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/17/03/16/1703161e-a931-6cab-940a-f6b17758f8a3/source/512x512bb.jpg</thumbnail>
+<fanart>https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/17/03/16/1703161e-a931-6cab-940a-f6b17758f8a3/source/512x512bb.jpg</fanart>
+<externallink>http://ignorame</externallink>
+</item>
+
+
 <item>
 <title>[B]#0[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
