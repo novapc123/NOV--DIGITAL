@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+<item>
+                                <title>[B][COLOR yellow]   CANAL COCINA  [/COLOR][/B]</title>
+<link>http://ignorame<link>
+<thumbnail>http://alvarocastro.com/wp-content/uploads/2016/02/canal-cocina.png</thumbnail>
+<fanart>http://alvarocastro.com/wp-content/uploads/2016/02/canal-cocina.png</fanart>
+<externallink>http://ignorame</externallink>
+</item>
+
+
+<item>
+<title>[B]CANAL COCINA[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>platano765=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/live/cocina.php</page>
+<referer>https://vergol.com/live/cocina.php</referer>
+</regex>
+<thumbnail>http://glassalmanac.com/wp-content/uploads/2014/11/canal-cocina-logo-750.png</thumbnail>
+<fanart>http://glassalmanac.com/wp-content/uploads/2014/11/canal-cocina-logo-750.png</fanart>
+</item>
+ 
+ 
+ 
+ <item>
+                                <title>[B][COLOR yellow]  VIDEOS DE  COCINA  [/COLOR][/B]</title>
+<link>http://ignorame<link>
+<thumbnail>https://videos-cocina.com/wp-content/uploads/2017/11/Cocina-al-NAtural-280x280.jpg</thumbnail>
+<fanart>https://videos-cocina.com/wp-content/uploads/2017/11/Cocina-al-NAtural-280x280.jpg</fanart>
+<externallink>http://ignorame</externallink>
+</item>
+
+
+<item>
+<title>¡QUE VIVA LA COCINA!</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/Recetasparatucocina/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-2zRl5PPXeR8/AAAAAAAAAAI/AAAAAAAAAAA/cRFLrP5K-Kc/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/WGTFwbTd4IZg5qiYK_W9XHiHzxNCT-Ukt23vaVEmx6JNrhQE4kj36Gcx5t1VYWPZgKR9cb2YGDs=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>¡QUE EL PAPEO TE ACOMPAÑE!</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/superpilopi/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-epYNFgtUfXg/AAAAAAAAAAI/AAAAAAAAAAA/P4fO1Ka0-tk/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/w7hfEZX_d2Qtkfh0MQfIMP2XId-7FUgyt70M7IWTu93BjG2OXqbiBMfCIQnYGaZdEdglFRCUWg=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>ALBERTO CHICOTE</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/albertochicotetv/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-ttx61-5ZHTY/AAAAAAAAAAI/AAAAAAAAAAA/GKjzWrkiFsA/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/feqyGoyv2mmyNlhRG8P1bR7ocb5Lb0oFIuHu7yfjxs4Nxro6E2VPppoSR9x3-W5nwWDdjGRmZQ=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+ 
+ 
+<item>
+<title>COCINA FACILISIMO.COM</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/CocinaFacilisimo/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-hGDEX02PYVg/AAAAAAAAAAI/AAAAAAAAAAA/B_a33qJVWzs/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/xshS7Fe6y82Wkpg_3NcYYvtlmIpwD2S11LqXsphLz01OlqVJTX4otlnGXhwWTM0Zt2URuutu=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>COCINA FAMILIAR - JAVIER ROMERO</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/Cocinafamiliar</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-d1Wu4NEKLSM/AAAAAAAAAAI/AAAAAAAAAAA/syFK4wvJZVo/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/uEhvdbsVb1jFj9_NP8oQCe3hswRo-LHdCkJ9X4af_xM4ZiQXLvY3SSSQkBXuGEuAyeG9-4YW8A=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>COCINA PARA TODOS</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/cocinatodo/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-a6k_jQ_3ppA/AAAAAAAAAAI/AAAAAAAAAAA/v2_58ZZL6CQ/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/OJ8xM_uiu004R_CPc1NwVO3HfYdlIEtmvDeigmG3y7c31xUvNxU5Y6Rmok37Mg43PozopDp_iw=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>COCINATIS</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/cocinatis/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-YBOsja7TH2U/AAAAAAAAAAI/AAAAAAAAAAA/hqpTJMwvYkc/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/2iCmvPp1XcH1vZ12i_YcOoZMdEy9-4EOrMdoGY5Cq-wTZjsS1h-oH2S7drX3w7ygIVtBj4wahA=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>COSAS DE LOLI</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/Cosasdeloli/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-GlVo2Ub2X9E/AAAAAAAAAAI/AAAAAAAAAAA/BrKUJZK8gN4/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/3F-s6fxXHoeLWiRq2oQOYKINZo5A_sLdl57dAkSl8VOf6CZ2BRE82RQ56BkJqwiTKudrf6TpLA=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>EL COCINERO FIEL</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/elcocinerofiel/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-w8PCIk2-V1k/AAAAAAAAAAI/AAAAAAAAAAA/5NC-K8MUq64/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/9UKerO_geZhjN0V67ThsnvwCTuGCY_4mGfpio9fSLlsPIeW9dn2rV8mgFL1IVZMmo6tfGK0IEg=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>LAS RECETAS DE MJ</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/lasrecetasdemj/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-z-9i3NZZgDo/AAAAAAAAAAI/AAAAAAAAAAA/v_7VvPqXt20/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/dyqINGaQUb7bnYTkRPyDrJ-9jCAhQQ-Ds8b1N_o5GGeU7Lx9wu9FOA38xz9hbO53LcCuXbrQlg=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>LAS RECETAS TRADICIONALES DE COCINA</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/CocinaSabor/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-rjENtaNAQoo/AAAAAAAAAAI/AAAAAAAAAAA/8xEGqJlxwoQ/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/sbwKSMhMWHRM3CIMLRxIeXOTC_CXOAJRG0_RKbb079WrZJ4w3Zw46p0Z_WB-vCqrsQDQv3w1cQ=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>RECETAS DE CASA LM</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/channel/UCoJAl712oPdoEwBjbbJPGqQ/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-ZVgMTjZ9BD0/AAAAAAAAAAI/AAAAAAAAAAA/TJY9pjpe5Y8/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/ZRCcFRk-bw8PmMgdwJiUT_ajDb3jqFW-TnUrzwEG3xQs5zoIzJBvTO2XinUx-NoFj0ZaS26pVg=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>RECETAS DE COCINA</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/recetasdecocina/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-P_TU17wXN9c/AAAAAAAAAAI/AAAAAAAAAAA/0Y6hXV4mTmY/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/-itPR-wyP2E-OHvzAkWfPZ_-qH_cG_PP6L163rnrGfD3dNIAB8dQ_LoU60S1shwKymGgmd9Zsh0=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>RECETAS DE COCINA CASERA</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/recetascocinacasera1/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-7I_PmtQsAes/AAAAAAAAAAI/AAAAAAAAAAA/TnUw4QDqdyc/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/vtY1XXC6L1c5X4Xm2agjN4kgiREr-2uGJPD_ul_S4ioe0xNp6f-9BcsE4rLX26VB0VVXoMkVE8M=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>RTVE COCINA</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/channel/UCQtVEU1LEtZDj8aLi6Lkw2A/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-VW2gsVnGE0w/AAAAAAAAAAI/AAAAAAAAAAA/g7zFgkj3d9g/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/5iflwajwRGhwLoxid91L6xLBkjvX_LVMBlda-zgHqU1S7SPfyM559l90JvfL0g-c6YnpW70UdQ=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
+ 
+<item>
+<title>YUMLAND</title>
+<link>nolink</link>
+<jsonrpc>plugin://plugin.video.youtube/user/CocinillasYum/</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-W_0yK4yk3JQ/AAAAAAAAAAI/AAAAAAAAAAA/kXsNHjYE4tU/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/nXit3PVmiy6YfTYvB6T6skeWiRVGgnaYQuzlhq5KL4Z3aDybHN5k47Ycempr8vk8DZPdIeLCmA=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no</fanart>
+</item>
