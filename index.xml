@@ -25,22 +25,13 @@
 
 
 <item>
-<title>[B][COLOR yellow]GUIA TV ESPAÑA[/COLOR][/B]</title>
- <link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR yellow][B][makelist.param1][/B][/COLOR][COLOR yellow][B][makelist.param2] [makelist.param3][/B][/COLOR][COLOR yellow][makelist.param4] [makelist.param5][/COLOR]</title>
-<link>$doregex[ip]|User-Agent=iPad</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres><![CDATA[title=.*?n\s(.*?)"|"(ahor.*?)">\n\s\s\s(.*?)\n|date">(.*?)</span>\n\s\s\s(.*)\n]]></expres>
-<page>http://www.formulatv.com/programacion/</page>
-</regex>
+<title>[COLOR yellow][B]   PROGRAMACION TV   [/B] [/COLOR]</title>
+<externallink>https://raw.githubusercontent.com/novapc123/NOV--DIGITAL/Nov%40digital/GUITA.xml</externallink>
+<link>NA</link>
 <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51smfN5zsML.png</thumbnail>
 <fanart>https://images-na.ssl-images-amazon.com/images/I/51smfN5zsML.png</fanart>
- </item>
+<info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
+</item>
 
 
 
