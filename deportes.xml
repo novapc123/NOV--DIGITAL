@@ -145,12 +145,12 @@
 <name>GetPageUrl</name>
 <page>https://vertelevision.tv/tv/deportes/formula1.php/</page>
 <expres>source: '(.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>password=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<referer>http://vergol.com/</referer>
+<referer>https://vertelevision.tv/tv/deportes/formula1.php</referer>
 </regex>
 <thumbnail>https://pbs.twimg.com/profile_images/841657248896151552/CFQkVWxP_400x400.jpg</thumbnail>
 <fanart>https://pbs.twimg.com/profile_images/841657248896151552/CFQkVWxP_400x400.jpg</fanart>
