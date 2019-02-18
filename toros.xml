@@ -20,8 +20,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live1/toros.php</page>
-<referer>https://vergol.com/live1/toros.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live1/toros.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live1/toros.php</referer>
 </regex>
 <thumbnail>http://www.nos.pt/particulares/televisao/canais/premium/PublishingImages/toros-tv/logo/medium.jpg</thumbnail>
 <fanart>http://www.nos.pt/particulares/televisao/canais/premium/PublishingImages/toros-tv/logo/medium.jpg</fanart>
