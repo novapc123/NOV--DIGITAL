@@ -33,18 +33,7 @@
 </item>
  
  
- 
-  <item>
-<title>[B]TEST[/B] OchoTv [I] Deportes 1 [/I] </title>
-<link>$doregex[get-id]|Referer=http://lacalleochotv.org&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
-<regex>
-<name>get-id</name>
-<expres>source: '([^']+)</expres>
-<page>http://lacalleochotv.org/canales-de-deportes-online/</page>
-<referer>http://lacalleochotv.org/</referer>
-<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
-</regex>
-<thumbnail></thumbnail></item>
+
  
  
  
@@ -175,7 +164,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>platanao8= 123</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
