@@ -119,8 +119,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://verliga1.net/tv/nacionales/dark.php</page>
-<referer>https://verliga1.net/tv/nacionales/dark.php</referer>
+<page>https://vergol.com/live1/dark.php</page>
+<referer>https://vergol.com/live1/dark.php</referer>
 </regex>
 <thumbnail>https://s9.postimg.cc/82jd5w50v/dark.png</thumbnail>
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>   
