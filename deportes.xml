@@ -163,7 +163,7 @@
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>'(//.*m3u8.*?)'</expres>
+<expres>'(?s)Clappr.Player.*?['|"](.*?)['|"]'</expres>
 <rawpost>>form= 123</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
@@ -177,16 +177,6 @@
 </item>
  
  
- <item>
-<title>[B] CANAL LIGA tst [/B]</title>
-<link>'http://petopa152.caraponi.me/live/plusdeportes/index.m3u8?token=fWHCWqisAoNJrgk2FTFqUg&expires=1550592881</link>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>https://vergol.com/live1/plusdeportes.php/</page>
-<referer>https://vergol.com/live1/plusdeportes.php</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex><thumbnail>http://revolucionariostv.eu/Botones/MultiTV/Deportes/laligatv.png</thumbnail>
-</item>
  
  
  
