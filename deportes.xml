@@ -154,51 +154,6 @@
 </item>
  
  
-<item>
-<title>[COLOR yellow] Lazio vs Sevilla CANAL 1[/COLOR]</title>
-<link>$doregex[ip]</link>
-<regex>
-<name>ip</name>
-<expres>file: '(.*?)'</expres>
-<Accept>*/*</Accept>
-<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
-<page>https://tumarcador.xyz/ac1.php</page>
-<referer>https://tumarcador.xyz/ac1.php</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
-<x-req>XMLHttpRequest</x-req>
-</regex>
-<thumbnail>https://pbs.twimg.com/profile_images/1851363673/logo.jpg</thumbnail></item>
- 
-<item>
-<title>[COLOR yellow] Stade Rennais vs Real Betis  CANAL 6[/COLOR]</title>
-<link>$doregex[ip]</link>
-<regex>
-<name>ip</name>
-<expres>file: '(.*?)'</expres>
-<Accept>*/*</Accept>
-<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
-<page>https://tumarcador.xyz/ac6.php</page>
-<referer>https://tumarcador.xyz/ac6.php</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
-<x-req>XMLHttpRequest</x-req>
-</regex>
-<thumbnail></thumbnail></item>
- 
- 
-<item>
-<title>[COLOR yellow] Sporting vs Villareal  canal 1[/COLOR]</title>
-<link>$doregex[ip]</link>
-<regex>
-<name>ip</name>
-<expres>file: '(.*?)'</expres>
-<Accept>*/*</Accept>
-<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
-<page>https://tumarcador.xyz/ac1.php</page>
-<referer>https://tumarcador.xyz/ac1.php</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
-<x-req>XMLHttpRequest</x-req>
-</regex>
-<thumbnail>https://pbs.twimg.com/profile_images/1851363673/logo.jpg</thumbnail></item>
  
 <item>
 <title>[B] MOVIESTAR DEPORTE[/B]</title>
