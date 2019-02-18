@@ -34,6 +34,20 @@
  
  
  
+  <item>
+<title>[B]TEST[/B] OchoTv [I] Deportes 1 [/I] </title>
+<link>$doregex[get-id]|Referer=http://lacalleochotv.org&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '([^']+)</expres>
+<page>http://lacalleochotv.org/magu/espana/deporte1.php</page>
+<referer>http://lacalleochotv.org/</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>https://i.imgur.com/RwtPBjt.jpg</thumbnail></item>
+ 
+ 
+ 
  <item>
 <title>[COLOR yellow][B]CANALES TUMARCADOR [/B][/COLOR]</title>
 <link>http://ignorame</link>
