@@ -178,15 +178,11 @@
  
  
  <item>
-<title>[B] CANAL LIGA [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=canalligatv&amp;url=$doregex[getMu8]|Referer=https://vergol.com/live1/plusdeportes.php&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<title>[B] CANAL LIGA tst [/B]</title>
+<link>'http://petopa152.caraponi.me/live/plusdeportes/index.m3u8?token=fWHCWqisAoNJrgk2FTFqUg&expires=1550592881</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
 <page>https://vergol.com/live1/plusdeportes.php/</page>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
 <referer>https://vergol.com/live1/plusdeportes.php</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex><thumbnail>http://revolucionariostv.eu/Botones/MultiTV/Deportes/laligatv.png</thumbnail>
