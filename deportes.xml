@@ -40,11 +40,11 @@
 <regex>
 <name>get-id</name>
 <expres>source: '([^']+)</expres>
-<page>http://lacalleochotv.org/magu/espana/deporte1.php</page>
+<page>http://lacalleochotv.org/canales-de-deportes-online/</page>
 <referer>http://lacalleochotv.org/</referer>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
-<thumbnail>https://i.imgur.com/RwtPBjt.jpg</thumbnail></item>
+<thumbnail></thumbnail></item>
  
  
  
