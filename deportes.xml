@@ -164,7 +164,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platanao8= 123</rawpost>
+<rawpost>>platano765= 123</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
