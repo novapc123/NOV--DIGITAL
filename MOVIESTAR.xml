@@ -21,8 +21,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/plus1.php</page>
-<referer>https://vergol.com/live/plus1.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/plus1.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/plus1.php</referer>
 </regex>
 <thumbnail>https://www.digitaltveurope.com/files/2016/02/0.png</thumbnail>
 <fanart>https://www.digitaltveurope.com/files/2016/02/0.png</fanart>
@@ -39,8 +39,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/comedia.php</page>
-<referer>https://vergol.com/live/comedia.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/comedia.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/comedia.php</referer>
 </regex>
 <thumbnail>https://2.bp.blogspot.com/-eni7EotDteQ/WsFVvaDVuuI/AAAAAAAAA1E/yJ4WgO9Snu4CJd_2doNlrqzEuDKGK5qbACLcBGAs/s1600/mcomedia.png</thumbnail>
 <fanart>https://2.bp.blogspot.com/-eni7EotDteQ/WsFVvaDVuuI/AAAAAAAAA1E/yJ4WgO9Snu4CJd_2doNlrqzEuDKGK5qbACLcBGAs/s1600/mcomedia.png</fanart>    
@@ -57,8 +57,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/plusdisney.php</page>
-<referer>https://vergol.com/live/plusdisney.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/plusdisney.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/plusdisney.php</referer>
 </regex>
 <thumbnail>https://verliga1.net/wp-content/uploads/2018/01/Movistar_Disney-1.png</thumbnail>
 <fanart>https://verliga1.net/wp-content/uploads/2018/01/Movistar_Disney-1.png</fanart>
@@ -75,8 +75,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/plusaccion.php</page>
-<referer>https://vergol.com/live/plusaccion.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/plusaccion.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/plusaccion.php</referer>
 </regex>
 <thumbnail>http://www.vertelevision.tv/wp-content/uploads/2017/07/MAccion1.png</thumbnail>
 <fanart>http://www.vertelevision.tv/wp-content/uploads/2017/07/MAccion1.png</fanart>
@@ -93,8 +93,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/drama.php</page>
-<referer>https://vergol.com/live/drama.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/drama.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/drama.php</referer>
 </regex>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Movistar_Drama.svg/1200px-Movistar_Drama.svg.png</thumbnail>
 <fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Movistar_Drama.svg/1200px-Movistar_Drama.svg.png</fanart>
@@ -111,8 +111,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/plusestrenos.php</page>
-<referer>https://vergol.com/live/plusestrenos.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/plusestrenos.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/plusestrenos.php</referer>
 </regex>
 <thumbnail>https://s9.postimg.cc/dcaynz51r/estrenos.jpg</thumbnail>
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
@@ -129,8 +129,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live1/plusseries.php</page>
-<referer>https://vergol.com/live1/plusseries.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live1/plusseries.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live1/plusseries.php</referer>
 </regex>
 <thumbnail>https://s9.postimg.cc/qt7x6ya9b/series.jpg</thumbnail>
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
@@ -147,8 +147,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live1/seriesmania.php</page>
-<referer>https://vergol.com/live1/seriesmania.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live1/seriesmania.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live1/seriesmania.php</referer>
 </regex>
 <thumbnail>https://i.postimg.cc/qqm0xBgJ/seriesmania.png</thumbnail>
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>   
