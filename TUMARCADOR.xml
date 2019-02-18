@@ -1,0 +1,99 @@
+
+
+<item>
+<title>[COLOR yellow]DIA 18 FEBRERO [/COLOR]</title>
+</item>
+
+<item>
+<title>[COLOR yellow]canal [COLOR gold]/1/ Huesca vs Athletic Club	(Bein HD - Spanish)  [/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac1.php</page>
+<referer>https://tumarcador.xyz/ac1.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
+
+
+<item>
+<title>[COLOR white]canal [COLOR gold]/2/[/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac2.php</page>
+<referer>https://tumarcador.xyz/ac2.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
+
+
+<item>
+<title>[COLOR yellow]canal [COLOR gold]/3/[/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac3.php</page>
+<referer>https://tumarcador.xyz/ac3.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
+
+
+<item>
+<title>[COLOR white]canal [COLOR gold]/4/[/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac4.php</page>
+<referer>https://tumarcador.xyz/ac4.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
+
+
+<item>
+<title>[COLOR white]canal [COLOR gold]/5/[/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac5.php</page>
+<referer>https://tumarcador.xyz/ac5.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
+
+<item>
+<title>[COLOR white]canal [COLOR gold]/6/[/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac1.php</page>
+<referer>https://tumarcador.xyz/ac1.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
