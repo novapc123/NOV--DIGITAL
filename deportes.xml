@@ -77,8 +77,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live3/verliga.php</page>
-<referer>https://vergol.com/live3/verliga.php</referer>
+<page>https://verliga1.net/tv/verliga.php</page>
+<referer>https://verliga1.net/tv/verliga.php</referer>
 </regex>
 <thumbnail>https://www.audiovisual451.com/wp-content/uploads/beIN-Sports-LaLiga.jpg</thumbnail>
 <fanart>https://www.audiovisual451.com/wp-content/uploads/beIN-Sports-LaLiga.jpg</fanart>
