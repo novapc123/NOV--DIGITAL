@@ -94,7 +94,7 @@
 </item>
  
  
-  <item>
+ <item>
 <title>[B] CUATRO HD  [/B]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=CUATROHD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
@@ -122,8 +122,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live1/cuatro.php</page>
-<referer>https://vergol.com/live1/cuatro.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live1/cuatro.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live1/cuatro.php</referer>
 </regex>
 <thumbnail>https://cadenaser00.epimg.net/ser/imagenes/2018/06/29/television/1530282364_172929_1530282507_noticia_normal.jpg</thumbnail>
 <fanart>https://cadenaser00.epimg.net/ser/imagenes/2018/06/29/television/1530282364_172929_1530282507_noticia_normal.jpg</fanart>
@@ -131,12 +131,12 @@
  
 
 
- tem>
+<item>
 <title>[B] TELECINCO HD  [/B]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=TELECINCOHD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/MOVISTAR/</page>
+<page>http://piratalocotv.xyz/TELE5/</page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex><thumbnail></thumbnail>
