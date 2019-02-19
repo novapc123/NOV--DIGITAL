@@ -10,7 +10,18 @@
  
 
 
-
+<item>
+<title>[B] LA 1 HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=LA 1HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/LA-1/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>http://img2.rtve.es/v/3621345/?w=904&crop=no&preview=1464949771672.jpg</thumbnail>
+<fanart>http://img2.rtve.es/v/3621345/?w=904&crop=no&preview=1464949771672.jpg</fanart>
+</item>
 
 
 
@@ -27,33 +38,44 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/tve1.php</page>
-<referer>https://vergol.com/live/tve1.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/la1.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/la1.php</referer>
 </regex>
 <thumbnail>http://img2.rtve.es/v/3621345/?w=904&crop=no&preview=1464949771672.jpg</thumbnail>
 <fanart>http://img2.rtve.es/v/3621345/?w=904&crop=no&preview=1464949771672.jpg</fanart>
 </item>
  
-<item>
-<title>[B]-LA 2-[/B]</title>
-<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-<page>https://verliga1.net/tv/nacionales/tve2.php</page>
-<referer>https://verliga1.net/tv/nacionales/tve2.php</referer>
+
+ <item>
+<title>[B] LA 2 HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=LA 2&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/LA-2/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex>
-<thumbnail>https://cdn.sincroguia.tv/uploads/images/l/a/2/xla2.jpg.pagespeed.ic.et9HiUrHjQ.jpg</thumbnail>
-<fanart>https://cdn.sincroguia.tv/uploads/images/l/a/2/xla2.jpg.pagespeed.ic.et9HiUrHjQ.jpg</fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/La_2_HD.png/220px-La_2_HD.png</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/La_2_HD.png/220px-La_2_HD.png</fanart>
 </item>
  
  
-<item>
+
+ <item>
+<title>[B] ANTENA 3 HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ANTENA 3HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/ANTENA3/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>https://cadenaser00.epimg.net/ser/imagenes/2017/05/02/television/1493731075_712962_1493731448_noticia_normal.jpg</thumbnail>
+<fanart>https://cadenaser00.epimg.net/ser/imagenes/2017/05/02/television/1493731075_712962_1493731448_noticia_normal.jpgg</fanart>
+</item>
+ 
+ 
+ <item>
 <title>[B]-ANTENA 3-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -64,15 +86,26 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live1/antena3.php</page>
-<referer>https://vergol.com/live1/antena3.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live1/antena3.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live1/antena3.php</referer>
 </regex>
 <thumbnail>https://cadenaser00.epimg.net/ser/imagenes/2017/05/02/television/1493731075_712962_1493731448_noticia_normal.jpg</thumbnail>
 <fanart>https://cadenaser00.epimg.net/ser/imagenes/2017/05/02/television/1493731075_712962_1493731448_noticia_normal.jpg</fanart>
 </item>
  
  
- 
+  <item>
+<title>[B] CUATRO HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=CUATRO HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/CUATRO/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>https://cadenaser00.epimg.net/ser/imagenes/2018/06/29/television/1530282364_172929_1530282507_noticia_normal.jpg</thumbnail>
+<fanart>https://cadenaser00.epimg.net/ser/imagenes/2018/06/29/television/1530282364_172929_1530282507_noticia_normal.jpg</fanart>
+</item>
 
  
  
@@ -96,7 +129,8 @@
 <fanart>https://cadenaser00.epimg.net/ser/imagenes/2018/06/29/television/1530282364_172929_1530282507_noticia_normal.jpg</fanart>
 </item>
  
-<item>
+
+ <item>
 <title>[B]-TELECINCO-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
