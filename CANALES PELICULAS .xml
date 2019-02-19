@@ -21,13 +21,13 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/paramountchannel.php</page>
-<referer>https://vergol.com/live/paramountchannel.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/paramountchannel.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/paramountchannel.php</referer>
 </regex>
 <thumbnail>https://banner2.kisspng.com/20180610/zkc/kisspng-paramount-pictures-paramount-channel-television-ch-5b1dcd038dced7.1024819515286796835809.jpg</thumbnail>
 <fanart>https://banner2.kisspng.com/20180610/zkc/kisspng-paramount-pictures-paramount-channel-television-ch-5b1dcd038dced7.1024819515286796835809.jpg</fanart>     
@@ -234,28 +234,38 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
  
- 
- 
 <item>
-<title>[B] AXN WHITE [/B]</title>
-<link>$doregex[getMu8]</link>
+<title>[B] AXN-WHITE [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=0#&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
-<expres>source: '([^']+)</expres>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
 <page>http://piratalocotv.xyz/AXN-WHITE/</page>
-<referer>http://piratalocotv.xyz/AXN-WHITE/</referer>
+<referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex><thumbnail>https://pbs.twimg.com/profile_images/738309186845429760/4HA03dX1_400x400.jpg</thumbnail>
 </item>
- 
-<item>
-<title>[B] PARAMOUNT-COMEDY [/B]</title>
-<link>$doregex[getMu8]</link>
+
+ <item>
+<title>[B]PARAMOUNT-COMEDY [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=0#&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
-<expres>source: '([^']+)</expres>
-<page>http://piratalocotv.xyz/AXN-WHITE/</page>
-<referer>http://piratalocotv.xyz/AXN-WHITE/</referer>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/PARAMOUNT-COMEDY/</page>
+<referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex>
-<thumbnail>https://logonoid.com/images/paramount-comedy-logo.png</thumbnail>
-<fanart>https://logonoid.com/images/paramount-comedy-logo.png</fanart>
+</regex><thumbnail>https://logonoid.com/images/paramount-comedy-logo.png</thumbnail>
 </item>
+ 
+
+ <item>
+<title>[B] XTRM [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=0#&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/XTRM/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://www.elpublicista.es/adjuntos/fichero_8490_20130626.jpg</thumbnail>
+</item>
+
+
