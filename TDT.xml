@@ -33,7 +33,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
@@ -81,7 +81,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
@@ -117,7 +117,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
@@ -156,7 +156,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
