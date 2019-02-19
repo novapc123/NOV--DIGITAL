@@ -61,8 +61,25 @@
 
  
  
+ <item>
+<title>[B]BEIN SPORT LIGA   HD [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=beinsportligaHD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/EVENTO2/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://www.audiovisual451.com/wp-content/uploads/beIN-Sports-LaLiga.jpg</thumbnail>
+</item>
+
  
-<item>
+ 
+ 
+ 
+ 
+ 
+ 
+ <item>
 <title>[B]BEIN SPORT LIGA[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -207,6 +224,20 @@
 <thumbnail>https://pbs.twimg.com/profile_images/841657248896151552/CFQkVWxP_400x400.jpg</thumbnail>
 <fanart>https://pbs.twimg.com/profile_images/841657248896151552/CFQkVWxP_400x400.jpg</fanart>
 </item>
+ 
+ <item>
+<title>[B]Movistar Deportes   HD [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=beinsportligaHD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/EVENTO9/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://satcesc.com/web/wp-content/uploads/2017/12/Movistar-Deportes-e1513360685316.jpg</thumbnail>
+</item>
+ 
+ 
+ 
  
  
  
