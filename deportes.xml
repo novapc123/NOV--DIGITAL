@@ -74,6 +74,24 @@
 </item>
  
 <item>
+<title>[B]  LIGA DE CAMPEONES HD [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ligadecampeonesHD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/EVENTO4/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://www.audiovisual451.com/wp-content/uploads/Movistar-Liga-de-Campeones.jpg</thumbnail>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <item>
 <title>[B] LIGA DE CAMPEONES[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -133,6 +151,21 @@
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vamos.svg/1280px-Vamos.svg.png</thumbnail>
 <fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vamos.svg/1280px-Vamos.svg.png</fanart>
 </item>
+ 
+ 
+  
+<item>
+<title>[B]  MOVIESTAR FORMULA 1 HD [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=F1HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/EVENTO7/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://pbs.twimg.com/profile_images/841657248896151552/CFQkVWxP_400x400.jpg</thumbnail>
+</item>
+ 
+ 
  
  
  
@@ -199,6 +232,22 @@
 </item>
  
 <item>
+<title>[B]  LIGA 123 HD [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=liga123HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/EVENTO3/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://www.comparaiso.es/sites/comparaiso.es/files/images/logo-liga-123-300x300.png</thumbnail>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+ <item>
 <title>[B] LIGA 123[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -288,7 +337,7 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=canalligatv&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/LA-LIGA-TV/</page>
+<page>hhttp://piratalocotv.xyz/EVENTO1/</page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex><thumbnail>http://revolucionariostv.eu/Botones/MultiTV/Deportes/laligatv.png</thumbnail>
@@ -322,39 +371,4 @@
 </item>
  
  
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
- 
-<item>
-<title>[B]formula 1 test [/B]     </title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres><![CDATA[#$pyFunction
-from resolveurl.plugins.lib import jsunpack
-def GetLSProData(page_data,Cookie_Jar,m):
-    import re
-    import requests
-    mozhdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0',
-              'Referer': 'https://vertelevision.tv/'}
-    url = 'https://vertelevision.tv/tv/deportes/boxnation.php'
-    html = requests.get(url, headers=mozhdr).text
-    cid = re.findall("id='([^']+).+?telerium", html)[0]
-    eurl = 'https://telerium.tv/embed/{}.html'.format(cid)
-    ehtml = requests.get(eurl, headers=mozhdr).text
-    edata = re.findall('(eval\(function\(p,a,c,k,e,d.*)', ehtml)[0]
-    epage = jsunpack.unpack(edata).replace('\\', '')
-    strvar = re.findall('source:([^,]+),mime', epage)[0]
-    str1 = re.findall('{}=atob\(rSt\(([^)]+)'.format(strvar), epage)[0]
-    str2 = re.findall('{}="([^"]+)'.format(str1), epage)[0][::-1].decode('base64')
-    tok1, tok2 = re.findall('{url:atob\(rSt\(([^)]+)\)\)\+atob\(rSt\(([^)]+)', epage)[0]
-    tok1 = re.findall('{}="([^"]+)'.format(tok1), epage)[0][::-1].decode('base64')
-    tok2 = re.findall('{}="([^"]+)'.format(tok2), epage)[0][::-1].decode('base64')
-    tokurl = 'https:{}{}'.format(tok1, tok2)
-    mozhdr['Referer'] = eurl
-    token = requests.get(tokurl, headers=mozhdr).text[::-1][1:-1]
-    strurl = 'https:{}{}|Referer={}&User-Agent={}'.format(str2, token, eurl, mozhdr['User-Agent'])
-    return strurl
-]]></expres>
-<page></page>
-</regex>
-</item>
+<
