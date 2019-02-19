@@ -17,13 +17,13 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/cocina.php</page>
-<referer>https://vergol.com/live/cocina.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/cocina.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/cocina.php</referer>
 </regex>
 <thumbnail>http://glassalmanac.com/wp-content/uploads/2014/11/canal-cocina-logo-750.png</thumbnail>
 <fanart>http://glassalmanac.com/wp-content/uploads/2014/11/canal-cocina-logo-750.png</fanart>
