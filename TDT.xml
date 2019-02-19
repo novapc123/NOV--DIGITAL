@@ -174,31 +174,32 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live1/lasexta.php</page>
-<referer>https://vergol.com/live1/lasexta.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live1/lasexta.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live1/lasexta.php/referer>
 </regex>
 <thumbnail>http://www.ec-bzo.com/wp-content/uploads/2018/04/logo_la_sexta-despues_2-500x445.jpg</thumbnail>
 <fanart>http://www.ec-bzo.com/wp-content/uploads/2018/04/logo_la_sexta-despues_2-500x445.jpg</fanart>
 </item>
  
-<item>
+
+ <item>
 <title>[B]-FDF-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/fdf.php</page>
-<referer>https://vergol.com/live/fdf.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/fdf.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/fdf.php</referer>
 </regex>
 <thumbnail>https://album.mediaset.es/eimg/2018/10/10/XktBGBTL1P55mLQH7IIQL.jpg</thumbnail>
 <fanart>https://album.mediaset.es/eimg/2018/10/10/XktBGBTL1P55mLQH7IIQL.jpg</fanart>
@@ -211,13 +212,13 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/energy.php</page>
-<referer>https://vergol.com/live/energy.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/energy.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/energy.php</referer>
 </regex>
 <thumbnail>http://directostv.teleame.com/wp-content/uploads/2016/01/Energy-en-directo-online.png</thumbnail>
 <fanart>http://directostv.teleame.com/wp-content/uploads/2016/01/Energy-en-directo-online.png</fanart>
@@ -229,31 +230,51 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/divinity.php</page>
-<referer>https://vergol.com/live/divinity.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/divinity.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/divinity.php</referer>
 </regex>
 <thumbnail>https://album.mediaset.es/eimg/2017/11/02/GzPsWbmLErUC5Jmh2TyJe2.jpg</thumbnail>
 <fanart>https://album.mediaset.es/eimg/2017/11/02/GzPsWbmLErUC5Jmh2TyJe2.jpg</fanart>
 </item>
  
+
 <item>
+<title>[B] NEOX HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ANTENA3HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/NEOX//</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/f/f8/Neox_HD.png/revision/latest?cb=20180311122139</thumbnail>
+<fanart>https://vignette.wikia.nocookie.net/logopedia/images/f/f8/Neox_HD.png/revision/latest?cb=20180311122139</fanart>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <item>
 <title>[B]-NEOX-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpostl>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/neox.php</page>
-<referer>https://vergol.com/live/neox.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/neox.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/neox.php</referer>
 </regex>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/f/f8/Neox_HD.png/revision/latest?cb=20180311122139</thumbnail>
 <fanart>https://vignette.wikia.nocookie.net/logopedia/images/f/f8/Neox_HD.png/revision/latest?cb=20180311122139</fanart>
@@ -265,19 +286,39 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/nova.php</page>
-<referer>https://vergol.com/live/nova.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/nova.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/nova.php</referer>
 </regex>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/1280px-Nova.svg.png</thumbnail>
 <fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/1280px-Nova.svg.png</fanart>
 </item>
  
-<item>
+
+ 
+ <item>
+<title>[B] MEGA HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ANTENA3HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/MEGA/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>https://www.emopa.com/wp-content/uploads/2015/07/Logo-MEGA.jpg<</thumbnail>
+<fanart>https://www.emopa.com/wp-content/uploads/2015/07/Logo-MEGA.jpg<</fanart>
+</item>
+ 
+ 
+ 
+ 
+  
+ 
+ <item>
 <title>[[B]-MEGA-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -295,7 +336,27 @@
 <fanart>https://www.emopa.com/wp-content/uploads/2015/07/Logo-MEGA.jpg</fanart>
 </item>
  
-<item>
+
+ 
+ 
+  
+ <item>
+<title>[B] ATRESERIES HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ANTENA3HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/ATRESERIES/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AtreseriesLogo.svg/1200px-AtreseriesLogo.svg.png<</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AtreseriesLogo.svg/1200px-AtreseriesLogo.svg.png<</fanart>
+</item>
+ 
+ 
+ 
+ 
+ <item>
 <title>[B]-A3SERIES-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -357,13 +418,13 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/dmax.php</page>
-<referer>https://vergol.com/live/dmax.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/dmax.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/dmax.php</referer>
 </regex>
 <thumbnail>http://s04.s3c.es/imag/_v0/770x420/4/4/e/dmax2.jpg</thumbnail>
 <fanart>http://s04.s3c.es/imag/_v0/770x420/4/4/e/dmax2.jpg</fanart>
