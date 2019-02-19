@@ -1,11 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
 
 
 <item>
-<title>[COLOR yellow]DIA 18 FEBRERO [/COLOR]</title>
+<title>[COLOR yellow]DIA 19 FEBRERO [/COLOR]</title>
 </item>
 
 <item>
-<title>[COLOR yellow]canal [COLOR gold]/1/ Huesca vs Athletic Club	(Bein HD - Spanish)  [/COLOR]</title>
+<title>[COLOR yellow]canal [COLOR gold]/1/ Olympique Lyonnais vs Barcelona (Movistar HD - Spanish) 	 	  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -21,7 +24,7 @@
 
 
 <item>
-<title>[COLOR white]canal [COLOR gold]/2/[/COLOR]</title>
+<title>[COLOR white]canal [COLOR gold]/2/ Olympique Lyonnais vs Barcelona	(BT Sport 3 HD - English)  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -37,7 +40,7 @@
 
 
 <item>
-<title>[COLOR yellow]canal [COLOR gold]/3/[/COLOR]</title>
+<title>[COLOR yellow]canal [COLOR gold]/3/ Liverpool vs Bayern München (Movistar HD - Spanish)  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -53,7 +56,7 @@
 
 
 <item>
-<title>[COLOR white]canal [COLOR gold]/4/[/COLOR]</title>
+<title>[COLOR white]canal [COLOR gold]/4/ Liverpool vs Bayern München (BT Sport 2 HD - English)  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
