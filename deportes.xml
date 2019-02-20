@@ -421,23 +421,20 @@
 </item>
  
 <item>
-<title>[COLOR white]$doregex[getMu8][/COLOR]</title>
-<link>$doregex[getMu8]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<title>[COLOR white] prueba [/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
 <regex>
-<name>getMu8</name>
+<name>GetPageUrl</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][GetPageUrl.param1][COLOR gold]/[GetPageUrl.param3]/[/COLOR]</title>
+<link>$doregex[adadad]</link> 
+]]></listrepeat>
+<expres>(?s)br />.br (.*?)/>\s*(.*?)<.*?href="(.*?)".*?blank">https://tumarcador.xyz/ac(.*?).php</expres>
 <page>https://tumarcador.xyz/</page>
-<expres>(?s)br />.*?br />\s\s\s(.*?)<</expres>
-<referer>https://tumarcador.xyz/</referer>
-</regex>
-<regex>
-<name>ip</name>
-<expres>s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+<Referer>https://tumarcador.xyz/</Referer>
 <Accept>*/*</Accept>
 <Accept-Encoding>gzip, deflate, br</Accept-Encoding>
-<page>https://tumarcador.xyz/ac1.php</page>
-<referer>https://tumarcador.xyz/ac1.php</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
-<x-req>XMLHttpRequest</x-req>
 </regex>
-<thumbnail></thumbnail>
 </item>
