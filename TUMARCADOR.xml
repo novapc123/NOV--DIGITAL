@@ -133,7 +133,7 @@
 <title>[nova.param2]</title>
 <agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
 <x-req>XMLHttpRequest</x-req>
-<page>https://tumarcador.xyz/[nova.param1]</page>
+<page>https://tumarcador.xyz/[nova.param2].php</page>
 <referer>https://tumarcador.xyz/</referer></regex>
 ]]></listrepeat>
 <expres>(?s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
