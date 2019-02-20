@@ -124,8 +124,8 @@
 <thumbnail></thumbnail></item>
 
   
-item>
-<title> [COLOR cyan]-Canales España [/COLOR]</title>
+<item>
+<title> test 1</title>
 <link>$doregex[nova]</link>
 <regex>
 <name>nova</name>
