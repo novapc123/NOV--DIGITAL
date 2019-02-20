@@ -33,7 +33,34 @@
 </item>
  
  
-
+<item>
+<title>[COLOR tomato]Agenda Arenavision[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title>[COLOR yellow][B][makelist.param1] [makelist.param2][/B][/COLOR] [makelist.param3] [COLOR yellow] [makelist.param4][/COLOR] [COLOR yellow][B]AV[makelist.param5][/B][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=nova[makelist.param4]</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/[makelist.param5]</page>
+            <referer>http://arenavision.top/</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+<thumbnail>https://i.ytimg.com/vi/TgwRSYFbNcM/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/TgwRSYFbNcM/hqdefault.jpg</fanart>
+ 
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision.top/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision.top/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://i.ytimg.com/vi/TgwRSYFbNcM/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/TgwRSYFbNcM/hqdefault.jpg</fanart>
+</item>
  
  
  
