@@ -8,49 +8,50 @@
 
 #EXTINF:-1,#### ESPAÑA ####
 http://lcmn.serveftp.net:8000/live/carr/carr/2819.m3u8
-#EXTINF:-1,ES: 0#.m3u8
+#EXTINF:-1,ES: 0#.
 http://lcmn.serveftp.net:8000/live/carr/carr/2818.m3u8
-#EXTINF:-1,ES: 0# FHD.m3u8
+#EXTINF:-1,ES: 0# FHD.
 http://lcmn.serveftp.net:8000/live/carr/carr/2817.m3u8
 #EXTINF:-1,ES: LA 1.m3u8
 http://lcmn.serveftp.net:8000/live/carr/carr/2741.m3u8
-#EXTINF:-1,ES: LA 1 FHD.m3u8
+#EXTINF:-1,ES: LA 1 FHD.
 http://lcmn.serveftp.net:8000/live/carr/carr/2740.m3u8
-#EXTINF:-1,ES: LA 2.m3u8
+#EXTINF:-1,ES: LA 2.
 http://lcmn.serveftp.net:8000/live/carr/carr/2739.m3u8
-#EXTINF:-1,ES: La 2 FHD.m3u8
+#EXTINF:-1,ES: La 2 FHD
 http://lcmn.serveftp.net:8000/live/carr/carr/2738.m3u8
-#EXTINF:-1,ES: ANTENA 3.m3u8
+#EXTINF:-1,ES: ANTENA 3.
 http://lcmn.serveftp.net:8000/live/carr/carr/2809.m3u8
-#EXTINF:-1,ES: ANTENA 3 FHD.m3u8
+#EXTINF:-1,ES: ANTENA 3 FHD.
 http://lcmn.serveftp.net:8000/live/carr/carr/2808.m3u8
-#EXTINF:-1,ES: CUATRO.m3u8
+#EXTINF:-1,ES: CUATRO.
 http://lcmn.serveftp.net:8000/live/carr/carr/2773.m3u8
-#EXTINF:-1,ES: CUATRO FHD.m3u8
+#EXTINF:-1,ES: CUATRO FHD.
 http://lcmn.serveftp.net:8000/live/carr/carr/2772.m3u8
-#EXTINF:-1,ES: TELECINCO.m3u8
+#EXTINF:-1,ES: TELECINCO.
 http://lcmn.serveftp.net:8000/live/carr/carr/2646.m3u8
-#EXTINF:-1,ES: TELECINCO FHD.m3u8
+#EXTINF:-1,ES: TELECINCO FHD.
 http://lcmn.serveftp.net:8000/live/carr/carr/2645.m3u8
-#EXTINF:-1,ES: LA SEXTA.m3u8
+#EXTINF:-1,ES: LA SEXTA.
 http://lcmn.serveftp.net:8000/live/carr/carr/2735.m3u8
-#EXTINF:-1,ES: LA SEXTA  FHD.m3u8
+#EXTINF:-1,ES: LA SEXTA  FHD.
 http://lcmn.serveftp.net:8000/live/carr/carr/2734.m3u8
-#EXTINF:-1,ES:  NOVA.m3u8
+#EXTINF:-1,ES:  NOVA.
 http://lcmn.serveftp.net:8000/live/carr/carr/2635.m3u8
-#EXTINF:-1,ES: DIVINITY.m3u8
+#EXTINF:-1,ES: DIVINITY.
 http://lcmn.serveftp.net:8000/live/carr/carr/2764.m3u8
-#EXTINF:-1,ES: LIGA TV.m3u8
+#EXTINF:-1,ES: LIGA TV.
 http://lcmn.serveftp.net:8000/live/carr/carr/2718.m3u8
-#EXTINF:-1,ES: LIGA TV HD.m3u8 https://www.iptvbin.com
+#EXTINF:-1,ES: LIGA TV HD.m
+https://www.iptvbin.com
 http://lcmn.serveftp.net:8000/live/carr/carr/2719.m3u8
-#EXTINF:-1,ES: LA LIGATV BAR 1.m3u8
+#EXTINF:-1,ES: LA LIGATV BAR 1.
 http://lcmn.serveftp.net:8000/live/carr/carr/2737.m3u8
-#EXTINF:-1,ES: BEIN LALIGA.m3u8
+#EXTINF:-1,ES: BEIN LALIGA.
 http://lcmn.serveftp.net:8000/live/carr/carr/2797.m3u8
-#EXTINF:-1,ES: BEIN LALIGA FHD.m3u8
+#EXTINF:-1,ES: BEIN LALIGA FHD.
 http://lcmn.serveftp.net:8000/live/carr/carr/2791.m3u8
-#EXTINF:-1,ES: BEIN LALIGA 1.m3u8
+#EXTINF:-1,ES: BEIN LALIGA 1.
 http://lcmn.serveftp.net:8000/live/carr/carr/2796.m3u8
 #EXTINF:-1,ES: BEIN  LALIGA 2.m3u8
 http://lcmn.serveftp.net:8000/live/carr/carr/2798.m3u8
