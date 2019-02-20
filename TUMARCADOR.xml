@@ -139,8 +139,8 @@
 <expres>(?s)\s\s([a-zA-Z].)\s\shttps://tumarcador.xyz/(.*?).php</expres>
 <Accept>*/*</Accept>
 <Accept-Encoding>gzip, deflate, br</Accept-Encoding>
- <page>https://tumarcador.xyz/</page>
-<referer>https://tumarcador.xyz/</referer>
+<page>/</page>
+<referer></referer>
 <cookieJar></cookieJar>
 </regex>
 </item>
