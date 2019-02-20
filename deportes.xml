@@ -431,7 +431,7 @@
 </regex>
 <regex>
 <name>ip</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<expres>s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
 <Accept>*/*</Accept>
 <Accept-Encoding>gzip, deflate, br</Accept-Encoding>
 <page>https://tumarcador.xyz/ac1.php</page>
