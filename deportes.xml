@@ -44,8 +44,8 @@
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
-            <page>http://arenavision.top/[makelist.param5]</page>
-            <referer>http://arenavision.top/</referer>
+            <page>http://arenavision.us/guide/[makelist.param5]</page>
+            <referer>http://arenavision.us/guide/</referer>
             <setcookie>beget=begetok</setcookie>
             </regex>
 <thumbnail>https://i.ytimg.com/vi/TgwRSYFbNcM/hqdefault.jpg</thumbnail>
