@@ -3,7 +3,7 @@
 
 
 <item>
-                                <title>[B][COLOR yellow] AGENDA:  DIA 19 FEBRERO [/COLOR][/B]</title>
+                                <title>[B][COLOR yellow] AGENDA:  DIA 20 FEBRERO [/COLOR][/B]</title>
 <link>http://ignorame<link>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -12,7 +12,7 @@
  
 
 <item>
-<title>[COLOR yellow]canal [COLOR gold]/1/ Olympique Lyonnais vs Barcelona (Movistar HD - Spanish) 	 	  [/COLOR]</title>
+<title>[COLOR yellow]canal [COLOR gold]/1/ Atlético Madrid vs Juventus  (Movistar HD - Spanish) 	 	  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -26,9 +26,26 @@
 </regex>
 <thumbnail></thumbnail></item>
 
-
 <item>
-<title>[COLOR white]canal [COLOR gold]/2/ Olympique Lyonnais vs Barcelona	(BT Sport 3 HD - English)  [/COLOR]</title>
+<title>[COLOR yellow]canal [COLOR gold]/1/ Sevilla vs Lazio   (Movistar HD - Spanish) 	 	  [/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac1.php</page>
+<referer>https://tumarcador.xyz/ac1.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
+  
+  
+  
+  
+<item>
+<title>[COLOR white]canal [COLOR gold]/2/ Atlético Madrid vs Juventus		(BT Sport 3 HD - English)  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -44,7 +61,7 @@
 
 
 <item>
-<title>[COLOR yellow]canal [COLOR gold]/3/ Liverpool vs Bayern München (Movistar HD - Spanish)  [/COLOR]</title>
+<title>[COLOR yellow]canal [COLOR gold]/3/ Schalke 04 vs Manchester City	  (Movistar HD - Spanish)  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -60,7 +77,7 @@
 
 
 <item>
-<title>[COLOR white]canal [COLOR gold]/4/ Liverpool vs Bayern München (BT Sport 2 HD - English)  [/COLOR]</title>
+<title>[COLOR white]canal [COLOR gold]/4/ Schalke 04 vs Manchester City	  (BT Sport 2 HD - English)  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -76,7 +93,8 @@
 
 
 <item>
-<title>[COLOR white]canal [COLOR gold]/5/[/COLOR]</title>
+<title>[COLOR white]canal [COLOR gold]/5/Sevilla vs Lazio (BT Sport ESPN HD - English) 
+ [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
