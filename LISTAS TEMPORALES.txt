@@ -1,0 +1,368 @@
+#EXTM3U.m3u8
+
+
+
+
+#EXTINF:-1,#### LISTA 1 ####
+
+
+#EXTINF:-1,#### ESPAÑA ####
+http://lcmn.serveftp.net:8000/live/carr/carr/2819.m3u8
+#EXTINF:-1,ES: 0#.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2818.m3u8
+#EXTINF:-1,ES: 0# FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2817.m3u8
+#EXTINF:-1,ES: LA 1.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2741.m3u8
+#EXTINF:-1,ES: LA 1 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2740.m3u8
+#EXTINF:-1,ES: LA 2.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2739.m3u8
+#EXTINF:-1,ES: La 2 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2738.m3u8
+#EXTINF:-1,ES: ANTENA 3.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2809.m3u8
+#EXTINF:-1,ES: ANTENA 3 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2808.m3u8
+#EXTINF:-1,ES: CUATRO.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2773.m3u8
+#EXTINF:-1,ES: CUATRO FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2772.m3u8
+#EXTINF:-1,ES: TELECINCO.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2646.m3u8
+#EXTINF:-1,ES: TELECINCO FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2645.m3u8
+#EXTINF:-1,ES: LA SEXTA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2735.m3u8
+#EXTINF:-1,ES: LA SEXTA  FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2734.m3u8
+#EXTINF:-1,ES:  NOVA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2635.m3u8
+#EXTINF:-1,ES: DIVINITY.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2764.m3u8
+#EXTINF:-1,ES: LIGA TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2718.m3u8
+#EXTINF:-1,ES: LIGA TV HD.m3u8 https://www.iptvbin.com
+http://lcmn.serveftp.net:8000/live/carr/carr/2719.m3u8
+#EXTINF:-1,ES: LA LIGATV BAR 1.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2737.m3u8
+#EXTINF:-1,ES: BEIN LALIGA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2797.m3u8
+#EXTINF:-1,ES: BEIN LALIGA FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2791.m3u8
+#EXTINF:-1,ES: BEIN LALIGA 1.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2796.m3u8
+#EXTINF:-1,ES: BEIN  LALIGA 2.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2798.m3u8
+#EXTINF:-1,ES: BEIN LALIGA 2 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2795.m3u8
+#EXTINF:-1,ES:  BEIN  LALIGA 3.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2639.m3u8
+#EXTINF:-1,ES:  BEIN  LALIGA 4.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2638.m3u8
+#EXTINF:-1,ES:  BEIN LALIGA 5.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2637.m3u8
+#EXTINF:-1,ES: BEIN LALIGA 6.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2794.m3u8
+#EXTINF:-1,ES: BEIN LALIGA 7.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2793.m3u8
+#EXTINF:-1,ES: BEIN LALIGA 8.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2792.m3u8
+#EXTINF:-1,ES: MOVISTAR  F1.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2708.m3u8
+#EXTINF:-1,ES: MOVISTAR  MOTO GP.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2707.m3u8
+#EXTINF:-1,ES: REAL MADRID FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2655.m3u8
+#EXTINF:-1,ES: AXN.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2806.m3u8
+#EXTINF:-1,ES: AXN FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2803.m3u8
+#EXTINF:-1,ES: AXN  WHITE.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2805.m3u8
+#EXTINF:-1,ES: AXN  WHITE FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2804.m3u8
+#EXTINF:-1,ES: FOX.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2753.m3u8
+#EXTINF:-1,ES: FOX FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2752.m3u8
+#EXTINF:-1,ES: FOX LIFE.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2751.m3u8
+#EXTINF:-1,ES: FOX LIFE FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2750.m3u8
+#EXTINF:-1,ES: CALLE 13.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2789.m3u8
+#EXTINF:-1,ES: CALLE 13 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2788.m3u8
+#EXTINF:-1,ES: SYFY.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2650.m3u8
+#EXTINF:-1,ES: SYFY FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2649.m3u8
+#EXTINF:-1,ES:  BOING.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2636.m3u8
+#EXTINF:-1,ES: 13 TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2816.m3u8
+#EXTINF:-1,ES: 24 HORAS.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2815.m3u8
+#EXTINF:-1,ES: 7Rrgional de Murcia  FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2814.m3u8
+#EXTINF:-1,ES: A3SERIES.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2813.m3u8
+#EXTINF:-1,ES: AMC.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2812.m3u8
+#EXTINF:-1,ES: AMC FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2811.m3u8
+#EXTINF:-1,ES: ANDALUCIA TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2810.m3u8
+#EXTINF:-1,ES: ARAGON TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2807.m3u8
+#EXTINF:-1,ES: BABY  TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2802.m3u8
+#EXTINF:-1,ES: BARCA TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2801.m3u8
+#EXTINF:-1,ES: BE MAD FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2799.m3u8
+#EXTINF:-1,ES: BLAZE.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2790.m3u8
+#EXTINF:-1,ES: CANAL ORBE21.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2787.m3u8
+#EXTINF:-1,ES: CANAL SUR FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2786.m3u8
+#EXTINF:-1,ES: CAZA  Y PESCA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2785.m3u8
+#EXTINF:-1,ES: CAZA Y PESCA FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2784.m3u8
+#EXTINF:-1,ES: CI.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2783.m3u8
+#EXTINF:-1,ES: CLAN.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2782.m3u8
+#EXTINF:-1,ES: CLASSICA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2781.m3u8
+#EXTINF:-1,ES: CMM HD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2780.m3u8
+#EXTINF:-1,ES: COCINA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2779.m3u8
+#EXTINF:-1,ES: COCINA FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2778.m3u8
+#EXTINF:-1,ES: COMEDY CENTRAL.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2777.m3u8
+#EXTINF:-1,ES: COMEDY CENTRAL FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2776.m3u8
+#EXTINF:-1,ES: COSMOS.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2774.m3u8
+#EXTINF:-1,ES: DARK.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2771.m3u8
+#EXTINF:-1,ES: DECASA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2770.m3u8
+#EXTINF:-1,ES: DISCOVERY CHANNEL.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2769.m3u8
+#EXTINF:-1,ES: DISNEY  JUNIOR.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2768.m3u8
+#EXTINF:-1,ES: DISNEY  XD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2767.m3u8
+#EXTINF:-1,ES: DISNEY CHANNEL.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2766.m3u8
+#EXTINF:-1,ES: DISNEY CHANNEL FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2765.m3u8
+#EXTINF:-1,ES: DKISS.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2763.m3u8
+#EXTINF:-1,ES: DMAX.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2762.m3u8
+#EXTINF:-1,ES: ENERGY.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2761.m3u8
+#EXTINF:-1,ES: ESPORT 3.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2760.m3u8
+#EXTINF:-1,ES: ETB 1.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2759.m3u8
+#EXTINF:-1,ES: Eurosport  2.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2758.m3u8
+#EXTINF:-1,ES: EUROSPORT 1 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2757.m3u8
+#EXTINF:-1,ES: EUROSPORT ES.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2756.m3u8
+#EXTINF:-1,ES: EXTREMADURA TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2755.m3u8
+#EXTINF:-1,ES: FDF.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2754.m3u8
+#EXTINF:-1,ES: GOL TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2749.m3u8
+#EXTINF:-1,ES: HISTORIA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2748.m3u8
+#EXTINF:-1,ES: HISTORIA FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2747.m3u8
+#EXTINF:-1,ES: HIT TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2746.m3u8
+#EXTINF:-1,ES: HOLLYWOOD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2745.m3u8
+#EXTINF:-1,ES: HOLLYWOOD FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2744.m3u8
+#EXTINF:-1,ES: Iberalia.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2743.m3u8
+#EXTINF:-1,ES: INTERECONOMIA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2742.m3u8
+#EXTINF:-1,ES: LA OTRA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2736.m3u8
+#EXTINF:-1,ES: LALiga 123 SD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2732.m3u8
+#EXTINF:-1,ES: LALIGA 123 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2733.m3u8
+#EXTINF:-1,ES: LIGA 123 Mult1.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2731.m3u8
+#EXTINF:-1,ES: LIGA 123 Multi2.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2730.m3u8
+#EXTINF:-1,ES: LIGA 123 Multi3.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2729.m3u8
+#EXTINF:-1,ES: LIGA CAMPEONES 2 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2728.m3u8
+#EXTINF:-1,ES: LIGA DE CAMPEONES 1 España.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2727.m3u8
+#EXTINF:-1,ES: LIGA DE CAMPEONES 2  España.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2726.m3u8
+#EXTINF:-1,ES: LIGA DE CAMPEONES 3  España.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2725.m3u8
+#EXTINF:-1,ES: LIGA DE CAMPEONES 5  España.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2724.m3u8
+#EXTINF:-1,ES: LIGA DE CAMPEONES 6  España.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2723.m3u8
+#EXTINF:-1,ES: LIGA DE CAMPEONES 7  España.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2722.m3u8
+#EXTINF:-1,ES: LIGA DE CAMPEONES 8 ESPAÑA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2721.m3u8
+#EXTINF:-1,ES: LIGA DE CAMPEONES 4  España.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2720.m3u8
+#EXTINF:-1,ES: M. disney.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2716.m3u8
+#EXTINF:-1,ES: M. Liga de campeones.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2715.m3u8
+#EXTINF:-1,ES: MEGA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2713.m3u8
+#EXTINF:-1,ES: MEZZO LIVE.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2712.m3u8
+#EXTINF:-1,ES: MEZZO LIVE FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2711.m3u8
+#EXTINF:-1,ES: MOVISTAR  ACCION.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2709.m3u8
+#EXTINF:-1,ES: Movistar #Vamos.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2706.m3u8
+#EXTINF:-1,ES: MOVISTAR ACCION  FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2705.m3u8
+#EXTINF:-1,ES: Movistar CineDoc&Roll.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2704.m3u8
+#EXTINF:-1,ES: MOVISTAR COMEDIA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2702.m3u8
+#EXTINF:-1,ES: MOVISTAR COMEDIA FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2701.m3u8
+#EXTINF:-1,ES: Movistar Deporte.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2700.m3u8
+#EXTINF:-1,ES: Movistar Deportes1 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2699.m3u8
+#EXTINF:-1,ES: Movistar Drama.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2698.m3u8
+#EXTINF:-1,ES: Movistar Drama FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2697.m3u8
+#EXTINF:-1,ES: MOVISTAR ESTRENOS.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2695.m3u8
+#EXTINF:-1,ES: MOVISTAR ESTRENOS FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2694.m3u8
+#EXTINF:-1,ES: MOVISTAR F1 FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2693.m3u8
+#EXTINF:-1,ES: MOVISTAR GOLF.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2692.m3u8
+#EXTINF:-1,ES: MOVISTAR GOLF FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2691.m3u8
+#EXTINF:-1,ES: MOVISTAR MOTO GP FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2690.m3u8
+#EXTINF:-1,ES: MOVISTAR PARTIDAZO ( SOLO EVENTOS ).m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2689.m3u8
+#EXTINF:-1,ES: MOVISTAR PARTIDAZOS FHD ( SOLO EVENTOS ).m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2688.m3u8
+#EXTINF:-1,ES: MOVISTAR SERIES.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2687.m3u8
+#EXTINF:-1,ES: MOVISTAR SERIES FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2686.m3u8
+#EXTINF:-1,ES: Movistar Seriesmanía.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2685.m3u8
+#EXTINF:-1,ES: Movistar Seriesmanía FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2684.m3u8
+#EXTINF:-1,ES: Movistar Vamos FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2683.m3u8
+#EXTINF:-1,ES: MTV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2682.m3u8
+#EXTINF:-1,ES: MULTIFUTBOL 1.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2674.m3u8
+#EXTINF:-1,ES: MULTIFUTBOL 2.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2673.m3u8
+#EXTINF:-1,ES: MULTIFUTBOL 3.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2672.m3u8
+#EXTINF:-1,ES: MULTIFUTBOL 4.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2671.m3u8
+#EXTINF:-1,ES: MULTIFUTBOL 5.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2670.m3u8
+#EXTINF:-1,ES: MULTIFUTBOL 6.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2669.m3u8
+#EXTINF:-1,ES: MULTIFUTBOL 7.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2668.m3u8
+#EXTINF:-1,ES: MULTIFUTBOL 8.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2667.m3u8
+#EXTINF:-1,ES: NAT GEO.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2666.m3u8
+#EXTINF:-1,ES: NAT GEO FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2665.m3u8
+#EXTINF:-1,ES: NAT GEO WILD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2664.m3u8
+#EXTINF:-1,ES: NAT GEO WILD FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2663.m3u8
+#EXTINF:-1,ES: NEOX.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2662.m3u8
+#EXTINF:-1,ES: NICK JR.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2661.m3u8
+#EXTINF:-1,ES: NICKELODEON.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2660.m3u8
+#EXTINF:-1,ES: NICKELODEON FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2659.m3u8
+#EXTINF:-1,ES: ODISEA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2658.m3u8
+#EXTINF:-1,ES: PANDA.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2657.m3u8
+#EXTINF:-1,ES: PARAMOUNT CHANNEL.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2656.m3u8
+#EXTINF:-1,ES: SOL Music.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2654.m3u8
+#EXTINF:-1,ES: SOMOS.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2653.m3u8
+#EXTINF:-1,ES: SUNDANCE.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2652.m3u8
+#EXTINF:-1,ES: SUNDANCE FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2651.m3u8
+#EXTINF:-1,ES: TCM.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2648.m3u8
+#EXTINF:-1,ES: TCM FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2647.m3u8
+#EXTINF:-1,ES: TELEDEPORTE.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2644.m3u8
+#EXTINF:-1,ES: TELEDEPORTE FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2643.m3u8
+#EXTINF:-1,ES: TELEMADRID FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2642.m3u8
+#EXTINF:-1,ES: TEN.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2641.m3u8
+#EXTINF:-1,ES: TNT.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2640.m3u8
+#EXTINF:-1,ES: TNT FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2634.m3u8
+#EXTINF:-1,ES: TOROS TV.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2633.m3u8
+#EXTINF:-1,ES: Viajar.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2632.m3u8
+#EXTINF:-1,ES: VIAJAR FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2631.m3u8
+#EXTINF:-1,ES: XTRM.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2630.m3u8
+#EXTINF:-1,ES:7RM FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2629.m3u8
+#EXTINF:-1,ES:MOVISTAR DCINE  Ñ.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2628.m3u8
+#EXTINF:-1,ES:MOVISTAR XTRA FHD.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2627.m3u8
+#EXTINF:-1,ES:MULTIDEPORTE.m3u8
+http://lcmn.serveftp.net:8000/live/carr/carr/2626.m3u8
