@@ -132,11 +132,14 @@
 <listrepeat><![CDATA[
 <title>[nova.param2]</title>
 <agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
-<page>https://tumarcador.xyz/[nova.param1].php</page>
+<x-req>XMLHttpRequest</x-req>
+<page>https://tumarcador.xyz/[nova.param1]</page>
 <referer>"https://tumarcador.xyz/</referer></regex>
 ]]></listrepeat>
 <expres>(?s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
-<page>https://tumarcador.xyz/</page>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+ <page>https://tumarcador.xyz/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
