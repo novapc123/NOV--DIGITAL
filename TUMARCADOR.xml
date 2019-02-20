@@ -134,13 +134,13 @@
 <agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
 <x-req>XMLHttpRequest</x-req>
 <page>https://tumarcador.xyz/[nova.param1]</page>
-<referer>"https://tumarcador.xyz/</referer></regex>
+<referer>https://tumarcador.xyz/</referer></regex>
 ]]></listrepeat>
 <expres>(?s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
 <Accept>*/*</Accept>
 <Accept-Encoding>gzip, deflate, br</Accept-Encoding>
  <page>https://tumarcador.xyz/</page>
-<referer></referer>
+<referer>https://tumarcador.xyz/</referer>
 <cookieJar></cookieJar>
 </regex>
 </item>
