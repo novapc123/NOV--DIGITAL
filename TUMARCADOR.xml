@@ -122,3 +122,22 @@
 <x-req>XMLHttpRequest</x-req>
 </regex>
 <thumbnail></thumbnail></item>
+
+  
+item>
+<title> [COLOR cyan]-Canales España [/COLOR]</title>
+<link>$doregex[nova]</link>
+<regex>
+<name>nova</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<link>$doregex[get-id]|User-Agent=iPad</link><regex><name>get-id</name><expres>(?s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
+<page>https://tumarcador.xyz/ac1.php[makelist.param1].php</page>
+<referer>"https://tumarcador.xyz/ac1.php"</referer></regex>
+]]></listrepeat>
+<expres>(?s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
+<page>https://tumarcador.xyz/</page>
+<referer>https://tumarcador.xyz/</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
