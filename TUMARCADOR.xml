@@ -136,7 +136,7 @@
 <page>https://tumarcador.xyz/[nova.param2].php</page>
 <referer>https://tumarcador.xyz/</referer></regex>
 ]]></listrepeat>
-<expres>(?s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
+<expres>(?s)\s\s([a-zA-Z].)\s\shttps://tumarcador.xyz/(.*?).php</expres>
 <Accept>*/*</Accept>
 <Accept-Encoding>gzip, deflate, br</Accept-Encoding>
  <page>https://tumarcador.xyz/</page>
