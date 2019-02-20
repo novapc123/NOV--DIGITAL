@@ -14,7 +14,7 @@
  
  
 <item>
-<title>[COLOR yellow] AVEZY COMPLETA[/COLOR]</title>
+<title>[COLOR yellow][B] AVEZY COMPLETA[/B][/COLOR]</title>
 <link>$doregex[nova]</link>
 <regex>
 <name>nova</name>
@@ -34,7 +34,7 @@
  
  
 <item>
-<title>[COLOR tomato]Agenda Arenavision[/COLOR]</title>
+<title>[COLOR yellow][B]Agenda Arenavision[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
