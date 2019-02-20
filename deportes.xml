@@ -473,5 +473,24 @@
 <fanart>https://thumb.besoccerapps.com/rbetis/img_web/bg/featured_top_tv.jpg?</fanart>
 </item>
  
- 
-<
+<item>
+<title>[COLOR white]$doregex[getMu8][/COLOR]</title>
+<link>$doregex[getMu8]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<regex>
+<name>getMu8</name>
+<page>https://tumarcador.xyz/</page>
+<expres>(?s)br />.*?br />\s\s\s(.*?)<</expres>
+<referer>https://tumarcador.xyz/</referer>
+</regex>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac1.php</page>
+<referer>https://tumarcador.xyz/ac1.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail>
+</item>
