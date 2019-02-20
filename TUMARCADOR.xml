@@ -132,8 +132,8 @@
 <listrepeat><![CDATA[
 <title>[nova.param2]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link><regex><name>get-id</name><expres>(?s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
-<page>https://tumarcador.xyz/ac1.php[nova.param1].php</page>
-<referer>"https://tumarcador.xyz/ac1.php"</referer></regex>
+<page>https://tumarcador.xyz/[nova.param1].php</page>
+<referer>"https://tumarcador.xyz/</referer></regex>
 ]]></listrepeat>
 <expres>(?s)\s\s([a-zA-Z].)\s\s(.*?)\s.*?\s\s</expres>
 <page>https://tumarcador.xyz/</page>
