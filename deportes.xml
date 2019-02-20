@@ -33,62 +33,9 @@
 </item>
  
  
-<item>
-<title>[COLOR yellow][B]Agenda Arenavision[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<item><title>[COLOR yellow][B][makelist.param1] [makelist.param2][/B][/COLOR] [makelist.param3] [COLOR yellow] [makelist.param4][/COLOR] [COLOR yellow][B]AV[makelist.param5][/B][/COLOR] </title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=nova[makelist.param4]</link>
-            <regex>
-            <name>hash</name>
-            <expres>this.loadPlayer\("(.*?)"</expres>
-            <page>http://arenavision.us/guide/[makelist.param5]</page>
-            <referer>http://arenavision.us/guide/</referer>
-            <setcookie>beget=begetok</setcookie>
-            </regex>
-<thumbnail>https://i.ytimg.com/vi/TgwRSYFbNcM/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/TgwRSYFbNcM/hqdefault.jpg</fanart>
+
  
-]]></listrepeat>
-<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
-<page>http://arenavision.top/iguide</page>
-<Agent>Mozilla</Agent>
-<referer>http://arenavision.top/iguide</referer>
-<setcookie>beget=begetok</setcookie>
-</regex>
-<thumbnail>https://i.ytimg.com/vi/TgwRSYFbNcM/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/TgwRSYFbNcM/hqdefault.jpg</fanart>
-</item>
- 
-<item>
-<title>[B]3.[/B] [COLORyellow]Agenda Arenavision/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<item><title>[COLOR white][makelist.param1] - [makelist.param2][/COLOR] [COLOR tomato][makelist.param3]: [makelist.param4][/COLOR] [B][makelist.param5][/B] [COLOR red][B]AV[makelist.param6][/B][/COLOR]</title><link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=[makelist.param5]</link>
-            <regex>
-            <name>hash</name>
-            <expres>this.loadPlayer\("(.*?)"</expres>
-            <page>http://arenavision.us/[makelist.param6]</page>
-            <referer>http://arenavision.us</referer>
-            <setcookie>beget=begetok</setcookie>
-            </regex>
-            <thumbnail></thumbnail>
-</item>
-]]></listrepeat>
-<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+).* (\[.*?\])<]]></expres>
-<page>http://arenavision.us/guide</page>
-<Agent>Mozilla</Agent>
-<referer>http://arenavision.us/</referer>
-<setcookie>beget=begetok</setcookie>
-</regex>
-<thumbnail>http://i.imgur.com/q0COxQ4.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/NrS6W6litDY/maxresdefault.jpg</fanart>
-</item> 
- 
+
  
  <item>
 <title>[COLOR yellow][B]CANALES TUMARCADOR [/B][/COLOR]</title>
@@ -484,7 +431,7 @@
 </regex>
 <regex>
 <name>ip</name>
-<expres>file: '(.*?)'</expres>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
 <Accept>*/*</Accept>
 <Accept-Encoding>gzip, deflate, br</Accept-Encoding>
 <page>https://tumarcador.xyz/ac1.php</page>
