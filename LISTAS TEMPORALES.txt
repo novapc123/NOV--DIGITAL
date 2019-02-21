@@ -1,559 +1,132 @@
 
 
 #EXTM3U
-#EXTINF:-1,==● ▄ ★ ESPANA CANALES★ ▄ ●==.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1379.m3u8
-#EXTINF:-1,•●★--- ES Canales a la carta ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1025.m3u8
-#EXTINF:-1,ES: Taquilla 1 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1024.m3u8
-#EXTINF:-1,ES: Taquilla 2 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1023.m3u8
-#EXTINF:-1,ES: Taquilla 3 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1022.m3u8
-#EXTINF:-1,ES: Taquilla 4 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1021.m3u8
-#EXTINF:-1,ES: Taquilla 5 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1020.m3u8
-#EXTINF:-1,ES: Taquilla 6 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1019.m3u8
-#EXTINF:-1,ES: Taquilla 7 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1018.m3u8
-#EXTINF:-1,ES: Taquilla 8 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1017.m3u8
-#EXTINF:-1,ES: Taquilla 9 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1016.m3u8
-#EXTINF:-1,ES: Taquilla 10 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1015.m3u8
-#EXTINF:-1,ES: Taquilla 11 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1014.m3u8
-#EXTINF:-1,ES: Taquilla 12 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1013.m3u8
-#EXTINF:-1,ES: Taquilla 13 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1012.m3u8
-#EXTINF:-1,ES: Barca TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1011.m3u8
-#EXTINF:-1,ES: Caza y Pesca FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1010.m3u8
-#EXTINF:-1,ES: Caza y Pesca HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1009.m3u8
-#EXTINF:-1,ES: Iberalia.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1005.m3u8
-#EXTINF:-1,ES: Toros.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1006.m3u8
-#EXTINF:-1,ES: Toros FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1008.m3u8
-#EXTINF:-1,ES: Toros HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1007.m3u8
-#EXTINF:-1,•●★--- ES Fútbol ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1072.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/2067.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/2066.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/2065.m3u8
-#EXTINF:-1,ES: Bein Sports LaLiga FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1060.m3u8
-#EXTINF:-1,ES: Bein Sports LaLiga HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1059.m3u8
-#EXTINF:-1,ES: Bein Sports LaLiga SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1058.m3u8
-#EXTINF:-1,ES: Betis TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1027.m3u8
-#EXTINF:-1,ES: Esport 3 CAT.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1026.m3u8
-#EXTINF:-1,ES: La Liga TV BAR FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1034.m3u8
-#EXTINF:-1,ES: La Liga TV BAR HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1033.m3u8
-#EXTINF:-1,ES: La Liga TV BAR SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1032.m3u8
-#EXTINF:-1,ES: LaLiga 1|2|3 TV HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1049.m3u8
-#EXTINF:-1,ES: Movistar  Futbol FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1041.m3u8
-#EXTINF:-1,ES: Movistar  Futbol HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1040.m3u8
-#EXTINF:-1,ES: Movistar  Futbol SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1039.m3u8
-#EXTINF:-1,ES: Real Madrid FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1031.m3u8
-#EXTINF:-1,ES: Real Madrid HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1030.m3u8
-#EXTINF:-1,ES: Real Madrid SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1029.m3u8
-#EXTINF:-1,ES: Sevilla FC.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1028.m3u8
-#EXTINF:-1,ES: Bein LaLiga Max 1 FHD (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1057.m3u8
-#EXTINF:-1,ES: Bein LaLiga Max 1 HD (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1056.m3u8
-#EXTINF:-1,ES: Bein LaLiga Max 1 SD (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1055.m3u8
-#EXTINF:-1,ES: Bein LaLiga Max 2 HD (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1054.m3u8
-#EXTINF:-1,ES: Bein LaLiga Max 3 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1053.m3u8
-#EXTINF:-1,ES: Bein LaLiga Max 4 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1052.m3u8
-#EXTINF:-1,ES: Bein LaLiga Max 5 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1051.m3u8
-#EXTINF:-1,ES: Bein LaLiga Max 6 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1050.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones 1 HD (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1068.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones 2 HD (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1067.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones 3 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1066.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones 4 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1065.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones 5 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1064.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones 6 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1063.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones 7 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1062.m3u8
-#EXTINF:-1,ES: Movistar liga de campeones 8 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1061.m3u8
-#EXTINF:-1,ES: LaLiga 1|2|3 TV Multi 1 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1048.m3u8
-#EXTINF:-1,ES: LaLiga 1|2|3 TV Multi 2 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1047.m3u8
-#EXTINF:-1,ES: LaLiga 1|2|3 TV Multi 3 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1046.m3u8
-#EXTINF:-1,ES: LaLiga 1|2|3 TV Multi 4 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1045.m3u8
-#EXTINF:-1,ES: Movistar  Partidazo FHD (LIVE DURING MATCH).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1044.m3u8
-#EXTINF:-1,ES: Movistar  Partidazo HD (LIVE DURING MATCH).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1043.m3u8
-#EXTINF:-1,ES: Movistar  Partidazo SD (LIVE DURING MATCH).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1042.m3u8
-#EXTINF:-1,ES: Multifutbol 1 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1038.m3u8
-#EXTINF:-1,ES: Multifutbol 2 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1037.m3u8
-#EXTINF:-1,ES: Multifutbol 3 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1036.m3u8
-#EXTINF:-1,ES: Multifutbol 4 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1035.m3u8
-#EXTINF:-1,•●★--- ES Movistar  Deportes ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1097.m3u8
-#EXTINF:-1,ES: Eurosport 1 FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1076.m3u8
-#EXTINF:-1,ES: Eurosport 1 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1075.m3u8
-#EXTINF:-1,ES: Eurosport 1 SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1074.m3u8
-#EXTINF:-1,ES: Eurosport 2 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1073.m3u8
-#EXTINF:-1,ES: Movistar  Deportes FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1088.m3u8
-#EXTINF:-1,ES: Movistar  Deportes HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1087.m3u8
-#EXTINF:-1,ES: Movistar  Deportes SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1086.m3u8
-#EXTINF:-1,ES: #VAMOS FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1085.m3u8
-#EXTINF:-1,ES: #VAMOS HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1084.m3u8
-#EXTINF:-1,ES: #VAMOS SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1083.m3u8
-#EXTINF:-1,ES: Movistar  eSports HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1082.m3u8
-#EXTINF:-1,ES: Movistar  Formula 1 FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1096.m3u8
-#EXTINF:-1,ES: Movistar  Formula 1 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1095.m3u8
-#EXTINF:-1,ES: Movistar  Formula 1 SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1094.m3u8
-#EXTINF:-1,ES: Movistar  Golf.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1089.m3u8
-#EXTINF:-1,ES: Movistar  Golf FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1090.m3u8
-#EXTINF:-1,ES: Movistar  Moto GP FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1093.m3u8
-#EXTINF:-1,ES: Movistar  Moto GP HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1092.m3u8
-#EXTINF:-1,ES: Movistar  Moto GP SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1091.m3u8
-#EXTINF:-1,ES: Multideporte 1 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1081.m3u8
-#EXTINF:-1,ES: Multideporte 2 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1080.m3u8
-#EXTINF:-1,ES: Multideporte 3 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1079.m3u8
-#EXTINF:-1,ES: Multideporte 4 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1078.m3u8
-#EXTINF:-1,ES: Multideporte 5 (Match Time).m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1077.m3u8
-#EXTINF:-1,•●★--- ES Movistar  Cine ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1122.m3u8
-#EXTINF:-1,ES: Dark.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1104.m3u8
-#EXTINF:-1,ES: Hollywood FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1100.m3u8
-#EXTINF:-1,ES: Hollywood HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1099.m3u8
-#EXTINF:-1,ES: Movistar  Accion FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1121.m3u8
-#EXTINF:-1,ES: Movistar  Accion HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1120.m3u8
-#EXTINF:-1,ES: Movistar  Accion SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1119.m3u8
-#EXTINF:-1,ES: Movistar  Cine N.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1105.m3u8
-#EXTINF:-1,ES: Movistar  Comedia FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1118.m3u8
-#EXTINF:-1,ES: Movistar  Comedia HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1117.m3u8
-#EXTINF:-1,ES: Movistar  Comedia SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1116.m3u8
-#EXTINF:-1,ES: Movistar Drama FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1112.m3u8
-#EXTINF:-1,ES: Movistar Drama HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1111.m3u8
-#EXTINF:-1,ES: Movistar Drama SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1110.m3u8
-#EXTINF:-1,ES: Movistar  Disney.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1109.m3u8
-#EXTINF:-1,ES: Movistar  Estrenos FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1115.m3u8
-#EXTINF:-1,ES: Movistar  Estrenos HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1114.m3u8
-#EXTINF:-1,ES: Movistar  Estrenos SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1113.m3u8
-#EXTINF:-1,ES: Movistar CineDoc&Roll FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1108.m3u8
-#EXTINF:-1,ES: Movistar CineDoc&Roll HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1107.m3u8
-#EXTINF:-1,ES: Movistar CineDoc&Roll.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1106.m3u8
-#EXTINF:-1,ES: Sundance TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1098.m3u8
-#EXTINF:-1,ES: TCM FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1103.m3u8
-#EXTINF:-1,ES: TCM HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1102.m3u8
-#EXTINF:-1,ES: TCM SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1101.m3u8
-#EXTINF:-1,•●★--- ES Movistar  Series ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1162.m3u8
-#EXTINF:-1,ES: #0 FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1155.m3u8
-#EXTINF:-1,ES: #0.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1154.m3u8
-#EXTINF:-1,ES: #0 SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1153.m3u8
-#EXTINF:-1,ES: AMC FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1147.m3u8
-#EXTINF:-1,ES: AMC HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1146.m3u8
-#EXTINF:-1,ES: AXN FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1139.m3u8
-#EXTINF:-1,ES: AXN HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1138.m3u8
-#EXTINF:-1,ES: AXN SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1137.m3u8
-#EXTINF:-1,ES: AXN White FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1136.m3u8
-#EXTINF:-1,ES: AXN White HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1135.m3u8
-#EXTINF:-1,ES: AXN White SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1134.m3u8
-#EXTINF:-1,ES: Calle 13 FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1152.m3u8
-#EXTINF:-1,ES: Calle 13.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1151.m3u8
-#EXTINF:-1,ES: Comedy Central FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1127.m3u8
-#EXTINF:-1,ES: Comedy Central HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1126.m3u8
-#EXTINF:-1,ES: Comedy Central SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1125.m3u8
-#EXTINF:-1,ES: Cosmo TV FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1150.m3u8
-#EXTINF:-1,ES: Cosmo TV HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1149.m3u8
-#EXTINF:-1,ES: Cosmo TV SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1148.m3u8
-#EXTINF:-1,ES: Fox FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1145.m3u8
-#EXTINF:-1,ES: Fox HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1144.m3u8
-#EXTINF:-1,ES: Fox SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1143.m3u8
-#EXTINF:-1,ES: Fox Life FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1142.m3u8
-#EXTINF:-1,ES: Fox Life HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1141.m3u8
-#EXTINF:-1,ES: Fox Life SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1140.m3u8
-#EXTINF:-1,ES: Movistar  Series FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1161.m3u8
-#EXTINF:-1,ES: Movistar  Series HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1160.m3u8
-#EXTINF:-1,ES: Movistar  Series SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1159.m3u8
-#EXTINF:-1,ES: Movistar Seriesmanía FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1158.m3u8
-#EXTINF:-1,ES: Movistar Seriesmanía HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1157.m3u8
-#EXTINF:-1,ES: Movistar Seriesmanía SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1156.m3u8
-#EXTINF:-1,ES: MTV Espana.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1123.m3u8
-#EXTINF:-1,ES: Nonstopeople.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1124.m3u8
-#EXTINF:-1,ES: SyFy FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1130.m3u8
-#EXTINF:-1,ES: SYFY HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1129.m3u8
-#EXTINF:-1,ES: SyFy SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1128.m3u8
-#EXTINF:-1,ES: TNT FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1133.m3u8
-#EXTINF:-1,ES: TNT HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1132.m3u8
-#EXTINF:-1,ES: TNT SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1131.m3u8
-#EXTINF:-1,•●★--- ES Documentales ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1179.m3u8
-#EXTINF:-1,ES: Blaze.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1163.m3u8
-#EXTINF:-1,ES: Discovery Channel FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1172.m3u8
-#EXTINF:-1,ES: Discovery Channel HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1171.m3u8
-#EXTINF:-1,ES: Discovery Channel SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1170.m3u8
-#EXTINF:-1,ES: Historia HD/SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1167.m3u8
-#EXTINF:-1,ES: Nat Geo Wild FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1175.m3u8
-#EXTINF:-1,ES: Nat Geo Wild HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1174.m3u8
-#EXTINF:-1,ES: Nat Geo Wild SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1173.m3u8
-#EXTINF:-1,ES: National Geographic FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1178.m3u8
-#EXTINF:-1,ES: National Geographic HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1177.m3u8
-#EXTINF:-1,ES: National Geographic SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1176.m3u8
-#EXTINF:-1,ES: Odisea HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1169.m3u8
-#EXTINF:-1,ES: Odisea SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1168.m3u8
-#EXTINF:-1,ES: Viajar FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1166.m3u8
-#EXTINF:-1,ES: Viajar HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1165.m3u8
-#EXTINF:-1,ES: Viajar SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1164.m3u8
-#EXTINF:-1,•●★--- ES Estilo de Vida ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1185.m3u8
-#EXTINF:-1,ES: Canal Cocina.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1180.m3u8
-#EXTINF:-1,ES: Crime & Investigation.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1184.m3u8
-#EXTINF:-1,ES: Decasa.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1183.m3u8
-#EXTINF:-1,ES: Dkiss.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1182.m3u8
-#EXTINF:-1,ES: El Garaje TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1181.m3u8
-#EXTINF:-1,•●★--- ES Infantil ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1197.m3u8
-#EXTINF:-1,ES: Baby TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1187.m3u8
-#EXTINF:-1,ES: Canal Panda.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1188.m3u8
-#EXTINF:-1,ES: Disney Channel FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1192.m3u8
-#EXTINF:-1,ES: Disney Channel HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1191.m3u8
-#EXTINF:-1,ES: Disney Channel SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1190.m3u8
-#EXTINF:-1,ES: Disney Junior.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1193.m3u8
-#EXTINF:-1,ES: Disney XD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1189.m3u8
-#EXTINF:-1,ES: Nick JR.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1194.m3u8
-#EXTINF:-1,ES: Nickelodeon FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1196.m3u8
-#EXTINF:-1,ES: Nickelodeon.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1195.m3u8
-#EXTINF:-1,ES: Super3.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1186.m3u8
-#EXTINF:-1,•●★--- ES TDT ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1250.m3u8
-#EXTINF:-1,ES: 24H.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1207.m3u8
-#EXTINF:-1,ES: 7 TV Murcia.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1200.m3u8
-#EXTINF:-1,ES: A3series HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1221.m3u8
-#EXTINF:-1,ES: Antena 3 FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1236.m3u8
-#EXTINF:-1,ES: Antena 3 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1235.m3u8
-#EXTINF:-1,ES: Antena 3 SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1234.m3u8
-#EXTINF:-1,ES: BeMad TV FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1215.m3u8
-#EXTINF:-1,ES: BeMad TV HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1214.m3u8
-#EXTINF:-1,ES: Boing.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1226.m3u8
-#EXTINF:-1,ES: Canal Costa TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1202.m3u8
-#EXTINF:-1,ES: Canal Parlamento.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1199.m3u8
-#EXTINF:-1,ES: Clan TVE.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1225.m3u8
-#EXTINF:-1,ES: Cuatro FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1239.m3u8
-#EXTINF:-1,ES: Cuatro HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1238.m3u8
-#EXTINF:-1,ES: Cuatro SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1237.m3u8
-#EXTINF:-1,ES: Discovery Max.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1208.m3u8
-#EXTINF:-1,ES: Divinity.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1216.m3u8
-#EXTINF:-1,ES: Energy.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1217.m3u8
-#EXTINF:-1,ES: FDF.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1218.m3u8
-#EXTINF:-1,ES: Gol.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1233.m3u8
-#EXTINF:-1,ES: Gol HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1232.m3u8
-#EXTINF:-1,ES: Gol SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1231.m3u8
-#EXTINF:-1,ES: Canal Sur Flamenco.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1201.m3u8
-#EXTINF:-1,ES: intereconomia.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1209.m3u8
-#EXTINF:-1,ES: LA 1  FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1249.m3u8
-#EXTINF:-1,ES: LA 1 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1248.m3u8
-#EXTINF:-1,ES: LA 1 SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1247.m3u8
-#EXTINF:-1,ES: LA 2.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1246.m3u8
-#EXTINF:-1,ES: La Sexta FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1245.m3u8
-#EXTINF:-1,ES: La Sexta HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1244.m3u8
-#EXTINF:-1,ES: La Sexta SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1243.m3u8
-#EXTINF:-1,ES: Libertad Digital.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1204.m3u8
-#EXTINF:-1,ES: Mega FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1224.m3u8
-#EXTINF:-1,ES: Mega HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1223.m3u8
-#EXTINF:-1,ES: Mega SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1222.m3u8
-#EXTINF:-1,ES: Neox HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1213.m3u8
-#EXTINF:-1,ES: Neox.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1212.m3u8
-#EXTINF:-1,ES: Nova.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1219.m3u8
-#EXTINF:-1,ES: Nova HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1220.m3u8
-#EXTINF:-1,ES: Paramount Channel.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1227.m3u8
-#EXTINF:-1,ES: Telecinco FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1242.m3u8
-#EXTINF:-1,ES: Telecinco HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1241.m3u8
-#EXTINF:-1,ES: Telecinco SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1240.m3u8
-#EXTINF:-1,ES: Teledeporte FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1230.m3u8
-#EXTINF:-1,ES: Teledeporte.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1229.m3u8
-#EXTINF:-1,ES: Teledeporte SD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1228.m3u8
-#EXTINF:-1,ES: Telesur HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1206.m3u8
-#EXTINF:-1,ES: Televisa HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1210.m3u8
-#EXTINF:-1,ES: TEN.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1211.m3u8
-#EXTINF:-1,ES: Trece.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1203.m3u8
-#EXTINF:-1,ES: TV Canaria.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1198.m3u8
-#EXTINF:-1,•●★--- ES Autonómicas ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1278.m3u8
-#EXTINF:-1,ES: 3/24 CAT.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1274.m3u8
-#EXTINF:-1,ES: 33 CAT.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1272.m3u8
-#EXTINF:-1,ES: 8TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1275.m3u8
-#EXTINF:-1,ES: Andalucia TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1256.m3u8
-#EXTINF:-1,ES: Aragon TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1259.m3u8
-#EXTINF:-1,ES: Canal Sur.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1265.m3u8
-#EXTINF:-1,ES: Canal Sur Cocina.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1264.m3u8
-#EXTINF:-1,ES: Canal Sur La Banda TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1262.m3u8
-#EXTINF:-1,ES: Canal Sur Turismo.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1263.m3u8
-#EXTINF:-1,ES: Castilla La Mancha Media.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1258.m3u8
-#EXTINF:-1,ES: DW en Español.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1270.m3u8
-#EXTINF:-1,ES: ETB Sat.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1267.m3u8
-#EXTINF:-1,ES: Euronews HD en Español.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1271.m3u8
-#EXTINF:-1,ES: Extremadura TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1260.m3u8
-#EXTINF:-1,ES: Galicia TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1261.m3u8
-#EXTINF:-1,ES: Hispan TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1268.m3u8
-#EXTINF:-1,ES: IB3 HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1273.m3u8
-#EXTINF:-1,ES: La 8 Mediterráneo.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1253.m3u8
-#EXTINF:-1,ES: La Otra.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1252.m3u8
-#EXTINF:-1,ES: Lancelot TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1254.m3u8
-#EXTINF:-1,ES: Levante TV.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1266.m3u8
-#EXTINF:-1,ES: Onda Azul.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1255.m3u8
-#EXTINF:-1,ES: RT HD en Español.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1269.m3u8
-#EXTINF:-1,ES: TeleMadrid.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1251.m3u8
-#EXTINF:-1,ES: TV3. CAT HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1277.m3u8
-#EXTINF:-1,ES: XTRM.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1276.m3u8
-#EXTINF:-1,•●★--- ES Música ----★●•.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1283.m3u8
-#EXTINF:-1,ES: Mezzo Live FHD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1280.m3u8
-#EXTINF:-1,ES: Mezzo Live HD.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1279.m3u8
-#EXTINF:-1,ES: VH1.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1282.m3u8
-#EXTINF:-1,ES: VH1 Classic.m3u8
-http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1281.m3u
+#EXTINF:-1,==● ▄ ★ ESPANA CANALES★ ▄ ●==
+
+#EXTM3U 
+#EXTINF:-1,LA 1
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/5.ts
+#EXTINF:-1,LA 2
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/6.ts
+#EXTINF:-1,TNT
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/9.ts
+#EXTINF:-1,Cuatro
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/25.ts
+#EXTINF:-1,TELECINCO
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/1.ts
+#EXTINF:-1,LA SEXTA
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/2.ts
+#EXTINF:-1,NEOX
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/3.ts
+#EXTINF:-1,FDF
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/4.ts
+#EXTINF:-1,BeMad
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/49.ts
+#EXTINF:-1,#0
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/35.ts
+#EXTINF:-1,#Vamos
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/46.ts
+#EXTINF:-1,Movistar DCINE
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/15.ts
+#EXTINF:-1,Movistar Accion
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/16.ts
+#EXTINF:-1,Movistar Estrenos HD
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/45.ts
+#EXTINF:-1,Movistar Comedia
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/12.ts
+#EXTINF:-1,Movistar Serie
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/13.ts
+#EXTINF:-1,Movistar Series xtra
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/14.ts
+#EXTINF:-1,Movistar Decasa
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/19.ts
+#EXTINF:-1,Movistar Disney
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/78.ts
+#EXTINF:-1,Movistar Liga de Campeones
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/34.ts
+#EXTINF:-1,Movistar Liga de Campeones (Opcion2)
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/50.ts
+#EXTINF:-1,Movistar Partidazo
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/79.ts
+#EXTINF:-1,Movistar Futbol
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/44.ts
+#EXTINF:-1,Movistar Golf
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/22.ts
+#EXTINF:-1,Movistar Formula 1
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/52.ts
+#EXTINF:-1,Movistar Formula 1 (Opcion2)
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/53.ts
+#EXTINF:-1,Movistar Moto GP
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/69.ts
+#EXTINF:-1,Movistar Deportes
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/80.ts
+#EXTINF:-1,Eurosport 1
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/57.ts
+#EXTINF:-1,BeiN La Liga
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/59.ts
+#EXTINF:-1,beIN La Liga (Opcion2)
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/47.ts
+#EXTINF:-1,La Liga TV
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/42.ts
+#EXTINF:-1,LA LIGA TV (opcion2)
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/74.ts
+#EXTINF:-1,LaLiga 123
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/58.ts
+#EXTINF:-1,La Liga 123 (Opcion2)
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/73.ts
+#EXTINF:-1,GoL TV
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/60.ts
+#EXTINF:-1,Real Madrid TV
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/55.ts
+#EXTINF:-1,GOLF
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/43.ts
+#EXTINF:-1,Movistar Toros
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/41.ts
+#EXTINF:-1,Hollywood
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/26.ts
+#EXTINF:-1,Historia
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/24.ts
+#EXTINF:-1,Fox Life
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/10.ts
+#EXTINF:-1,Fox
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/11.ts
+#EXTINF:-1,Syfy
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/54.ts
+#EXTINF:-1,DMAX
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/36.ts
+#EXTINF:-1,Boing
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/29.ts
+#EXTINF:-1,Baby
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/21.ts
+#EXTINF:-1,DISNEY XD
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/37.ts
+#EXTINF:-1,DISNEY JUNIOR
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/38.ts
+#EXTINF:-1,National GEO
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/32.ts
+#EXTINF:-1,NAT GEO WILD HD
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/33.ts
+#EXTINF:-1,DISCOVERY CHANNEL
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/40.ts
+#EXTINF:-1,DISCOVERY
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/39.ts
+#EXTINF:-1,Iberalia TV
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/77.ts
+#EXTINF:-1,Caza Y Pesca
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/56.ts
+#EXTINF:-1,Crime Investigacion
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/28.ts
+#EXTINF:-1,Comedy Central
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/27.ts
+#EXTINF:-1,Canal Odesea
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/8.ts
+#EXTINF:-1,Canal Cocina
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/18.ts
+#EXTINF:-1,AXN White
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/30.ts
+#EXTINF:-1,AXN
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/31.ts
+#EXTINF:-1,Andalucia
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/7.ts
+#EXTINF:-1,AMC HD
+http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/20.ts
