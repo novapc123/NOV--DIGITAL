@@ -427,7 +427,7 @@
 <regex>
 <name>GetPageUrl</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][GetPageUrl.param1][COLOR gold] [GetPageUrl.param3][/COLOR]</title>
+<title>[COLOR white][GetPageUrl.param1][COLOR gold] [GetPageUrl.param2][/COLOR]</title>
 <link>$doregex[adadad]</link> 
 ]]></listrepeat>
 <expres>(?s)br/>.*? br/>\s*.*?<.*?href=".*?"(.*?)|blank">https://tumarcador.xyz/"(.*?).php.*?></expres>
