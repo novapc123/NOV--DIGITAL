@@ -161,8 +161,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/bphpgjhykdmbtj668/live1/telecinco2.</page>
-<referer>https://vergol.com/bphpgjhykdmbtj668/live1/telecinco2.</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live1/telecinco2.php</page>
+<referer>hhttps://vergol.com/bgjhykdmbtj668/live1/telecinco2.php</referer>
 </regex>
 <thumbnail>https://static.elcorreo.com/www/multimedia/201804/02/media/cortadas/telecinco-lider-kMyE-U5014877590335KE-624x385@El%20Correo.jpg</thumbnail>
 <fanart>https://static.elcorreo.com/www/multimedia/201804/02/media/cortadas/telecinco-lider-kMyE-U5014877590335KE-624x385@El%20Correo.jpg</fanart>
@@ -180,7 +180,7 @@
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
 <page>https://vergol.com/bgjhykdmbtj668/live1/lasexta.php</page>
-<referer>https://vergol.com/bgjhykdmbtj668/live1/lasexta.php/referer>
+<referer>https://vergol.com/bgjhykdmbtj668/live1/lasexta.php</referer>
 </regex>
 <thumbnail>http://www.ec-bzo.com/wp-content/uploads/2018/04/logo_la_sexta-despues_2-500x445.jpg</thumbnail>
 <fanart>http://www.ec-bzo.com/wp-content/uploads/2018/04/logo_la_sexta-despues_2-500x445.jpg</fanart>
@@ -324,13 +324,13 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live1/mega.php</page>
-<referer>https://vergol.com/live1/mega.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live1/mega3.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live1/mega3.php</referer>
 </regex>
 <thumbnail>https://www.emopa.com/wp-content/uploads/2015/07/Logo-MEGA.jpg</thumbnail>
 <fanart>https://www.emopa.com/wp-content/uploads/2015/07/Logo-MEGA.jpg</fanart>
@@ -362,13 +362,13 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/atreseries.php</page>
-<referer>https://vergol.com/live/atreseries.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/atreseries.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/atreseries.php</referer>
 </regex>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AtreseriesLogo.svg/1200px-AtreseriesLogo.svg.png</thumbnail>
 <fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AtreseriesLogo.svg/1200px-AtreseriesLogo.svg.png</fanart>
@@ -382,13 +382,13 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/bemad.php</page>
-<referer>https://vergol.com/live/bemad.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/bemad.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/bemad.php</referer>
 </regex>
 <thumbnail>http://lafabricadelatele.com/wp-content/uploads/2016/04/bemad.jpg</thumbnail>
 <fanart>http://lafabricadelatele.com/wp-content/uploads/2016/04/bemad.jpg</fanart>
@@ -431,20 +431,7 @@
 </item>
  
  
-  
-<item>
-<title>[B]-13TV-[/B]</title>
-<link>$doregex[getMu8]</link>
-<regex><name>getMu8</name>
-<expres>source: '([^']+)</expres>
-<page>http://revolucionariostv.eu/MultiTV/Multi13tv/multi13tv.php</page>
-<referer>http://revolucionariostv.eu/MultiTV/Canales/Nacionales+tdt/nacionales+tdt.php</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex>
-<thumbnail>http://www.academiatv.es/wp-content/uploads/2015/09/fotnot_logo13tv.jpg</thumbnail>
-</item>
- 
- 
+
 <item>
 <title>[B]INTERECONOMIA[/B]</title>
 <link>$doregex[getMu8]</link>
@@ -459,9 +446,8 @@
  
 <item>
 <title>[B] TEN [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ten&amp;url=$doregex[getMu8]|Referer=http://revolucionariostv.eu/MultiTV/ten.php&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<expres>source: '([^']+)</expres>
 <page>http://revolucionariostv.eu/MultiTV/ten.php</page>
 <referer>http://revolucionariostv.eu/MultiTV/Canales/Nacionales+tdt/nacionales+tdt.php</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
