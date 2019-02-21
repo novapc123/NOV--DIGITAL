@@ -459,6 +459,7 @@
 <x-req>XMLHttpRequest</x-req>
 <Referer>https://tumarcador.xyz/</Referer>
 <Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
 </regex>
 </item>    
                                        
