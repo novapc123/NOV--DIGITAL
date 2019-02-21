@@ -1,6 +1,6 @@
 
 
-#EXTM3U.m3u8
+#EXTM3U
 #EXTINF:-1,==● ▄ ★ ESPANA CANALES★ ▄ ●==.m3u8
 http://iptvcrc.es:8080/live/GiovanniCastilloGranados/6Bi2pc2kLT/1379.m3u8
 #EXTINF:-1,•●★--- ES Canales a la carta ----★●•.m3u8
