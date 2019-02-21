@@ -431,6 +431,20 @@
 </item>
  
  
+  
+<item>
+<title>[B]-13TV-[/B]</title>
+<link>$doregex[getMu8]</link>
+<regex><name>getMu8</name>
+<expres>source: '([^']+)</expres>
+<page>http://revolucionariostv.eu/MultiTV/Multi13tv/multi13tv.php</page>
+<referer>http://revolucionariostv.eu/MultiTV/Canales/Nacionales+tdt/nacionales+tdt.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>http://www.academiatv.es/wp-content/uploads/2015/09/fotnot_logo13tv.jpg</thumbnail>
+</item>
+ 
+ 
 <item>
 <title>[B]INTERECONOMIA[/B]</title>
 <link>$doregex[getMu8]</link>
@@ -440,7 +454,7 @@
 <referer>http://revolucionariostv.eu/MultiTV/Canales/Nacionales+tdt/nacionales+tdt.php</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://valdeolmos-alalpardo.org/wp-content/uploads/Intereconomia-tv.png</thumbnail>
 </item>
  
 <item>
@@ -449,7 +463,7 @@
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
 <page>http://revolucionariostv.eu/MultiTV/ten.php</page>
-<referer>http://revolucionariostv.eu/</referer>
+<referer>http://revolucionariostv.eu/MultiTV/Canales/Nacionales+tdt/nacionales+tdt.php</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex>
 <thumbnail>https://www.gruposecuoya.es/wp-content/uploads/2016/03/TEN_p.jpg</thumbnail>
