@@ -499,6 +499,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[Nova.param4]</fanart>
 ]]></listrepeat>
 <expres><class="poster-media ([^"]+).*? href=" ([^"]+).*? title=" ([^"]+).*? src=" ([^"]+).*?></expres>
-<page>[nova.param2]</page>
+<page>[nova1.param2]</page>
 </regex>
    </item> 
