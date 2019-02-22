@@ -451,3 +451,54 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
 <thumbnail>https://i.ytimg.com/vi/zzSwt7nyV9k/mqdefault.jpg</thumbnail>
 </item>
+
+  
+  
+  
+  <item>
+
+<title> INKA PELIS ESTRENOS</title>
+
+ <link>$doregex[Nova]</link>
+
+ 
+
+
+<regex>
+
+<name>Nova</name>
+
+<listrepeat><![CDATA[
+
+<SetViewMode>55</SetViewMode>
+
+<title>[Nova.param3]</title>
+
+<link>$doregex[Nova]</link>
+
+<thumbnail>[Nova.param4]</thumbnail>
+
+<fanart>[Nova.param4]</fanart>
+
+]]></listrepeat>
+
+<expres>class="poster-media ([^"]+).*? href=" ([^"]+).*? title=" ([^"]+).*? src=" ([^"]+).*?</expres>
+
+<page>https://www.inkapelis.com/genero/estrenos-online/</page>
+
+</regex>
+
+ 
+<regex>
+<name>nova1</name>
+<listrepeat><![CDATA[
+<SetViewMode>50</SetViewMode>
+<title>[Nova.param3]</title>
+<urlsolve>[nova.param2]</urlsolve>
+<thumbnail>[Nova.param4]</thumbnail>
+<fanart>[Nova.param4]</fanart>
+]]></listrepeat>
+<expres><class="poster-media ([^"]+).*? href=" ([^"]+).*? title=" ([^"]+).*? src=" ([^"]+).*?></expres>
+<page>[nova.param2]</page>
+</regex>
+   </item> 
