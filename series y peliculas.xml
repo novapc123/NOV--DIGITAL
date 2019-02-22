@@ -499,7 +499,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>[nova.param4]</thumbnail>
 <fanart>[nova.param4]</fanart>
 ]]></listrepeat>
-<expres>(?s)class="poster-media-card([^"]+).*?a href="([^"]+).*?title="([^"]+).*?src="([^"]+).*?</expres>
+<expres>(?s)><class="poster-media ([^"]+).*? href=" ([^"]+).*?title="([^"]+).*?src=" ([^"]+).*?></expres>
 <page>https://www.inkapelis.com/genero/[nova.param2]/page/[makelist.param1]/</page>
 </regex>  
 
