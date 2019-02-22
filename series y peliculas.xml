@@ -488,8 +488,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 </regex>
 
+ regex>
+<name>nova2</name>
+<listrepeat><![CDATA[
+<SetViewMode>50</SetViewMode>
+<title>[nova.param3] - [regex1.param1]</title>
+<link>$doregex[nova2]</link>
+<genre>[nova.param2]</genre>
+<info>[nova1.param3]</info>
+<thumbnail>[nova.param4]</thumbnail>
+<fanart>[nova.param4]</fanart>
+]]></listrepeat>
+<expres>(?s)class="poster-media-card([^"]+).*?a href="([^"]+).*?title="([^"]+).*?src="([^"]+).*?</expres>
+<page>https://www.inkapelis.com/genero/[nova.param2]/page/[makelist.param1]/</page>
+</regex>  
+
  
-<regex>
+ <regex>
 <name>nova1</name>
 <listrepeat><![CDATA[
 <SetViewMode>50</SetViewMode>
