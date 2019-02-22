@@ -4,16 +4,20 @@
 
 
 <item>
-                                <title>[B][COLOR yellow]     SERIES Y    [/COLOR][/B]</title>
+                                <title>[B][COLOR yellow]     SERIES  [/COLOR][/B]</title>
 <link>http://ignorame<link>
 <thumbnail>http://blog.orange.es/wp-content/uploads/2013/09/orange-tv.gif</thumbnail>
 <fanart></fanart>
 <externallink>http://ignorame</externallink>
 </item
+  
+  
+  
 
 
-
-<item>
+ 
+  
+  <item>
  
 <title>[COLOR yellow] [B] INKA SERIES NOVEDAD[/B][/COLOR]</title>
  
@@ -146,17 +150,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
  </item>
  
 
-
- 
- 
-<item>
-<title>[COLOR yellow]  [B] SERIEPAPAYA[/B] [/COLOR]</title>
-<thumbnail>http://i.imgur.com/P1D92cf.png</thumbnail>
-<fanart>http://i.imgur.com/P1D92cf.png</fanart>
-</item>
- 
- 
- 
 <item>
 <title>[COLOR yellow]   [B]BUSCAR SERIE SERIEPAPAYA[/B][/COLOR] </title>
 <link>$doregex[makelist1]</link>
@@ -248,9 +241,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://i.imgur.com/P1D92cf.png</fanart>
 </item>
  
- 
- 
- <item>
+  
+<item>
 <title> [COLOR yellow][B]SERIES PAPAYA[/B] [/COLOR]</title>
 <link>$doregex[makelist1]</link>
 <regex>
@@ -453,7 +445,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
   
- <item>
+<item>
 
 <title> INKA PELIS ESTRENOS</title>
 
