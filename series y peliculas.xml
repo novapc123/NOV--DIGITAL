@@ -477,7 +477,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 ]]></listrepeat>
 
-<expres>![CDATA[class="([^"]+).*?href="([^"]+).*?title="([^"]+).*?src="([^"]+).*?</expres>
+<expres>class="([^"]+).*?href="([^"]+).*?title="([^"]+).*?src="([^"]+).*?</expres>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.
 <page>https://www.inkapelis.to/genero/estrenos-online/</page>
 </regex>
