@@ -422,7 +422,7 @@
  
 
  
- <item>
+<item>
 <title>Prueba</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
@@ -431,8 +431,7 @@
 <title>[COLOR lime][GetPageUrl.param1][COLOR gold] [GetPageUrl.param2] [COLOR orange][GetPageUrl.param4] [COLOR blue][GetPageUrl.param5][/COLOR]</title>
 <link>$doregex[canal]</link> 
 ]]></listrepeat>
-<expres><![CDATA[\s*body>\s*.*?:.*\s*|.*?<.*\s*.*?href=".*?".target="_blank">https://tumarcador.xyz/(.*?).php(.*?)
- .(.*?)-.*\s*]]></expres>
+<expres><![CDATA[\s*body>\s*(.*?):.*\s*|(.*?)<.*\s*.*?href="(.*?)".target="_blank">https://tumarcador.xyz/(.*?).php.*? .(.*?)-.*\s*]]></expres>
 <page>https://tumarcador.xyz/</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 <x-req>XMLHttpRequest</x-req>
