@@ -422,7 +422,7 @@
  
 
 <item>
-<title>[COLOR white]Agenda [COLOR gold]Eventos[/COLOR]</title>
+<title>[COLOR yellow ]FUTBOL EN DIRECTO[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -430,7 +430,7 @@
 <title>[COLOR lime][GetPageUrl.param1][COLOR gold] [GetPageUrl.param2] [COLOR orange][GetPageUrl.param4] [COLOR blue]([GetPageUrl.param5][/COLOR]</title>
 <link>$doregex[canal]</link> 
 ]]></listrepeat>
-<expres><![CDATA[\s*body>\s*(.*?):.*\s*|(.*?)<.*\s*.*?href=".*?".target="_blank">https://tumarcador.xyz/|(.*?).php.*? .(.*?)<.*\s*]]></expres>
+<expres><![CDATA\s*body>\s*(.*?):.*\s*|(.*?)<.*\s*.*?href=".*?".target="_blank">https://tumarcador.xyz/|(.*?).php.*? .(.*?)<.*\s*]]></expres>
 <page>https://tumarcador.xyz/</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 <x-req>XMLHttpRequest</x-req>
@@ -457,39 +457,4 @@
  
  
  
- 
- <item>
 
-<title> INKA PELIS ESTRENOS</title>
-
- <link>$doregex[Nova]</link>
-
-   
-
- 
-
-<regex>
-
-<name>Nova</name>
-
-<listrepeat><![CDATA[
-
-<SetViewMode>55</SetViewMode>
-
-<title>[Nova.param3]</title>
-
-<link>$doregex[Nova]</link>
-
-<thumbnail>[Nova.param4]</thumbnail>
-
-<fanart>[Nova.param4]</fanart>
-
-]]></listrepeat>
-
-<expres>class="poster-media ([^"]+).*? href=" ([^"]+).*? title=" ([^"]+).*? src=" ([^"]+).*?</expres>
-
-<page>https://www.inkapelis.com/genero/estrenos-online/</page>
-
-</regex>
-
- </item>
