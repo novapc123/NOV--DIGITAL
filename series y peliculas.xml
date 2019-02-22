@@ -484,7 +484,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <expres>class="poster-media ([^"]+).*? href=" ([^"]+).*? title=" ([^"]+).*? src=" ([^"]+).*?</expres>
 
-<page>https://www.inkapelis.com/genero/estrenos-online/</page>
+<page>https://www.inkapelis.to/genero/estrenos-online/</page>
 
 </regex>
 
