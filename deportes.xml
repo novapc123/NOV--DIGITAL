@@ -12,14 +12,12 @@
 </item>
  
  
- 
- <item>
+<item>
 <title>[COLOR yellow] Deportes sin acestream[/COLOR]</title>
 <link>$doregex[nova2]</link>
-<regex>
 <name>nova2</name>
 <expres>$pyFunction:('[nova2.param2]').replace('futbol','futbol')</expres>
-<page></page>
+<page>>http://piratalocotv.xyz/MOVIESTAR</page>
 </regex>
 <listrepeat><![CDATA[
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[nova2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
