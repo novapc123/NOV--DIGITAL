@@ -17,7 +17,7 @@
 <link>$doregex[nova2]</link>
 <name>nova2</name>
 <expres>$pyFunction:('[nova2.param2]').replace('futbol','futbol')</expres>
-<page>>http://piratalocotv.xyz/MOVIESTAR</page>
+<page>>http://piratalocotv.xyz/MOVISTAR/</page>
 </regex>
 <listrepeat><![CDATA[
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[nova2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
@@ -29,7 +29,7 @@
 </regex>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/[nova2.param1]</page>
+<page>http://piratalocotv.xyz/MOVISTAR/[nova2.param1]</page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex>
