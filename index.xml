@@ -88,31 +88,29 @@
 
 
 
-
 <item>
-<title>[COLOR yellow][B]Deportes OPCION 2[/B][/COLOR]</title>
-<link>$doregex[nova2]</link>
+<title>[COLOR yellow][B]DEPORTE OPCION 2 [/B] [/COLOR]</title>
+<link>$doregex[makelist2]</link>
 <regex>
-<name>nova2</name>
+<name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[COLOR lightskyblue][nova2.param2] [/COLOR]</title>
+<title>[COLOR lightskyblue][makelist2.param2] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<thumbnail>http://piratalocotv.xyz/[nova2.param4]</thumbnail>
+<thumbnail>http://piratalocotv.xyz/[makelist2.param4]</thumbnail>
 <fanart>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)title=""><a  href="(.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
+<expres><![CDATA[(?s)title=""><a href="(.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
 <page>http://piratalocotv.xyz/DEPORTES/</page>
 </regex>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/[nova2.param1]</page>
+<page>http://piratalocotv.xyz/[makelist2.param1]</page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex>
 <thumbnail>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</thumbnail>  
 <fanart>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</fanart>
 </item>
-
 
 
 <item>
