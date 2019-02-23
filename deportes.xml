@@ -13,7 +13,8 @@
  
  
 <item>
-<title>[COLOR yellow] Deportes sin acestream[/COLOR]</title>
+<regex>
+ <title>[COLOR yellow] Deportes sin acestream[/COLOR]</title>
 <link>$doregex[nova2]</link>
 <name>nova2</name>
 <expres>$pyFunction:('[nova2.param2]').replace('futbol','futbol')</expres>
