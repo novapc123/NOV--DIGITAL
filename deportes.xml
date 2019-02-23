@@ -27,7 +27,7 @@
 <fanart>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[(?s)title=""><a href="(.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
-<page>http://piratalocotv.xyz</page>
+<page>http://piratalocotv.xyz/MOVIESTAR</page>
 </regex>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
