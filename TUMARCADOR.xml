@@ -12,7 +12,7 @@
  
 
 <item>
-<title>[COLOR yellow]canal [COLOR gold]/1/ Atlético Madrid vs Juventus  (Movistar HD - Spanish) 	 	  [/COLOR]</title>
+<title>[COLOR yellow]canal [COLOR gold]/1/ Leganés vs Valencia  (Bein HD - Spanish)  	 	  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -27,7 +27,7 @@
 <thumbnail></thumbnail></item>
 
 <item>
-<title>[COLOR yellow]canal [COLOR gold]/1/ Sevilla vs Lazio   (Movistar HD - Spanish) 	 	  [/COLOR]</title>
+<title>[COLOR yellow]canal [COLOR gold]/1/ Atlético Madrid vs Villarreal	   (Bein HD - Spanish) 	 	  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -42,10 +42,45 @@
 <thumbnail></thumbnail></item>
   
   
+ <item>
+<title>[COLOR yellow]canal [COLOR gold]/1/ Real Valladolid vs Real Betis		   (Bein HD - Spanish) 	 	  [/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac1.php</page>
+<referer>https://tumarcador.xyz/ac1.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
+  
+
+  
+   <item>
+<title>[COLOR yellow]canal [COLOR gold]/7/Levante vs Real Madrid	  (Movistar HD - Spanish) 	 	  [/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac7.php</page>
+<referer>https://tumarcador.xyz/ac1.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
   
   
-<item>
-<title>[COLOR white]canal [COLOR gold]/2/ Atlético Madrid vs Juventus		(BT Sport 3 HD - English)  [/COLOR]</title>
+  
+  
+  
+  
+  <item>
+<title>[COLOR white]canal [COLOR gold]/2/ Atlético Madrid vs Villarreal	 		(BT Sport 3 HD - English)  [/COLOR]</title>
 <link>$doregex[ip]</link>
 <regex>
 <name>ip</name>
@@ -59,6 +94,9 @@
 </regex>
 <thumbnail></thumbnail></item>
 
+  
+  
+ 
 
 <item>
 <title>[COLOR yellow]canal [COLOR gold]/3/ Schalke 04 vs Manchester City	  (Movistar HD - Spanish)  [/COLOR]</title>
