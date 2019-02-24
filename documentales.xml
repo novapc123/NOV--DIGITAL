@@ -51,7 +51,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>anzana66=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
@@ -130,8 +130,8 @@
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/nationalgeo.php</page>
-<referer>https://vergol.com/live/nationalgeo.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/nationalgeo.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/nationalgeo.php</referer>
 </regex>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/National_Geographic_Channel-Logo.svg/1280px-National_Geographic_Channel-Logo.svg.png</thumbnail>
 <fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/National_Geographic_Channel-Logo.svg/1280px-National_Geographic_Channel-Logo.svg.png</fanart>
@@ -160,10 +160,10 @@
  
 <item>
 <title>[B] crimen - investigación HD  [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=crimen- investigación&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=crimeninvestigación&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/NAT-GEO-WID/</page>
+<page></page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex><thumbnail>https://www.neeo.es/wp-content/uploads/nuevo-logo-crimen.png</thumbnail>
@@ -179,13 +179,13 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
+<rawpost>manzana66=12345</rawpost>
 <connection>keep-alive</connection>
 <accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
-<page>https://vergol.com/live/ci.php<page>
-<referer>https://vergol.com/live/ci.php</referer>
+<page>https://vergol.com/bgjhykdmbtj668/live/ci.php<page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/ci.php</referer>
 </regex>
 <thumbnail>https://www.neeo.es/wp-content/uploads/nuevo-logo-crimen.png</thumbnail>
 <fanart>https://www.neeo.es/wp-content/uploads/nuevo-logo-crimen.png</fanart>
