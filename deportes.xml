@@ -38,14 +38,14 @@
 <fanart>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</fanart>
 </item>
 
- 
- <item>
-<title>[COLOR yellow][B]FUTBOL SIN ACESTREAM (MEJOR OPCION)[/B][/COLOR]</title>
+
+  <item>
+<title>[COLOR white][B]FUTBOL EN DIRECTO SIN ACESTREAM[/B][/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
 <listrepeat><![CDATA[
-<title>[COLOR lime][GetPageUrl.param1][COLOR gold] [GetPageUrl.param2] [COLOR orange][GetPageUrl.param4] [COLOR blue]([GetPageUrl.param5][/COLOR]</title>
+<title>[COLOR lime][GetPageUrl.param1][COLOR gold] [GetPageUrl.param2] [COLOR orange][GetPageUrl.param4] [COLOR blue] [GetPageUrl.param5][/COLOR]</title>
 <link>$doregex[canal]</link> 
 ]]></listrepeat>
 <expres><![CDATA[\s*body>\s*(.*?):.*\s*|(.*?)<.*\s*.*?href="(.*?)".target="_blank">https://tumarcador.xyz/|(.*?).php.*? .(.*?)<.*\s*]]></expres>
@@ -70,7 +70,11 @@
 <Connection>keep-alive</Connection>
 <Accept-Encoding>gzip, deflate, br</Accept-Encoding>
 </regex>
+<thumbnail>https://www.mundodeportivo.com/r/GODO/MD/p4/Futbol/Imagenes/2018/01/02/Recortada/img_pmorata_20160831-202850_imagenes_md_propias_pmorata_ft1a0270-kgCI-U434026677189FcF-980x554@MundoDeportivo-Web.JPG</thumbnail>  
+<fanart>https://www.mundodeportivo.com/r/GODO/MD/p4/Futbol/Imagenes/2018/01/02/Recortada/img_pmorata_20160831-202850_imagenes_md_propias_pmorata_ft1a0270-kgCI-U434026677189FcF-980x554@MundoDeportivo-Web.JPG</fanart>
 </item>
+  
+
 
  
  
@@ -121,7 +125,7 @@
  
  
  <item>
-<title>[COLOR yellow][B]EVENTOS DEPORTIVOS GRACIAS AMIGO IBERIKA----NECESITA ESTAR INSTALADO SPORTDEVIL---- [/B][/COLOR]</title>
+<title>[COLOR yellow][B]EVENTOS DEPORTIVOS GRACIAS AMIGO IBERIKA----NECESITA ESTAR INSTALADO SPORTSDEVIL---- [/B][/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>https://raw.githubusercontent.com/novapc123/NOV--DIGITAL/Nov%40digital/EVENTOS%20FUTBOL.xml</externallink>
 <thumbnail>https://www.cbspressexpress.com/images/releases/docimages/5877/325608-310625/0564d4ec4885448fc55b26b11c1ae743.png</thumbnail>
@@ -144,7 +148,16 @@
 
  
  
- 
+ <item>
+<title>[B]  CANAL LIGA HD [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=canalligaHD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/EVENTO1/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail> http://revolucionariostv.eu/Botones/MultiTV/Deportes/laligatv.png</thumbnail>
+</item>
  
  
  
@@ -452,17 +465,8 @@
 </item>
  
  
-<item>
-<title>[B] CANAL LIGA [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=canalligatv&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>hhttp://piratalocotv.xyz/EVENTO1/</page>
-<referer>http://piratalocotv.xyz</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex><thumbnail>http://revolucionariostv.eu/Botones/MultiTV/Deportes/laligatv.png</thumbnail>
-</item>
- 
+
+
 <item>
 <title>[B] FIGHT TIME [/B] </title>
 <link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
