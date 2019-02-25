@@ -84,10 +84,10 @@
   
  <item>
 <title>[B] AXN HD[/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= AMC HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= Axn HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/AXN//</page>
+<page>http://piratalocotv.xyz/AXN/</page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex><thumbnail>https://s15.postimg.cc/rsx9hh3qz/blaze.png</thumbnail>
@@ -116,6 +116,21 @@
 </item>
  
 
+  
+  
+ <item>
+<title>[B] CALLE 13 HD[/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= calle 13 HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<pagehttp://piratalocotv.xyz/CALLE-13/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://s15.postimg.cc/rsx9hh3qz/blaze.png</thumbnail>
+  
+  
+  
+  
  
 <item>
 <title>[B]CALLE 13[/B]</title>
@@ -135,6 +150,12 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>       
 </item>
  
+
+  
+  
+
+  
+
 <item>
 <title>[B]DARK[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -153,6 +174,20 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>   
 </item>
  
+
+  
+ <item>
+<title>[B]FOX HD[/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= FOX HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<pagehttp://piratalocotv.xyz/CALLE-13/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://s15.postimg.cc/rsx9hh3qz/blaze.png</thumbnail>
+  
+  
+  
 <item>
 <title>[B]FOX[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -171,7 +206,19 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
  
-<item>
+
+ <item>
+<title>[B]FOX LIFE HD[/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= FOX LIFE HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<pagehttp://piratalocotv.xyz/CALLE-13/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://s15.postimg.cc/rsx9hh3qz/blaze.png</thumbnail>
+
+
+ <item>
 <title>[B]FOX LIFE[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -192,10 +239,10 @@
 
  <item>
 <title>[B] HOLLYWOOD HD[/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= PARAMOUNT CHANNEL HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= HOLLYWOOD HD  &amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/PARAMOUNT-CHANNEL/</page>
+<page>http://piratalocotv.xyz/HOLLYWOOD/</page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex><thumbnail>https://s9.postimg.cc/zej7kvren/hollywood.png</thumbnail>
@@ -225,6 +272,24 @@
 </item>
  
  
+
+  
+
+<item>
+<title>[B] SYFY HD[/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= SYFY HD  &amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/SYFY/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://s9.postimg.cc/mj6mkrclb/syfy.png</thumbnail>
+ 
+   
+  
+  
+  
+  
 <item>
 <title>[B]SYFY[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link><regex>
@@ -242,6 +307,23 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
  
+
+ 
+ 
+ 
+<item>
+<title>[B] TCM HD[/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= TCM HD  &amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/TCM/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://s9.postimg.cc/mj6mkrclb/syfy.png</thumbnail>
+ 
+ 
+ 
+
 <item>
 <title>[B]TCM[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -260,6 +342,27 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
  
+
+ 
+  
+<item>
+<title>[B] TNT HD[/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= TNT HD  &amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/TCM/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://s9.postimg.cc/8i3tqinr3/tnt.png<</thumbnail>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 <item>
 <title>[B]TNT[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -280,7 +383,7 @@
  
 <item>
 <title>[B] AXN-WHITE [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=0#&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=AXN-WHITE HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
 <page>http://piratalocotv.xyz/AXN-WHITE/</page>
@@ -291,7 +394,7 @@
 
  <item>
 <title>[B]PARAMOUNT-COMEDY [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=0#&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= PARAMOUNT-COMEDY HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
 <page>http://piratalocotv.xyz/PARAMOUNT-COMEDY/</page>
@@ -302,8 +405,8 @@
  
 
  <item>
-<title>[B] XTRM [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=0#&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<title>[B] XTRM HD [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= XTRM HD &amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
 <page>http://piratalocotv.xyz/XTRM/</page>
