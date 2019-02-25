@@ -501,7 +501,7 @@
 <regex>
 <name>getUrl</name>
 <expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
-<page>http://hls.giize.com/p1?ch=caz_es</page>
+<page>http://hls.giize.com/un?ch=nbatv</page>
 <referer>http://photocall.tv/</referer>
 </regex>
 <thumbnail>http://photocall.tv/images/nba.png</thumbnail>
