@@ -47,6 +47,18 @@
  
  
  
+<item>
+<title>[B] AMC HD[/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= AMC HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/AMC/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://s9.postimg.cc/6ad11wbrj/amc.png</thumbnail>
+
+
+
  
 <item>
 <title>[B]AMC[/B]</title>
@@ -66,6 +78,25 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>       
 </item>
  
+
+  
+  
+  
+ <item>
+<title>[B] AXN HD[/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= AMC HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/AXN//</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://s15.postimg.cc/rsx9hh3qz/blaze.png</thumbnail>
+ 
+
+  
+  
+  
+  
 <item>
 <title>[B]AXN[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -84,23 +115,7 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>   
 </item>
  
-<item>
-<title>[B]BLAZE[/B]</title>
-<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>'(//.*m3u8.*?)'</expres>
-<rawpost>manzana66=12345</rawpost>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-<page>https://vergol.com/bgjhykdmbtj668/live/blaze.php</page>
-<referer>https://vergol.com/bgjhykdmbtj668/live/blaze.php</referer>
-</regex>
-<thumbnail>https://s15.postimg.cc/rsx9hh3qz/blaze.png</thumbnail>
-<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>   
-</item>
+
  
 <item>
 <title>[B]CALLE 13[/B]</title>
