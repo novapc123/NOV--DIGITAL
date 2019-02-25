@@ -3,7 +3,7 @@
  
 
 <item>
-                                <title>[B][COLOR yellow]    CANALES DOCUMENTALES  [/COLOR]    [/B]</title>
+                                <title>[B][COLOR yellow]          CANALES DOCUMENTALES  [/COLOR]    [/B]</title>
 <link>http://ignorame<link>
 <thumbnail>http://tvmazarron.es/wp-content/uploads/2018/02/documentales.jpg</thumbnail>
 <fanart></fanart>
@@ -210,9 +210,28 @@
 <regex>
 <name>getUrl</name>
 <expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
-<page>http://photocall.tv/p1?ch=caz_es</page>
+<page>http://hls.giize.com/p1?ch=caz_es</page>
 <referer>http://photocall.tv/</referer>
 </regex>
 <thumbnail>https://www.cazavision.com/sites/default/files/images/cazavision.jpg</thumbnail>
 <fanart>https://www.cazavision.com/sites/default/files/images/cazavision.jpg</fanart>
+</item>
+
+ 
+ <item>
+<title>[B]BLAZE[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live/blaze.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/blaze.php</referer>
+</regex>
+<thumbnail>https://s15.postimg.cc/rsx9hh3qz/blaze.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>   
 </item>
