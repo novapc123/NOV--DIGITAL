@@ -496,7 +496,7 @@
  
 
 <item>
-<title>[B] NBA HD INGLES [/B] </title>
+<title>[B] NBA TV HD INGLES [/B] </title>
 <link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
 <regex>
 <name>getUrl</name>
