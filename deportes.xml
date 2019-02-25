@@ -433,24 +433,7 @@
 <thumbnail>https://s03.s3c.es/imag3/ecotv/moscas-g/eurosport2.png</thumbnail>
 <fanart>https://s03.s3c.es/imag3/ecotv/moscas-g/eurosport2.png</fanart>
 </item>
- 
-<item>
-<title>[B] BOX NATION[/B]</title>
-<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>'(//.*m3u8.*?)'</expres>
-<rawpost>platano765=12345</rawpost>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-<page>https://vertelevision.tv/tv/deportes/boxnation.php</page>
-<referer>https://vertelevision.tv/tv/deportes/boxnation.php/referer>
-</regex>
-<thumbnail>https://pbs.twimg.com/profile_images/1036977374414426112/Lp0GrFjk.jpg</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/1036977374414426112/Lp0GrFjk.jpg</fanart>
-</item>
+
  
  
 <item>
@@ -507,3 +490,17 @@
 <thumbnail>http://photocall.tv/images/nba.png</thumbnail>
 <fanart>http://photocall.tv/images/nba.png</fanart>
 </item>
+ 
+ <item>
+<title> [B] BOX NATION HD INGLES [/B] </title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
+<page>http://hls.giize.com/pw2?ch=boxnation</page>
+<referer>http://photocall.tv/</referer>
+</regex>
+<thumbnail>http://photocall.tv/images/boxnation.png</thumbnail>
+<fanart>http://photocall.tv/images/boxnation.png</fanart>
+</item>
+
