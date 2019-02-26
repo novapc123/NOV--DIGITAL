@@ -11,31 +11,17 @@
 <externallink>http://ignorame</externallink>
 </item>
  
- 
-<item>
+ <item>
+<title>[B][LOWERCASE][CAPITALIZE][COLOR white] CHELSEA TV HD INGLES [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]
+|user-agent=ipad&amp;referer=http://photocall.tv/</link>
 <regex>
- <title>[COLOR yellow] Deportes sin acestream[/COLOR]</title>
-<link>$doregex[nova2]</link>
-<name>nova2</name>
-<expres>$pyFunction:('[nova2.param2]').replace('futbol','futbol')</expres>
-<page>>http://piratalocotv.xyz/MOVISTAR/</page>
+<name>getUrl</name>
+<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
+<page>http://hls.giize.com/un?ch=lfctv</page>
+<referer>http://photocall.tv/</referer>
 </regex>
-<listrepeat><![CDATA[
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[nova2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<thumbnail>http://piratalocotv.xyz/[nova2.param4]</thumbnail>
-<fanart>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[(?s)title=""><a href="(.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
-<page>http://piratalocotv.xyz/MOVIESTAR</page>
-</regex>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/MOVISTAR/[nova2.param1]</page>
-<referer>http://piratalocotv.xyz</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex>
-<thumbnail>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</thumbnail>  
-<fanart>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</fanart>
+<thumbnail>http://photocall.tv/images/olympic.png</fanart>
 </item>
 
 
