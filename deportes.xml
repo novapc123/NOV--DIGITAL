@@ -11,19 +11,7 @@
 <externallink>http://ignorame</externallink>
 </item>
  
- <item>
-<title>[B][LOWERCASE][CAPITALIZE][COLOR white] CHELSEA TV HD INGLES [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]
-|user-agent=ipad&amp;referer=http://photocall.tv/</link>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
-<page>http://hls.giize.com/un?ch=lfctv</page>
-<referer>http://photocall.tv/</referer>
-</regex>
-<thumbnail>http://photocall.tv/images/olympic.png</fanart>
-</item>
-
+ 
 
   <item>
 <title>[COLOR white][B]FUTBOL EN DIRECTO SIN ACESTREAM[/B][/COLOR]</title>
@@ -501,3 +489,20 @@
 </regex>
 <thumbnail>http://photocall.tv/images/boxnation.png</thumbnail>
 </item>
+
+ 
+ 
+ 
+ <item>
+<title>[B] NBA TV HD INGLES [/B] </title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
+<page>http://live.liketvw.com:8000/streamlive/14_.m3u8</page>
+<referer>http://live.liketvw.com:8000/streamlive/14_.m3u8</referer>
+</regex>
+<thumbnail>http://photocall.tv/images/nba.png</thumbnail>
+<fanart>http://photocall.tv/images/nba.png</fanart>
+</item>
+ 
