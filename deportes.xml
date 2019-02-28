@@ -497,7 +497,7 @@
 <title>[B] NBA TV HD INGLES [/B] </title>
 <link>$doregex[getMu8]</link>
 <regex><name>getMu8</name>
-<expres>source: '([^']+)</expres>
+<expres>><![CDATA[new Clappr.Player*?source.+?([^']+)</expres>
 <page>http://live.liketvw.com:8000/streamlive/14_.m3u8</page>
 <referer>http://live.liketvw.com:8000/streamlive/14_.m3u8</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
