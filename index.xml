@@ -23,54 +23,6 @@
 
 
 
-<item>
-<title>Channelstream Live</title>
-<link>$doregex[makelist]</link>
-<thumbnail>http://channelstream.live/images/logo.png</thumbnail>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2]</title>
-<link>$doregex[get-url]</link>
-<thumbnail>http://channelstream.live/[makelist.param1]</thumbnail>
-<fanart>http://channelstream.live/images/logo.png</fanart>
-]]></listrepeat>
-<expres>(?s)class="lovelyrow.+?src='([^']+).+?center">([^&lt;]+).+?href='\.*([^']+)</expres>
-<page>http://channelstream.live/chaine-tv.php</page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres><![CDATA[#$pyFunction
-from resolveurl.plugins.lib import jsunpack
-def GetLSProData(page_data,Cookie_Jar,m):
-    import re
-    import requests
-    mozhdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0',
-              'Referer': 'http://channelstream.live/'}
-    url = 'http://channelstream.club/stream[makelist.param3]'
-    html = requests.get(url, headers=mozhdr).text
-    cid = re.findall("id='([^']+).+?telerium", html)[0]
-    eurl = 'https://telerium.tv/embed/{}.html'.format(cid)
-    ehtml = requests.get(eurl, headers=mozhdr).text
-    edata = re.findall('(eval\(function\(p,a,c,k,e,d.*)', ehtml)[0]
-    epage = jsunpack.unpack(edata).replace('\\', '')
-    strvar = re.findall('source:([^,]+),mime', epage)[0]
-    str1 = re.findall('{}=atob\(rSt\(([^)]+)'.format(strvar), epage)[0]
-    str2 = re.findall('{}="([^"]+)'.format(str1), epage)[0][::-1].decode('base64')
-    tok1, tok2 = re.findall('{url:atob\(rSt\(([^)]+)\)\)\+atob\(rSt\(([^)]+)', epage)[0]
-    tok1 = re.findall('{}="([^"]+)'.format(tok1), epage)[0][::-1].decode('base64')
-    tok2 = re.findall('{}="([^"]+)'.format(tok2), epage)[0][::-1].decode('base64')
-    tokurl = 'https:{}{}'.format(tok1, tok2)
-    mozhdr['Referer'] = eurl
-    token = requests.get(tokurl, headers=mozhdr).text[::-1][1:-1]
-    strurl = 'https:{}{}|Referer={}&User-Agent={}'.format(str2, token, eurl, mozhdr['User-Agent'])
-    return strurl
-]]></expres>
-<page></page>
-</regex>
-</item>
-
-
 
 
 
@@ -134,36 +86,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow][B]DEPORTES[/B][/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>https://raw.githubusercontent.com/novapc123/NOV--DIGITAL/Nov%40digital/deportes.xml</externallink>
-<thumbnail>https://giphy.com/gifs/TFiwsleSNP1jVHBKIc.gif</thumbnail>
-<fanart>https://giphy.com/gifs/TFiwsleSNP1jVHBKIc.gif</fanart>
+<thumbnail></thumbnail>
+<fanart>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</fanart>
 <info>NOV@DIGITAL ADDON ESTA HECHO PARA DISFRUTAR CON LA FAMILA, ESTE NO ADDON DAÑA EL DERECHO DE AUTOR PORQUE TODOS LOS ENLACES PUEDES ENCONTRAR EN INTERNET.AH ES TOTALMENTE GRATIS NO SE PIDE DONACIONES  !DISFRUTAR!!</info>
  </item>
 
 
 
-<item>
-<title>[COLOR yellow][B]DEPORTE OPCION 2 [/B] [/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[COLOR lightskyblue][makelist2.param2] [/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist2.param2]&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<thumbnail>http://piratalocotv.xyz/[makelist2.param4]</thumbnail>
-<fanart>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[(?s)title=""><a href="(.*?)".*?title=".*?([a-zA-Z](.*?))".*?"(.*?)"]]></expres>
-<page>http://piratalocotv.xyz/DEPORTES/</page>
-</regex>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/[makelist2.param1]</page>
-<referer>http://piratalocotv.xyz</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex>
-<thumbnail>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</thumbnail>  
-<fanart>https://png.pngtree.com/element_origin_min_pic/16/11/28/4e665141a61d2e28001566040ae0034f.jpg</fanart>
-</item>
+
 
 
 <item>
