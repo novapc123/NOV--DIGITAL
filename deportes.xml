@@ -496,7 +496,7 @@
  
 <item>
 <title>PRUEBA</title>
-<link>$doregex[GetPageUrl]</link>
+<link>$doregex[GetPageUrl]|user-agent=ipad&amp;referer=http://revolucionariostv.eu/</link>
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
