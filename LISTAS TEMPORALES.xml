@@ -1,132 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+ <SetViewMode>502</SetViewMode>
 
 
-#EXTM3U
-#EXTINF:-1,==● ▄ ★ ESPANA CANALES★ ▄ ●==
 
-#EXTM3U 
-#EXTINF:-1,LA 1
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/5.ts
-#EXTINF:-1,LA 2
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/6.ts
-#EXTINF:-1,TNT
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/9.ts
-#EXTINF:-1,Cuatro
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/25.ts
-#EXTINF:-1,TELECINCO
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/1.ts
-#EXTINF:-1,LA SEXTA
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/2.ts
-#EXTINF:-1,NEOX
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/3.ts
-#EXTINF:-1,FDF
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/4.ts
-#EXTINF:-1,BeMad
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/49.ts
-#EXTINF:-1,#0
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/35.ts
-#EXTINF:-1,#Vamos
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/46.ts
-#EXTINF:-1,Movistar DCINE
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/15.ts
-#EXTINF:-1,Movistar Accion
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/16.ts
-#EXTINF:-1,Movistar Estrenos HD
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/45.ts
-#EXTINF:-1,Movistar Comedia
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/12.ts
-#EXTINF:-1,Movistar Serie
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/13.ts
-#EXTINF:-1,Movistar Series xtra
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/14.ts
-#EXTINF:-1,Movistar Decasa
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/19.ts
-#EXTINF:-1,Movistar Disney
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/78.ts
-#EXTINF:-1,Movistar Liga de Campeones
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/34.ts
-#EXTINF:-1,Movistar Liga de Campeones (Opcion2)
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/50.ts
-#EXTINF:-1,Movistar Partidazo
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/79.ts
-#EXTINF:-1,Movistar Futbol
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/44.ts
-#EXTINF:-1,Movistar Golf
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/22.ts
-#EXTINF:-1,Movistar Formula 1
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/52.ts
-#EXTINF:-1,Movistar Formula 1 (Opcion2)
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/53.ts
-#EXTINF:-1,Movistar Moto GP
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/69.ts
-#EXTINF:-1,Movistar Deportes
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/80.ts
-#EXTINF:-1,Eurosport 1
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/57.ts
-#EXTINF:-1,BeiN La Liga
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/59.ts
-#EXTINF:-1,beIN La Liga (Opcion2)
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/47.ts
-#EXTINF:-1,La Liga TV
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/42.ts
-#EXTINF:-1,LA LIGA TV (opcion2)
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/74.ts
-#EXTINF:-1,LaLiga 123
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/58.ts
-#EXTINF:-1,La Liga 123 (Opcion2)
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/73.ts
-#EXTINF:-1,GoL TV
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/60.ts
-#EXTINF:-1,Real Madrid TV
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/55.ts
-#EXTINF:-1,GOLF
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/43.ts
-#EXTINF:-1,Movistar Toros
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/41.ts
-#EXTINF:-1,Hollywood
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/26.ts
-#EXTINF:-1,Historia
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/24.ts
-#EXTINF:-1,Fox Life
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/10.ts
-#EXTINF:-1,Fox
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/11.ts
-#EXTINF:-1,Syfy
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/54.ts
-#EXTINF:-1,DMAX
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/36.ts
-#EXTINF:-1,Boing
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/29.ts
-#EXTINF:-1,Baby
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/21.ts
-#EXTINF:-1,DISNEY XD
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/37.ts
-#EXTINF:-1,DISNEY JUNIOR
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/38.ts
-#EXTINF:-1,National GEO
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/32.ts
-#EXTINF:-1,NAT GEO WILD HD
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/33.ts
-#EXTINF:-1,DISCOVERY CHANNEL
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/40.ts
-#EXTINF:-1,DISCOVERY
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/39.ts
-#EXTINF:-1,Iberalia TV
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/77.ts
-#EXTINF:-1,Caza Y Pesca
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/56.ts
-#EXTINF:-1,Crime Investigacion
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/28.ts
-#EXTINF:-1,Comedy Central
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/27.ts
-#EXTINF:-1,Canal Odesea
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/8.ts
-#EXTINF:-1,Canal Cocina
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/18.ts
-#EXTINF:-1,AXN White
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/30.ts
-#EXTINF:-1,AXN
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/31.ts
-#EXTINF:-1,Andalucia
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/7.ts
-#EXTINF:-1,AMC HD
-http://spainfree.blackeviltv.org:9666/live/blackeviltv/gratis/20.ts
+
+<item>
+<title>LISTA DE CANALES TEMPORALES Free IPTV Espana</title>
+
+<link>https://6adcb338-a-62cb3a1a-s-sites.googlegroups.com/site/iptv7878/26-02-2019/spain2.m3u?attachauth=ANoY7cqmd8yaG7W6J7THHcptthZ3s8oVVyzpC6Ikr_WVnHC3sUk_50L4HK7LiMasERNeFOTDuR-7b1vPXMCpLmxpDr8PclBw6PK8kUeNETrZVDSLjGf0PwqxP5Tn_DepngkVQMQRlYcOlD32TcQW1D8CGCJ7elTjxjU47zzDTt8cWF-L1_BIzNd5r_t4T0CiiPnQIjs8EyCCC4enAuoi8ZAGblMonqWkfw%3D%3D&attredirects=0&d=1</link>
+
+<link>https://6adcb338-a-62cb3a1a-s-sites.googlegroups.com/site/iptv7878/28-02-2019/spain.m3u?attachauth=ANoY7crq_U6Uzj3GoXLqrEguoNruhWYrM99RoRd_899CfrWleWUzgS46y-Tnm9Qu15faUYOPRWSqGyeHn_peIWSmya3T_zIm6z_ToxH6TZ8ZQvCJW_bBBGb5kBoB4XDp7aMbOPwRg4CQSpSKQNAc3sMp7Bu_th7ht_cGHRtI4I9AhNzabgcn9ZVeIruO2Lbz_YYeuiCMsFxTMaFYiD_3FlIrGIbKE--MiA%3D%3D&attredirects=0&d=1</link>
+
+<link><https://6adcb338-a-62cb3a1a-s-sites.googlegroups.com/site/iptv7878/28-02-2019/spain1.m3u?attachauth=ANoY7cpxzU8rcsmL7CyRz7jFsg_UNibfhBh-J4TNrOd0tjRqdXhnyxwQF4h3-wAgw8rnP1C7nklcq6MEh5WFTLJt9ZS-PLFjWTTyns2XO9WDXWo5VXqTKsofBvOjsbKv8-AHhhtPefkqD9i-FcIV_Z-UUt-I4x59Ln1UMOGhfBnO12P7ON7eIMfCqYeyPNwmkKQmyMc7lC3eN9UzKEzfaVHxKIvU-swHIQ%3D%3D&attredirects=0&d=1
+
+<thumbnail>https://1.bp.blogspot.com/-FtBhLnbbAWo/XEXEJm4DBEI/AAAAAAAABfU/G6zZ-rw4BeQRbjrRBQNbjZwcCp93fl2bACK4BGAYYCw/s400/spain.png</thumbnail>
+<fanart>https://1.bp.blogspot.com/-FtBhLnbbAWo/XEXEJm4DBEI/AAAAAAAABfU/G6zZ-rw4BeQRbjrRBQNbjZwcCp93fl2bACK4BGAYYCw/s400/spain.png</fanart>
+
+</item>
