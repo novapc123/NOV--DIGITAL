@@ -493,30 +493,21 @@
  
  
  
- <item>
-<title>[B] NBA TV HD INGLES [/B] </title>
-<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex><name>getMu8</name>
-<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]><</expres>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-<page>http://www.liketvw.com/embed/directv2</page>
-<referer>http://www.liketvw.com/embed/directv2</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex><thumbnail>http://revolucionariostv.eu/Botones/MultiTV/Deportes/sevillatv.png</thumbnail>
-</item>
  
 <item>
-<title>[B]PRUEBA[/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=beinsportligaHD&amp;url=$doregex[getMu8]|Referer=http://revolucionariostv.eu/elitegol/Repros/c1.php&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<title>PRUEBA</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://revolucionariostv.eu/elitegol/Repros/c1.php'):
+    import liveresolver
+    u = liveresolver.resolve(url)
+    return u
+]]></expres>
 <page>http://revolucionariostv.eu/elitegol/Repros/c1.php</page>
-<referer>http://revolucionariostv.eu/elitegol/Repros/c1.php</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex><thumbnail>https://www.audiovisual451.com/wp-content/uploads/beIN-Sports-LaLiga.jpg</thumbnail>
+<cookieJar></cookieJar>
+</regex>
 </item>
 
  
