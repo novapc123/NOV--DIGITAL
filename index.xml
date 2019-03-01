@@ -23,28 +23,7 @@
 
 
 
-<item>
-<title>[B]Multicanal ElGoles 6[/B]   *  </title>
-<link>$doregex[geturl]</link>
-    <regex>
-        <name>geturl</name>
-        <expres>source:"(.*?)\?auto</expres>
-        <page>$doregex[getunpacked]</page>
-    </regex>
-    <regex>
-        <name>getunpacked</name>
-        <expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-        <page>$doregex[canal]</page>
-        <referer>http://whostreams.net/</referer>
-        <connection>keep-alive</connection>
-    </regex>
-   
-    <regex>
-<name>canal</name>
-<expres>iframe src="(.*?)"</expres>
-<page>http://elgoles.me/6-2</page>
-</regex>
-</item>
+
    
 
 
