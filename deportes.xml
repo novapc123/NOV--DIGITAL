@@ -499,7 +499,7 @@
  
 <item>
 <title>[B][LOWERCASE][CAPITALIZE][COLOR white] test [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
-<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://livesport4u.com/vip1/beinlaliga1-1.php</link>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://livesport4u.com/</link>
 <regex>
 <name>getUrl</name>
 <expres><![CDATA[source: '(.*?)']]></expres>
