@@ -497,21 +497,16 @@
  
  
  
- 
 <item>
-<title>PRUEBA</title>
-<link>$doregex[GetPageUrl]|user-agent=ipad&amp;referer=http://revolucionariostv.eu/</link>
+<title>[B][LOWERCASE][CAPITALIZE][COLOR white] test [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://livesport4u.com/vip1/beinlaliga1-1.php</link>
 <regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://revolucionariostv.eu/elitegol/Repros/c1.php'):
-    import liveresolver
-    u = liveresolver.resolve(url)
-    return u
-]]></expres>
-<page>http://revolucionariostv.eu/elitegol/Repros/c1.php</page>
-<cookieJar></cookieJar>
+<name>getUrl</name>
+<expres><![CDATA[source: '(.*?)']]></expres>
+<page>http://livesport4u.com/vip1/beinlaliga1-1.php</page>
+<referer>http://livesport4u.com/</referer>
 </regex>
+<thumbnail>https://pbs.twimg.com/profile_images/1060960649969369088/9kVEbgF2_400x400.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/1060960649969369088/9kVEbgF2_400x400.jpg</fanart>
 </item>
-
  
