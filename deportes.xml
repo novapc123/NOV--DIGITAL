@@ -289,7 +289,7 @@
 <regex>
 <name>getUrl</name>
 <expres><![CDATA[source: '(.*?)']]></expres>
-<page>http://revolucionariostv.eu/elitegol/Repros/c1.php</page>
+<page>http://revolucionariostv.eu/directo1.php</page>
 <referer>http://revolucionariostv.eu/</referer>
 </regex>
 <thumbnail>https://pbs.twimg.com/profile_images/1060960649969369088/9kVEbgF2_400x400.jpg</thumbnail>
@@ -482,19 +482,7 @@
 <fanart>http://photocall.tv/images/boxnation.png</fanart>
 </item>
 
-<item>
-<title>[B][LOWERCASE][CAPITALIZE][COLOR white]PRUEBA [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
-<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
-<page>http://hls.giize.com/l3?ch=combatgo</page>
-<referer>http://photocall.tv/</referer>
-</regex>
-<thumbnail>http://photocall.tv/images/boxnation.png</thumbnail>
-</item>
 
- 
  
  
 <item>
