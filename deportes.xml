@@ -476,16 +476,53 @@
 
  
  
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+ 
 <item>
-<title>[B][LOWERCASE][CAPITALIZE][COLOR white] test [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
-<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://livesport4u.com/</link>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[source: '(.*?)']]></expres>
-<page>http://livesport4u.com/vip1/beinlaliga1-1.php</page>
-<referer>http://livesport4u.com/</referer>
-</regex>
-<thumbnail>https://pbs.twimg.com/profile_images/1060960649969369088/9kVEbgF2_400x400.jpg</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/1060960649969369088/9kVEbgF2_400x400.jpg</fanart>
+     <title>[B][COLOR whiter] LIGA DE CHAMPIONS Real Madrid vs Ajax -- -[/B][/COLOR]</title>
+<link>http://ignorame<link>
+<thumbnail>https://cdn.elgrupoinformatico.com/img/w720/Noticias/2015/03/madrid-barca-online-220315.png</thumbnail>
+<fanart>https://cdn.elgrupoinformatico.com/img/w720/Noticias/2015/03/madrid-barca-online-220315.png</fanart>
+<externallink>http://ignorame</externallink>
 </item>
  
+ 
+ 
+ 
+<item>
+<title>[COLOR white] OPCION 1 SD ESPAÑOL [COLOR gold][/COLOR]</title>
+<sportsdevil>http://sportzonline.pw/channels/hd/hd6.php</sportsdevil>
+<thumbnail></thumbnail>
+<fanart>https://cdn.elgrupoinformatico.com/img/w720/Noticias/2015/03/madrid-barca-online-220315.png</fanart>
+<referer>https://cdn.elgrupoinformatico.com/img/w720/Noticias/2015/03/madrid-barca-online-220315.png</referer>
+</item>
+ 
+ 
+<item>
+<title>[COLOR white]OPCION 2 SD INGLES [COLOR gold][/COLOR]</title>
+<sportsdevil>http://sportzonline.pw/channels/hd/hd5.php</sportsdevil>
+<thumbnail></thumbnail>
+<fanart>https://cdn.elgrupoinformatico.com/img/w720/Noticias/2015/03/madrid-barca-online-220315.png</fanart>
+<referer>https://cdn.elgrupoinformatico.com/img/w720/Noticias/2015/03/madrid-barca-online-220315.png</referer>
+</item>
+ 
+ 
+ 
+<item>
+<title>[COLOR white] OPCION 3 SPAIN  SD [/COLOR]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live3/campeones.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live3/campeones.php</referer>
+</regex>
+<thumbnail>https://www.audiovisual451.com/wp-content/uploads/Movistar-Liga-de-Campeones.jpg</thumbnail>
+<fanart>https://www.audiovisual451.com/wp-content/uploads/Movistar-Liga-de-Campeones.jpg</fanart>
+</item>
