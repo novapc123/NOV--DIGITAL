@@ -12,6 +12,30 @@
 </item>
  
  
+ 
+ 
+ <item>
+<title>motogp prueba</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://ustreamyx.com/stream.php?id=bt-sport-2&token=213-a58-91c-63e-7fb-4d9-5b3-982-cff-f6e-f9</page>
+<referer>https://ustreamyx.com/stream.php?id=bt-sport-2&token=213-a58-91c-63e-7fb-4d9-5b3-982-cff-f6e-f9</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
 
   <item>
 <title>[COLOR white][B]FUTBOL EN DIRECTO SIN ACESTREAM[/B][/COLOR]</title>
