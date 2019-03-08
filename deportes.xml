@@ -12,19 +12,11 @@
 </item>
  
  
- 
-  <item>
-<title>[B] motos
-HD  [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=;url=$doregex[getMu8]|Referer=https://ustreamyx.com/stream.php?id=bt-sport-2&token=213-a58-91c-63e-7fb-4d9-5b3-982-cff-f6e-f9&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<regex><name>getMu8</name>
-<expres>(.*?)\n.*(http.*m3u8)</expres>
-<page>https://ustreamyx.com/stream.php?id=bt-sport-2&token=213-a58-91c-63e-7fb-4d9-5b3-982-cff-f6e-f9</page>
-<referer>https://ustreamyx.com/stream.php?id=bt-sport-2&token=213-a58-91c-63e-7fb-4d9-5b3-982-cff-f6e-f9</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex><thumbnail></thumbnail>
-</item>
- 
+ <item>
+<title>MOTO GP</title>
+<sportsdevil>https://ustreamyx.com/stream.php?id=bt-sport-2</sportsdevil>
+<referer>https://ssl.ustreamix.com</referer>
+</item>  
  
  
  
