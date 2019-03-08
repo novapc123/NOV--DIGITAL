@@ -12,11 +12,22 @@
 </item>
  
  
- <item>
-<title>MOTO GP</title>
-<sportsdevil>https://ustreamyx.com/stream.php?id=bt-sport-2</sportsdevil>
-<referer>https://ssl.ustreamix.com</referer>
-</item>  
+ 
+<item>
+<title> motoshd prueba</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://ssl.ustreamix.com/embed.php?id=bt-sport-2</page>
+<referer>https://ssl.ustreamix.com/embed.php?id=bt-sport-2</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
+ 
  
  
  
