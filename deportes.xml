@@ -12,23 +12,15 @@
 </item>
  
  
- 
-<item>
-<title> motoshd prueba</title>
-<link>$doregex[ip]</link>
-<regex>
-<name>ip</name>
-<expres>file: '(.*?)'</expres>
-<Accept>*/*</Accept>
-<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
-<page>https://ssl.ustreamix.com/embed.php?id=bt-sport-2</page>
-<referer>https://ssl.ustreamix.com/embed.php?id=bt-sport-2</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
-<x-req>XMLHttpRequest</x-req>
-</regex>
-<thumbnail></thumbnail></item>
- 
- 
+  <item>
+<title>prueba</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=&amp;url=$doregex[tvchopo1]Referer=http://www.liketvw.com/embed/directv2/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>tvchopo1</name>
+<expres>?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://live.liketvw.com:8000/streamlive/25_.m3u8</page>
+<referer>http://www.liketvw.com/embed/directv2</referer>
+</regex><thumbnail></thumbnail>
+</item>
  
  
  
