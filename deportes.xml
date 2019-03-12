@@ -22,30 +22,7 @@
 </regex><thumbnail></thumbnail>
 </item>
  
- 
- <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
- 
-<SetViewMode>555</SetViewMode>
-*******************************************************************************************************************************
-<item>
-<title>[B][LOWERCASE][CAPITALIZE][COLOR red]* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *[/COLOR][/CAPITALIZE][/LOWERCASE][/B] </title>
-<link>noquiero</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-********************************************************************************************************************************
- 
-<item>
-<title>[COLOR orange]*[B][LOWERCASE][CAPITALIZE][COLOR gold]RESUMEN DE PRETEMPORADA 2019 F1 [/COLOR][/CAPITALIZE][/LOWERCASE][/B] </title>
-<urlsolve>https://streamcherry.com/f/koltptmlmtrescfq/El_Show_de_la_F1_03_04_19_HDTV_720p_Latino_EventosHQ_mp4</urlsolve>
-<urlsolve></urlsolve>
-<urlsolve></urlsolve>
-<urlsolve></urlsolve>
-<thumbnail>g</thumbnail>
-<fanart></fanart>
-</item>
- 
- 
+
 
   <item>
 <title>[COLOR white][B]FUTBOL EN DIRECTO SIN ACESTREAM[/B][/COLOR]</title>
