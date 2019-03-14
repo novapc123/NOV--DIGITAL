@@ -144,7 +144,7 @@
 <regex>
 <name>getUrl</name>
 <expres><![CDATA[source: '(.*?)']]></expres>
-<page>http://revolucionariostv.eu/inicio.php</page>
+<page>http://revolucionariostv.eu/elitegol/Repros/c1.php</page>
 <referer>http://revolucionariostv.eu/</referer>
 </regex>
 <thumbnail>http://images.vertele.eldiario.es/2016/07/28/noticias/laliga_1815728455_2171175_660x371.jpg</thumbnail>
