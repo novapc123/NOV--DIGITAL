@@ -44,6 +44,24 @@
 <fanart>https://www.digitaltveurope.com/files/2016/02/0.png</fanart>
 </item>
  
+ 
+ 
+ 
+ <item>
+<title>[B] MOVIESTAR COMEDIA  HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=MOVIESTAR ESTRENOS HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/M-COMEDIA/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://2.bp.blogspot.com/-eni7EotDteQ/WsFVvaDVuuI/AAAAAAAAA1E/yJ4WgO9Snu4CJd_2doNlrqzEuDKGK5qbACLcBGAs/s1600/mcomedia.png</thumbnail>
+</item>
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>[B]MOVIESTAR COMEDIA[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -62,7 +80,26 @@
 <fanart>https://2.bp.blogspot.com/-eni7EotDteQ/WsFVvaDVuuI/AAAAAAAAA1E/yJ4WgO9Snu4CJd_2doNlrqzEuDKGK5qbACLcBGAs/s1600/mcomedia.png</fanart>    
 </item>
  
-<item>
+
+ 
+
+ <item>
+<title>[B] MOVIESTAR DISNEY HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=MOVIESTAR ESTRENOS HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/M-COMEDIA/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+<thumbnail>https://verliga1.net/wp-content/uploads/2018/01/Movistar_Disney-1.png</thumbnail>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+ <item>
 <title>[B]MOVIESTAR DISNEY[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
