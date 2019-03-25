@@ -117,7 +117,35 @@
 <fanart>https://verliga1.net/wp-content/uploads/2018/01/Movistar_Disney-1.png</fanart>
 </item>
  
-<item>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <item>
+<title>[B] MOVIESTAR ACCION HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=MOVIESTAR ESTRENOS HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/M-ACCION/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+<thumbnail>https://vergol.com/bgjhykdmbtj668/live/plusaccion.php</thumbnail>
+</item>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <item>
 <title>[B]MOVIESTAR ACCION[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
