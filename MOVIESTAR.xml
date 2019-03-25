@@ -134,7 +134,7 @@
 <page>http://piratalocotv.xyz/M-ACCION/</page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-<thumbnail>https://vergol.com/bgjhykdmbtj668/live/plusaccion.php</thumbnail>
+<thumbnail>http://www.vertelevision.tv/wp-content/uploads/2017/07/MAccion1.png</thumbnail>
 </item>
   
   
@@ -163,7 +163,32 @@
 <fanart>http://www.vertelevision.tv/wp-content/uploads/2017/07/MAccion1.png</fanart>
 </item>
  
-<item>
+
+   
+   
+   
+   
+     
+  <item>
+<title>[B] MOVIESTAR DRAMA HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=MOVIESTAR DRAMA HD  HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/DCINE/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Movistar_Drama.svg/1200px-Movistar_Drama.svg.png</thumbnail>
+</item>
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   <item>
 <title>[B]MOVIESTAR DRAMA[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -182,7 +207,45 @@
 </item>
  
  
- <item>
+
+   
+   
+   
+  <item>
+<title>[B]MOVIESTAR CineDoc&Roll HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=MOVIESTAR CineDoc&Roll HD  HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/CINE-DOCROLL/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+<thumbnail>https://cdn.sincroguia.tv/uploads/images/m/o/v/movistar-cinedocdoll.jpg</thumbnail>
+</item> 
+   
+   
+   
+   
+   
+   
+  <item>
+<title>[B] MOVIESTAR CINE Ñ HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=MOVIESTAR CINE Ñ HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/M-CINE-%C3%91/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>https://cdn.sincroguia.tv/uploads/images/m/o/v/movistar-cine-espanol.jpg</thumbnail>
+</item>  
+   
+   
+   
+   
+   
+   
+   
+   <item>
 <title>[B] MOVIESTAR ESTRENOS  HD  [/B]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=MOVIESTAR ESTRENOS HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
@@ -215,7 +278,29 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
  
-<item>
+
+   
+   
+
+   
+  <item>
+<title>[B]MOVIESTAR SERIE HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=MOVIESTAR SERIE HD   HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/M-SERIES/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+<thumbnail>https://s9.postimg.cc/qt7x6ya9b/series.jpg</thumbnail>
+</item>    
+   
+   
+   
+   
+   
+   
+   
+   <item>
 <title>[B]MOVIESTAR SERIES[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -233,7 +318,28 @@
 <fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
  
+
+   
+   
+   
 <item>
+<title>[B]MOVIESTAR SERIESMANIA HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=MOVIESTAR SERIESMANIA HD   HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/M-SERIES/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+<thumbnail>https://i.postimg.cc/qqm0xBgJ/seriesmania.png</thumbnail>
+</item>       
+   
+   
+   
+   
+   
+   
+   
+   <item>
 <title>[B]MOVIESTAR SERIESMANIA[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
