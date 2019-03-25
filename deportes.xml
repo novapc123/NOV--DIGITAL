@@ -139,13 +139,13 @@
  
  
  <item>
-<title>[B][COLOR white]CANAL LIGA  [/COLOR][/B]</title>
-<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://revolucionariostv.eu/</link>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[source: '(.*?)']]></expres>
-<page>http://revolucionariostv.eu/elitegol/Repros/c1.php</page>
-<referer>http://revolucionariostv.eu</referer>
+<title>[B]  LIGA TV HD [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name= LIGA TV HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/EVENTO1/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex>
 <thumbnail>http://images.vertele.eldiario.es/2016/07/28/noticias/laliga_1815728455_2171175_660x371.jpg</thumbnail>
 <fanart>http://images.vertele.eldiario.es/2016/07/28/noticias/laliga_1815728455_2171175_660x371.jpg</fanart>
