@@ -487,53 +487,5 @@
 
  
  
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
  
- 
-<item>
-     <title>[B][COLOR whiter] LIGA DE CHAMPIONS Real Madrid vs Ajax -- -[/B][/COLOR]</title>
-<link>http://ignorame<link>
-<thumbnail>https://okdiario.com/img/2019/03/04/horario-real-madrid-vs-ajax-champions-league-2018-2019-655x368.jpg</thumbnail>
-<fanart>https://okdiario.com/img/2019/03/04/horario-real-madrid-vs-ajax-champions-league-2018-2019-655x368.jpg</fanart>
-<externallink>http://ignorame</externallink>
-</item>
- 
- 
- 
- 
-<item>
-<title>[COLOR white] OPCION 1 SD ESPAÑOL [COLOR gold][/COLOR]</title>
-<sportsdevil>http://sportzonline.pw/channels/hd/hd6.php</sportsdevil>
-<thumbnail>https://okdiario.com/img/2019/03/04/horario-real-madrid-vs-ajax-champions-league-2018-2019-655x368.jpg</thumbnail>
-<fanart>https://okdiario.com/img/2019/03/04/horario-real-madrid-vs-ajax-champions-league-2018-2019-655x368.jpg</fanart>
-<referer></referer>
-</item>
- 
- 
-<item>
-<title>[COLOR white]OPCION 2 SD INGLES [COLOR gold][/COLOR]</title>
-<sportsdevil>http://sportzonline.pw/channels/hd/hd5.php</sportsdevil>
-<thumbnail>https://okdiario.com/img/2019/03/04/horario-real-madrid-vs-ajax-champions-league-2018-2019-655x368.jpg</thumbnail>
-<fanart>https://okdiario.com/img/2019/03/04/horario-real-madrid-vs-ajax-champions-league-2018-2019-655x368.jpg</fanart>
-<referer></referer>
-</item>
- 
- 
- 
-<item>
-<title>[COLOR white] OPCION 3 SPAIN  SD [/COLOR]</title>
-<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>'(//.*m3u8.*?)'</expres>
-<rawpost>manzana66=12345</rawpost>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-<page>https://vergol.com/bgjhykdmbtj668/live3/campeones.php</page>
-<referer>https://vergol.com/bgjhykdmbtj668/live3/campeones.php</referer>
-</regex>
-<thumbnail>https://okdiario.com/img/2019/03/04/horario-real-madrid-vs-ajax-champions-league-2018-2019-655x368.jpg</thumbnail>
-<fanart>https://okdiario.com/img/2019/03/04/horario-real-madrid-vs-ajax-champions-league-2018-2019-655x368.jpg</fanart>
-</item>
