@@ -1,0 +1,4 @@
+
+#EXTM3U
+#EXTINF:1 tvg-logo="https://www.gigantes.com/wp-content/uploads/2018/01/LogoACBWeb.jpg", [B][LOWERCASE][CAPITALIZE][COLOR bisque][B][LOWERCASE][CAPITALIZE][COLOR salmon][COLOR turquoise]PRUEBA ([COLOR salmon]necesita acestream[COLOR powderblue])[/CAPITALIZE][/LOWERCASE][/B][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://d80d6886548836e6700aa22673fc865371564982&tvg-logo="https://www.gigantes.com/wp-content/uploads/2018/01/LogoACBWeb.jpg"&name=
