@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[B][LOWERCASE][CAPITALIZE][COLOR aqua]NOMBRE CANAL  [COLOR white]([COLOR lime][COLOR white]) [COLOR orange][/CAPITALIZE][/LOWERCASE][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=ID DE ACESTREAM&amp;mode=1&amp;name=[B][LOWERCASE][CAPITALIZE][COLOR aqua]NOMBRE CANAL[COLOR lime]CALIDAD CANAL[/CAPITALIZE][/LOWERCASE][/B][/COLOR]</link>
+<thumbnail>https://i.imgur.com/I03abW6.png</thumbnail>
+<fanart>https://i.imgur.com/I03abW6.png</fanart>
+</item>
