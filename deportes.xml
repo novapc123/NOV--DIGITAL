@@ -13,16 +13,40 @@
  
  
   <item>
-<title>prueba</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=&amp;url=$doregex[tvchopo1]Referer=http://www.liketvw.com/embed/directv2/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<regex><name>tvchopo1</name>
-<expres><![CDATA[new Clappr.Player[\w\W]source:*? ([^"]+).+?[\'"]([^\'"]+)]]></expres>
-<page>>http://www.liketvw.com/embed/directv2</page>
-<referer>http://www.liketvw.com/embed/directv2</referer>
-</regex><thumbnail></thumbnail>
+<title>[B][LOWERCASE][CAPITALIZE][COLOR yellow] Huesca x Eibar [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
+<link>https://euwestumarcador.s3-accelerate.amazonaws.com/t1/t1.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+ 
+ <item>
+<title>[B][LOWERCASE][CAPITALIZE][COLOR yellow]Deportivo Alavés x Barcelona [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
+<link>https://euwestumarcador.s3-accelerate.amazonaws.com/t1/t1.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </item>
  
 
+ <item>
+<title>[COLOR white] Huesca x Eibar  [/COLOR]</title>
+<sportsdevil>https://sportzonline.co/channels/hd/hd6.php</sportsdevil>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<referer></referer>
+</item>
+
+ 
+ 
+ <item>
+<title>[COLOR white] Deportivo Alavés x Barcelona[/COLOR]</title>
+<sportsdevil>https://sportzonline.co/channels/hd/hd6.php</sportsdevil>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<referer></referer>
+</item>
 
   <item>
 <title>[COLOR white][B]FUTBOL EN DIRECTO SIN ACESTREAM[/B][/COLOR]</title>
