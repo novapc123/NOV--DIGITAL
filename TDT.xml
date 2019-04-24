@@ -95,17 +95,18 @@
  
  
  <item>
-<title>[B] CUATRO HD  [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=CUATROHD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<title>[B]CUATRO HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=LA 1HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
 <page>http://piratalocotv.xyz/CUATRO/</page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex>
-<thumbnail>https://cadenaser00.epimg.net/ser/imagenes/2018/06/29/television/1530282364_172929_1530282507_noticia_normal.jpg</thumbnail>
-<fanart>https://cadenaser00.epimg.net/ser/imagenes/2018/06/29/television/1530282364_172929_1530282507_noticia_normal.jpg</fanart>
+<thumbnail>http://photocall.tv/images/C4.png</thumbnail>
+<fanart>http://photocall.tv/images/C4.png</fanart>
 </item>
+
 
  
  
@@ -131,18 +132,20 @@
  
 
 
-<item>
-<title>[B] TELECINCO HD  [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=TELECINCOHD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+
+ 
+ <item>
+<title>[B]TELECINCO HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=LA 1HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
 <page>http://piratalocotv.xyz/TELE5/</page>
 <referer>http://piratalocotv.xyz</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex><thumbnail></thumbnail>
+</regex>
+<thumbnail>http://photocall.tv/images/T5.png</thumbnail>
+<fanart>http://photocall.tv/images/T5.png</fanart>
 </item>
- 
- 
  
  
  
@@ -168,7 +171,25 @@
 <fanart>https://static.elcorreo.com/www/multimedia/201804/02/media/cortadas/telecinco-lider-kMyE-U5014877590335KE-624x385@El%20Correo.jpg</fanart>
 </item>
  
+
+ 
 <item>
+<title>[B]LA SEXTA HD[/B]</title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
+<page>http://hls.giize.com/d96ARFY0sx/a3?ch=lasexta</page>
+<referer>http://photocall.tv/</referer>
+</regex>
+<thumbnail>http://photocall.tv/images/SEXTA.png</thumbnail>
+<fanart>http://photocall.tv/images/SEXTA.png</fanart>
+</item>
+ 
+ 
+ 
+ 
+ <item>
 <title>[B]-LA SEXTA-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -187,6 +208,28 @@
 </item>
  
 
+
+ 
+
+
+  <item>
+<title>[B]FDF HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=LA 1HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/FDF/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>http://photocall.tv/images/FDFIC.png</thumbnail>
+<fanart>http://photocall.tv/images/FDFIC.png</fanart>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
  <item>
 <title>[B]-FDF-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -206,7 +249,25 @@
 </item>
  
  
-<item>
+
+ <item>
+<title>[B]ENERGY HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=LA 1HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/ENERGY/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail>http://photocall.tv/images/ENERGY.png</thumbnail>
+<fanart>http://photocall.tv/images/ENERGY.png</fanart>
+</item>
+ 
+ 
+ 
+ 
+ 
+ <item>
 <title>[B]-ENERGY-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -224,7 +285,23 @@
 <fanart>http://directostv.teleame.com/wp-content/uploads/2016/01/Energy-en-directo-online.png</fanart>
 </item>
  
-<item>
+
+ <item>
+<title>[B]DIVINTY HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ANTENA3HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/DIVINITY/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex>
+<thumbnail></thumbnail>
+<fanart>http://photocall.tv/images/DIVINI.png</fanart>
+</item>
+ 
+ 
+ 
+ <item>
 <title>[B]-DIVINITY-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -243,20 +320,20 @@
 </item>
  
 
-<item>
-<title>[B] NEOX HD  [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ANTENA3HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/NEOX//</page>
-<referer>http://piratalocotv.xyz</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+
+ 
+ <item>
+<title>[B]NEOX HD[/B]</title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
+<page>http://hls.giize.com/d96ARFY0sx/a3?ch=neox</page>
+<referer>http://photocall.tv/</referer>
 </regex>
-<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/f/f8/Neox_HD.png/revision/latest?cb=20180311122139</thumbnail>
-<fanart>https://vignette.wikia.nocookie.net/logopedia/images/f/f8/Neox_HD.png/revision/latest?cb=20180311122139</fanart>
+<thumbnail>http://photocall.tv/images/NEOX.png</thumbnail>
+<fanart>http://photocall.tv/images/NEOX.png</fanart>
 </item>
- 
- 
  
  
  
@@ -280,7 +357,26 @@
 <fanart>https://vignette.wikia.nocookie.net/logopedia/images/f/f8/Neox_HD.png/revision/latest?cb=20180311122139</fanart>
 </item>
  
-<item>
+
+ 
+ <item>
+<title>[B]NOVA HD[/B]</title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
+<page>http://hls.giize.com/d96ARFY0sx/a3?ch=nova</page>
+<referer>http://photocall.tv/</referer>
+</regex>
+<thumbnail>http://photocall.tv/images/NOVA.png</thumbnail>
+<fanart>http://photocall.tv/images/NOVA.png</fanart>
+</item>
+ 
+ 
+ 
+ 
+ 
+ <item>
 <title>[B]-NOVA-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -301,17 +397,18 @@
 
  
  <item>
-<title>[B] MEGA HD  [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ANTENA3HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/MEGA/</page>
-<referer>http://piratalocotv.xyz</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+<title>[B]MEGA HD[/B]</title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
+<page>http://hls.giize.com/d96ARFY0sx/a3?ch=mega</page>
+<referer>http://photocall.tv/</referer>
 </regex>
-<thumbnail>https://www.emopa.com/wp-content/uploads/2015/07/Logo-MEGA.jpg<</thumbnail>
-<fanart>https://www.emopa.com/wp-content/uploads/2015/07/Logo-MEGA.jpg<</fanart>
+<thumbnail>http://photocall.tv/images/MEGA.png</thumbnail>
+<fanart>http://photocall.tv/images/MEGA.png</fanart>
 </item>
+ 
  
  
  
@@ -338,19 +435,17 @@
  
 
  
- 
-  
  <item>
-<title>[B] ATRESERIES HD  [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=ANTENA3HD&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/ATRESERIES/</page>
-<referer>http://piratalocotv.xyz</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+<title>[B]ATRESERIES HD[/B]</title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
+<page>http://hls.giize.com/d96ARFY0sx/a3?ch=a3series</page>
+<referer>http://photocall.tv/</referer>
 </regex>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AtreseriesLogo.svg/1200px-AtreseriesLogo.svg.png<</thumbnail>
-<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AtreseriesLogo.svg/1200px-AtreseriesLogo.svg.png<</fanart>
+<thumbnail>http://photocall.tv/images/ATRESS.png</thumbnail>
+<fanart>http://photocall.tv/images/ATRESS.png</fanart>
 </item>
  
  
@@ -376,7 +471,9 @@
  
  
  
-<item>
+
+ 
+ <item>
 <title>[B]-BEDMAD-[/B]</title>
 <link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
