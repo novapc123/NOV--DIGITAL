@@ -1,10 +1,39 @@
-<item>
-<title>[B] GH DOU HD[/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=GH DUO&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
-<regex><name>getMu8</name>
-<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://embed.revolucionariostv.eu/embed/ghduo.php</page>
-<referer>http://piratalocotv.xyz</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
-</regex><thumbnail>http://as01.epimg.net/tikitakas/imagenes/2019/01/09/portada/1547034029_051647_1547034518_noticia_normal.jpg</thumbnail>
-</item>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.wizardchopo2023" name="[COLOR white]instalador wizard-[COLOR aqua]chopo[/COLOR]" version="3.0" provider-name="equipo-tvchopo">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+  <extension point="xbmc.addon.repository" name="tvchopo">
+        <info>https://www.dropbox.com/scl/fi/3swgcjmvp07q8stdh7qav/wizard-tvchopo-v0.1.zip?rlkey=kjaso049qch5ckfxdtpzne0et&dl=0</info>
+        <checksum>https://www.dropbox.com/scl/fi/3swgcjmvp07q8stdh7qav/wizard-tvchopo-v0.1.zip?rlkey=kjaso049qch5ckfxdtpzne0et&dl=0</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+	    <dir>
+        <info compressed="false">https://www.dropbox.com/scl/fi/3swgcjmvp07q8stdh7qav/wizard-tvchopo-v0.1.zip?rlkey=kjaso049qch5ckfxdtpzne0et&dl=0</info>
+        <checksum>https://www.dropbox.com/scl/fi/3swgcjmvp07q8stdh7qav/wizard-tvchopo-v0.1.zip?rlkey=kjaso049qch5ckfxdtpzne0et&dl=0</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+        </dir>
+    </extension>   
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Wizard</summary>
+        <description lang="en">[COLOR orange]instalador de wizard chopo para kodi 19 y 20[/COLOR]</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source></source>
+        <news>
+
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
